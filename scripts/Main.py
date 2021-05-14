@@ -19,7 +19,7 @@ import random
 import subprocess
 import os
 import csv
-
+from get_all_tickers import get_tickers as gt
 
 # Raw Package
 import numpy as np
@@ -47,7 +47,8 @@ def main(argv):
     i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
     #i_stock_list = stock_constants.i_short_list
-    i_stock_list = stock_constants.i_interesting_stocks
+    #i_stock_list = stock_constants.i_interesting_stocks
+    i_stock_list = stock_constants.i_all_stocks
 
     # Periods can be following
     # 1 week -> 1wk
@@ -59,7 +60,7 @@ def main(argv):
     raw_data = []
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
-        data = yf.download(tickers=i_stock_list[i], period='3mo', interval='1d')
+        data = yf.download(tickers=i_stock_list[i], period='6mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
 
