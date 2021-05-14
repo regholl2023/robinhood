@@ -38,18 +38,34 @@ for root, dirs, files in os.walk(full_path):
     for dir in dirs:
         sys.path.append(os.path.join(root, dir))
 
+import stock_constants
+import stock
 
 def main(argv):
-    print("Start pulling in stock prices")
+
+    i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
+    i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
+
+    #i_stock_list = stock_constants.i_short_list
+    i_stock_list = stock_constants.i_interesting_stocks
+
     # Periods can be following
     # 1 week -> 1wk
     # 1 month -> 1mo
     # 1 day -> 1d
     # 1 hour -> 1h
     # 1 min -> 1 m
-    data = yf.download(tickers='UBER', period='2mo', interval='1d')
+    stocks = []
+    raw_data = []
+    print("Start pulling in stock prices")
+    for i in range(len(i_stock_list)):
+        data = yf.download(tickers=i_stock_list[i], period='3mo', interval='1d')
+        data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
+        raw_data.append(data)
 
-    data.to_csv('first_yahoo_prices_volumes_to_csv_demo.csv')
+    print("Start buying/selling analysis")
+    for i in range(len(i_stock_list)):
+        stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
 
     print("Finished")
 
