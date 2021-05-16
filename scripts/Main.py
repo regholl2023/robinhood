@@ -50,10 +50,10 @@ def usage():
 
 
 def main(argv):
-    if len(sys.argv) == 2:
-        if argv[1] == '--all':
+    for i in range(len(argv)):
+        if argv[i] == '--all':
             i_stock_list = stock_constants.i_all_stocks
-        elif argv[1] == '--top_100':
+        elif argv[i] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks
         else:
             i_stock_list = stock_constants.i_short_list
