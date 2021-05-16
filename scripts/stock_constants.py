@@ -2,6 +2,8 @@
 
 i_short_list = ['RXT']
 
+i_stocks_i_own = ['T', 'XRX', 'BAYRY', 'VZIO', 'TREE', 'MMAC', 'INTC', 'GE', 'RYCEY', 'NAK', 'MSFT', 'AAPL', 'BA']
+
 i_interesting_stocks = ['IBM',
                         'INTC', #Intel
                         'MSFT', #Microsoft

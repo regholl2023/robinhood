@@ -9,6 +9,7 @@ import random
 import subprocess
 import utils
 
+import stock_constants
 
 class STOCK:
     def __init__(self, i_name, i_file):
@@ -42,7 +43,8 @@ class STOCK:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average)/(self.weighted_average)) * 100
                 i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value)/(self.highest_stock_value)) * 100
                 i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) / (self.lowest_stock_value)) * 100
-                if (i_percentage_change < -25) and (i_percentage_difference_from_lowest < 5):
+                if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 5)) or \
+                        ((i_percentage_change < -10) and (i_percentage_difference_from_lowest < 5) and (self.name in stock_constants.i_interesting_stocks)):
                     print("\n\n\n\n===================================================")
                     print("===================================================\n")
                     print("===================================================\n")
@@ -65,7 +67,8 @@ class STOCK:
     def recommend_selling(self):
         try:
             # Skip the stock if the weighted average is 0
-            if (self.weighted_average == 0) or (self.lowest_stock_value == 0) or (self.lowest_stock_value == 0):
+            if (self.weighted_average == 0) or (self.lowest_stock_value == 0) \
+                    or (self.lowest_stock_value == 0) or (self.name not in stock_constants.i_stocks_i_own):
                 pass
             else:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average)/(self.weighted_average)) * 100
