@@ -24,9 +24,9 @@ from get_all_tickers import get_tickers as gt
 # Raw Package
 import numpy as np
 import pandas as pd
-#Data Source
+# Data Source
 import yfinance as yf
-#Data viz
+# Data viz
 import plotly.graph_objs as go
 
 # ---------Set sys.path for MAIN execution---------------------------------------
@@ -41,20 +41,19 @@ for root, dirs, files in os.walk(full_path):
 import stock_constants
 import stock
 
+
 def usage():
     print("Usage: Please provide which stocks to process. Defaults to the top 100 stocks")
     print("Example: python scripts/Main.py")
     print("Example: python scripts/Main.py --all")
     print("Example: python scripts/Main.py --top_100")
 
+
 def main(argv):
-
-    x = len(sys.argv)
-
     if len(sys.argv) == 2:
-        if argv[2] == '--all':
+        if argv[1] == '--all':
             i_stock_list = stock_constants.i_all_stocks
-        elif argv[2] == '--top_100':
+        elif argv[1] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks
         else:
             i_stock_list = stock_constants.i_short_list
