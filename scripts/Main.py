@@ -46,9 +46,9 @@ def main(argv):
     i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
     i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
-    #i_stock_list = stock_constants.i_short_list
+    i_stock_list = stock_constants.i_short_list
     #i_stock_list = stock_constants.i_interesting_stocks
-    i_stock_list = stock_constants.i_all_stocks
+    #i_stock_list = stock_constants.i_all_stocks
 
     # Periods can be following
     # 1 week -> 1wk

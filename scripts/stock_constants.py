@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-i_short_list = ['IBM']
+i_short_list = ['RXT']
 
 i_interesting_stocks = ['IBM',
                         'INTC', #Intel
