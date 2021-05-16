@@ -41,14 +41,26 @@ for root, dirs, files in os.walk(full_path):
 import stock_constants
 import stock
 
+def usage():
+    print("Usage: Please provide which stocks to process. Defaults to the top 100 stocks")
+    print("Example: python scripts/Main.py")
+    print("Example: python scripts/Main.py --all")
+    print("Example: python scripts/Main.py --top_100")
+
 def main(argv):
+
+    x = len(sys.argv)
+
+    if len(sys.argv) == 2:
+        if argv[2] == '--all':
+            i_stock_list = stock_constants.i_all_stocks
+        elif argv[2] == '--top_100':
+            i_stock_list = stock_constants.i_interesting_stocks
+        else:
+            i_stock_list = stock_constants.i_short_list
 
     i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
     i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
-
-    i_stock_list = stock_constants.i_short_list
-    #i_stock_list = stock_constants.i_interesting_stocks
-    #i_stock_list = stock_constants.i_all_stocks
 
     # Periods can be following
     # 1 week -> 1wk

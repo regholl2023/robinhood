@@ -43,7 +43,10 @@ class STOCK:
                 i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value)/(self.highest_stock_value)) * 100
                 i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) / (self.lowest_stock_value)) * 100
                 if (i_percentage_change < -25) and (i_percentage_difference_from_lowest < 5):
-                    print("\n===================================================")
+                    print("\n\n\n\n===================================================")
+                    print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n")
                     print("We recommend buying the following share: " + self.name)
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
@@ -53,6 +56,9 @@ class STOCK:
                     print("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     print("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
                     print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n\n\n\n")
         except Exception as e:
             raise Exception
 
@@ -66,7 +72,10 @@ class STOCK:
                 i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value)/(self.highest_stock_value)) * 100
                 i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value)/(self.lowest_stock_value)) * 100
                 if (i_percentage_change > 25) and (i_percentage_difference_from_highest < 20):
-                    print("\n===================================================")
+                    print("\n\n\n\n===================================================")
+                    print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n")
                     print("We recommend selling the following share: " + self.name)
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
@@ -76,6 +85,9 @@ class STOCK:
                     print("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     print("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
                     print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n")
+                    print("===================================================\n\n\n\n")
         except Exception as e:
             raise Exception
 
