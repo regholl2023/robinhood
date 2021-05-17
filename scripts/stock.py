@@ -109,7 +109,7 @@ class STOCK:
             # It is possible that one of the entry is empty.
             # Therefore copy the next entry into the current entry
             if self.data[i][1] == '':
-                self.data[i] = self.data[i+1]
+                self.data[i] = self.data[i-1]
                 pass
             else:
                 try:
