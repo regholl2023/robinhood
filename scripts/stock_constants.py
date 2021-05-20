@@ -7,6 +7,7 @@ i_stocks_i_own = ['T', 'XRX', 'BAYRY', 'VZIO', 'TREE', 'MMAC', 'INTC', 'RYCEY', 
 
 i_interesting_stocks = ['IBM',
                         'INTC', #Intel
+                        'IOVA', #Iovance Biotherapeutics
                         'MSFT', #Microsoft
                         'AMD',  #AMD
                         'AAPL', #Apple
@@ -34,6 +35,8 @@ i_interesting_stocks = ['IBM',
                         'ZM',  #Zoom
                         'VVNT',#Vivint Smart Home
                         'SPCE',#Virgin Galactic Holdings
+                        'SQ', #Square
+                        'SQSP', #Squarespace
                         'QCOM',#Qualcomm
                         'SWKS',#Skyworks
                         'XRX', #Xerox
