@@ -2,8 +2,9 @@
 
 i_short_list = ['SQSP']
 
-i_stocks_i_own = ['T', 'XRX', 'BAYRY', 'VZIO', 'TREE', 'MMAC', 'INTC', 'RYCEY', 'NAK', 'MSFT', 'AAPL', 'BA',
-                  'PAK', 'CCL', 'RXT', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'TMUS', 'CCXI']
+i_stocks_i_own = ['CYRN', 'AMC', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'XRX', 'INTC', 'RXT', 'VZIO',
+                  'TREE', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'TMUS', 'CCXI', 'JRVR', 'CXDX', 'BMBL', 'BCEL',
+                  'TAL', 'NGM', 'ALLO', 'OMIC', 'PLAN']
 
 i_interesting_stocks = ['IBM',
                         'INTC', #Intel

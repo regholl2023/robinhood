@@ -71,6 +71,10 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n")
                     print("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
+                    if self.sector is not None:
+                        print("Sector= " + self.sector)
+                    if self.industry is not None:
+                        print("Industry= " + self.industry)
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
