@@ -82,9 +82,14 @@ def main(argv):
     raw_data = []
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
-        ticker_object = yf.Ticker(i_stock_list[i])
-        if len(yf.Ticker(i_stock_list[i]).info) <= 2:
+
+        # It is possible that the listed company no longer exists now.
+        # Therefore check it attributes and then skip it if needed
+
+        if 'regularMarketPrice' not in yf.Ticker(i_stock_list[i]).info:
             continue
+
+        # Load historial data for this particular company
         data = yf.download(tickers=i_stock_list[i], period='12mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
