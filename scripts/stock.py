@@ -27,8 +27,8 @@ class STOCK:
 
         self.industry = None
         self.sector = None
-        self.shortName = None
-        self.longName = None
+        self.shortName = ''
+        self.longName = ''
 
 
         try:
@@ -87,6 +87,7 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n\n\n\n")
         except Exception as e:
+            print(e.msg)
             raise Exception
 
     def recommend_selling(self):
