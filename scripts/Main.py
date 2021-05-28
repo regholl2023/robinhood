@@ -92,7 +92,7 @@ def main(argv):
         else:
             i_exchange = ticker_object.info['exchange']
             i_market = ticker_object.info['market']
-            if i_market != 'us_market' or i_exchange != 'NYQ':
+            if i_market != 'us_market':
                 continue
 
 
