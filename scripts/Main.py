@@ -27,7 +27,7 @@ import pandas as pd
 import yfinance as yf
 # Data viz
 import plotly.graph_objs as go
-
+import requests
 
 # ---------Set sys.path for MAIN execution---------------------------------------
 full_path = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
@@ -53,7 +53,15 @@ def usage():
 def main(argv):
     for i in range(len(argv)):
         if argv[i] == '--all':
-            i_stock_list = stock_constants.i_all_stocks
+            i_stock_list = []
+            API_key = 'c2ohmu2ad3i8sitm0i1g' # Taken from https://finnhub.io/dashboard
+            r = requests.get('https://finnhub.io/api/v1/stock/symbol?exchange=US&token=' + API_key)
+            r = r.json()
+            for i in range(len(r)):
+                stock_type = r[i]['type']
+                # Only consider Common stocks and ETP and ignore all other types of stocks
+                if stock_type == 'Common Stock':
+                    i_stock_list.append(r[i]['symbol'])
         elif argv[i] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks
         else:
