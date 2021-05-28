@@ -82,6 +82,9 @@ def main(argv):
     raw_data = []
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
+        ticker_object = yf.Ticker(i_stock_list[i])
+        if len(yf.Ticker(i_stock_list[i]).info) <= 2:
+            continue
         data = yf.download(tickers=i_stock_list[i], period='12mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
