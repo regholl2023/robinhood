@@ -8,7 +8,7 @@ import datetime
 import random
 import subprocess
 import utils
-
+import yfinance as yf
 import stock_constants
 
 class STOCK:
@@ -24,6 +24,26 @@ class STOCK:
         self.data = utils.read_CSV(i_file)
         self.file = i_file
         self.process_data()
+
+        self.industry = None
+        self.sector = None
+        self.shortName = None
+        self.longName = None
+
+
+        try:
+            self.ticker_object = yf.Ticker(i_name)
+            if 'shortName' in self.ticker_object.info:
+                self.shortName = self.ticker_object.info['shortName']
+            if 'longName' in self.ticker_object.info:
+                self.longName = self.ticker_object.info['longName']
+            if 'sector' in self.ticker_object.info:
+                self.sector = self.ticker_object.info['sector']
+            if 'industry' in self.ticker_object.info:
+                self.industry = self.ticker_object.info['industry']
+        except Exception as e:
+            print(e.msg)
+            raise Exception
 
         # MISC values
         self.highest_stock_value = 0
@@ -50,7 +70,7 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n")
                     print("===================================================\n")
-                    print("We recommend buying the following share: " + self.name)
+                    print("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
@@ -80,7 +100,7 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n")
                     print("===================================================\n")
-                    print("We recommend selling the following share: " + self.name)
+                    print("We recommend selling the following share: " + self.shortName + "(" + self.name + ")")
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
@@ -98,7 +118,7 @@ class STOCK:
     def process_misc_data(self):
         self.highest_stock_value = max(self.HIGH,key=lambda x:float(x))
         self.lowest_stock_value = min(self.LOW,key=lambda x:float(x))
-        self.current_stock_value = (self.HIGH[-1] + self.LOW[-1]) / 2
+        self.current_stock_value = float(self.ticker_object.info['regularMarketPrice']) #(self.HIGH[-1] + self.LOW[-1]) / 2
 
         # Calculate the weighted average based on OPENING and CLOSING value
         for i in range(len(self.OPEN)):

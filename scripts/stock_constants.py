@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-i_short_list = ['AAPL']
+i_short_list = ['SQSP']
 
 i_stocks_i_own = ['T', 'XRX', 'BAYRY', 'VZIO', 'TREE', 'MMAC', 'INTC', 'RYCEY', 'NAK', 'MSFT', 'AAPL', 'BA',
                   'PAK', 'CCL', 'RXT', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'TMUS', 'CCXI']

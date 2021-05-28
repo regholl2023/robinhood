@@ -19,7 +19,6 @@ import random
 import subprocess
 import os
 import csv
-from get_all_tickers import get_tickers as gt
 
 # Raw Package
 import numpy as np
@@ -28,6 +27,7 @@ import pandas as pd
 import yfinance as yf
 # Data viz
 import plotly.graph_objs as go
+
 
 # ---------Set sys.path for MAIN execution---------------------------------------
 full_path = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
@@ -58,8 +58,6 @@ def main(argv):
             i_stock_list = stock_constants.i_interesting_stocks
         else:
             i_stock_list = stock_constants.i_short_list
-
-    i_stock_list = stock_constants.i_short_list
 
     i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
     i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
