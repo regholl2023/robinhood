@@ -86,8 +86,15 @@ def main(argv):
         # It is possible that the listed company no longer exists now.
         # Therefore check it attributes and then skip it if needed
         ticker_object = yf.Ticker(i_stock_list[i])
-        if 'regularMarketPrice' not in ticker_object.info:
+        if (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
+                or ('exchange' not in ticker_object.info)):
             continue
+        else:
+            i_exchange = ticker_object.info['exchange']
+            i_market = ticker_object.info['market']
+            if i_market != 'us_market' or i_exchange != 'NYQ':
+                continue
+
 
         # Load historial data for this particular company
         data = yf.download(tickers=i_stock_list[i], period='12mo', interval='1d')
