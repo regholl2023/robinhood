@@ -85,8 +85,8 @@ def main(argv):
 
         # It is possible that the listed company no longer exists now.
         # Therefore check it attributes and then skip it if needed
-
-        if 'regularMarketPrice' not in yf.Ticker(i_stock_list[i]).info:
+        ticker_object = yf.Ticker(i_stock_list[i])
+        if 'regularMarketPrice' not in ticker_object.info:
             continue
 
         # Load historial data for this particular company
