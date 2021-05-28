@@ -22,6 +22,7 @@ class STOCK:
         self.ADJ_CLOSE = []
         self.VOLUME = []
         self.data = utils.read_CSV(i_file)
+        self.file = i_file
         self.process_data()
 
         # MISC values

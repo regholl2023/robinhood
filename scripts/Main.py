@@ -40,6 +40,7 @@ for root, dirs, files in os.walk(full_path):
 
 import stock_constants
 import stock
+import ML
 
 
 def usage():
@@ -57,6 +58,8 @@ def main(argv):
             i_stock_list = stock_constants.i_interesting_stocks
         else:
             i_stock_list = stock_constants.i_short_list
+
+    i_stock_list = stock_constants.i_short_list
 
     i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
     i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
@@ -79,7 +82,10 @@ def main(argv):
     for i in range(len(i_stock_list)):
         stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
 
-    print("Finished")
+    #print("Start Machine Learning Algorithms")
+    #for i in range(len(i_stock_list)):
+    #    ML.ML(raw_data[i], stocks[i])
+    #print("Finished")
 
 
 if __name__ == "__main__":
