@@ -44,7 +44,7 @@ class STOCK:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average)/(self.weighted_average)) * 100
                 i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value)/(self.highest_stock_value)) * 100
                 i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) / (self.lowest_stock_value)) * 100
-                if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 5)) or \
+                if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 1)) or \
                         ((i_percentage_change < -20) and (i_percentage_difference_from_lowest < 25) and (self.name in stock_constants.i_interesting_stocks)):
                     print("\n\n\n\n===================================================")
                     print("===================================================\n")

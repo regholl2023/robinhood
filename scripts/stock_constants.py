@@ -3,13 +3,16 @@
 i_short_list = ['AAPL']
 
 i_stocks_i_own = ['T', 'XRX', 'BAYRY', 'VZIO', 'TREE', 'MMAC', 'INTC', 'RYCEY', 'NAK', 'MSFT', 'AAPL', 'BA',
-                  'PAK', 'CCL', 'RXT', 'AMD']
+                  'PAK', 'CCL', 'RXT', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'TMUS', 'CCXI']
 
 i_interesting_stocks = ['IBM',
                         'INTC', #Intel
+                        'IOVA', #Iovance Biotherapeutics
                         'MSFT', #Microsoft
                         'AMD',  #AMD
                         'AAPL', #Apple
+                        'BDTX', #Black DIamond Therapeutics
+                        'CCXI', #ChemoCentryx
                         'GE',   #General Electric
                         'BA',   #Boeing
                         'TSLA', #Tesla
@@ -34,8 +37,12 @@ i_interesting_stocks = ['IBM',
                         'ZM',  #Zoom
                         'VVNT',#Vivint Smart Home
                         'SPCE',#Virgin Galactic Holdings
+                        'SQ', #Square
+                        'SQSP', #Squarespace
+                        'PCOR', #Procore Technologies
                         'QCOM',#Qualcomm
                         'SWKS',#Skyworks
+                        'TMUS', #T-mobile
                         'XRX', #Xerox
                         'DIS', #Disney
                         'AAL']
