@@ -51,6 +51,8 @@ def usage():
 
 
 def main(argv):
+    i_stock_list = stock_constants.i_short_list
+
     for i in range(len(argv)):
         if argv[i] == '--all':
             i_stock_list = []
@@ -84,8 +86,7 @@ def main(argv):
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
 
-    print("Start buying/selling analysis")
-    for i in range(len(i_stock_list)):
+        # Start buying/selling analysis
         stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
 
     #print("Start Machine Learning Algorithms")
