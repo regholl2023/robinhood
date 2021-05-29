@@ -10,6 +10,7 @@ import subprocess
 import utils
 import yfinance as yf
 import stock_constants
+from scipy.stats import linregress
 
 class STOCK:
     def __init__(self, i_name, i_file):
@@ -25,6 +26,7 @@ class STOCK:
         self.file = i_file
         self.process_data()
 
+        self.slope = None
         self.industry = None
         self.sector = None
         self.exchange = ''
@@ -87,6 +89,7 @@ class STOCK:
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
                     print("Current Price: $" + str(self.current_stock_value))
+                    print("Slope is equal to " + str(self.slope.slope))
                     print("Percentage Difference from average = " + str(i_percentage_change) + "%")
                     print("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     print("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
@@ -124,6 +127,7 @@ class STOCK:
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
                     print("Current Price: $" + str(self.current_stock_value))
+                    print("Slope is equal to " + str(self.slope.slope))
                     print("Percentage Difference from average = " + str(i_percentage_change) + "%")
                     print("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     print("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
@@ -138,6 +142,7 @@ class STOCK:
         self.highest_stock_value = max(self.HIGH,key=lambda x:float(x))
         self.lowest_stock_value = min(self.LOW,key=lambda x:float(x))
         self.current_stock_value = float(self.ticker_object.info['regularMarketPrice']) #(self.HIGH[-1] + self.LOW[-1]) / 2
+        self.slope = linregress(self.HIGH, list(range(1, len(self.DATE) + 1)))
 
         # Calculate the weighted average based on OPENING and CLOSING value
         for i in range(len(self.OPEN)):
