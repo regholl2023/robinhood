@@ -78,9 +78,9 @@ def main(argv):
                             continue
 
                         # Don't select the following stocks:
-                        #      1) PNK -> Pink Sheet stocks
-                        if i_exchange == 'PNK':
-                            continue
+                        #      1) PNK -> Pink Sheet stocks (Rolls Royce is PNK)
+                        # if i_exchange == 'PNK':
+                        #    continue
 
                     # Add the remaining stocks to the master stock list
                     i_stock_list.append(r[i]['symbol'])
