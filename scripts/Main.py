@@ -101,8 +101,11 @@ def main(argv):
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
 
-        # Start buying/selling analysis
-        stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
+        try:
+            # Start buying/selling analysis
+            stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
+        except Exception as e:
+            print(e)
 
     #print("Start Machine Learning Algorithms")
     #for i in range(len(i_stock_list)):
