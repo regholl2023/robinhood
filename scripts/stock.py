@@ -27,6 +27,8 @@ class STOCK:
 
         self.industry = None
         self.sector = None
+        self.exchange = ''
+        self.market = ''
         self.shortName = ''
         self.longName = ''
 
@@ -41,6 +43,10 @@ class STOCK:
                 self.sector = self.ticker_object.info['sector']
             if 'industry' in self.ticker_object.info:
                 self.industry = self.ticker_object.info['industry']
+            if 'market' in self.ticker_object.info:
+                self.market = self.ticker_object.info['market']
+            if 'exchange' in self.ticker_object.info:
+                self.exchange = self.ticker_object.info['exchange']
         except Exception as e:
             print(e.msg)
             raise Exception
@@ -75,6 +81,8 @@ class STOCK:
                         print("Sector= " + self.sector)
                     if self.industry is not None:
                         print("Industry= " + self.industry)
+                    print("Exchange= " + self.exchange)
+                    print("Market= " + self.market)
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))
@@ -106,6 +114,12 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n")
                     print("We recommend selling the following share: " + self.shortName + "(" + self.name + ")")
+                    if self.sector is not None:
+                        print("Sector= " + self.sector)
+                    if self.industry is not None:
+                        print("Industry= " + self.industry)
+                    print("Exchange= " + self.exchange)
+                    print("Market= " + self.market)
                     print("Historic High: $" + str(self.highest_stock_value))
                     print("Historic Low: $" + str(self.lowest_stock_value))
                     print("Weighted Average: $" + str(self.weighted_average))

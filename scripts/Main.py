@@ -61,9 +61,30 @@ def main(argv):
             r = r.json()
             for i in range(len(r)):
                 stock_type = r[i]['type']
-                # Only consider Common stocks and ETP and ignore all other types of stocks
+                # Only consider Common stocks and ignore all other types of stocks
                 if stock_type == 'Common Stock':
+                    # It is possible that the listed company no longer exists now.
+                    # Therefore check it attributes and then skip it if needed
+                    ticker_object = yf.Ticker(r[i]['symbol'])
+                    if (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
+                            or ('exchange' not in ticker_object.info)):
+                        continue
+                    else:
+                        i_exchange = ticker_object.info['exchange']
+                        i_market = ticker_object.info['market']
+
+                        # Only select stocks that are in US market &&
+                        if i_market != 'us_market':
+                            continue
+
+                        # Don't select the following stocks:
+                        #      1) PNK -> Pink Sheet stocks
+                        if i_exchange == 'PNK':
+                            continue
+
+                    # Add the remaining stocks to the master stock list
                     i_stock_list.append(r[i]['symbol'])
+
         elif argv[i] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks
         else:
@@ -82,20 +103,6 @@ def main(argv):
     raw_data = []
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
-
-        # It is possible that the listed company no longer exists now.
-        # Therefore check it attributes and then skip it if needed
-        ticker_object = yf.Ticker(i_stock_list[i])
-        if (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
-                or ('exchange' not in ticker_object.info)):
-            continue
-        else:
-            i_exchange = ticker_object.info['exchange']
-            i_market = ticker_object.info['market']
-            if i_market != 'us_market':
-                continue
-
-
         # Load historial data for this particular company
         data = yf.download(tickers=i_stock_list[i], period='12mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
