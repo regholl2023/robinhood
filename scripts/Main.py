@@ -85,6 +85,9 @@ def main(argv):
                     # Add the remaining stocks to the master stock list
                     i_stock_list.append(r[i]['symbol'])
 
+        elif argv[i] == '--big_list':
+            i_stock_list = stock_constants.i_big_list_stocks
+
         elif argv[i] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks
         else:
