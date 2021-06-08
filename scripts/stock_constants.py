@@ -2,7 +2,7 @@
 
 i_short_list = ['AMC']
 
-i_stocks_i_own = ['CYRN', 'AMC', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'INTC', 'RXT', 'VZIO',
+i_stocks_i_own = ['CYRN', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'INTC', 'RXT', 'VZIO',
                   'TREE', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'CCXI', 'JRVR', 'CXDC', 'BMBL', 'BCEL',
                   'TAL', 'NGM', 'ALLO', 'OMIC', 'PLAN', 'ASTS', 'TSM', 'QDEL', 'TVTX', 'VLDR', 'WISH', 'VYGR'
                   'PSFE', 'MU', 'MRK', 'NRZ']
