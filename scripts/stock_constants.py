@@ -2,9 +2,10 @@
 
 i_short_list = ['AMC']
 
-i_stocks_i_own = ['CYRN', 'AMC', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'XRX', 'INTC', 'RXT', 'VZIO',
-                  'TREE', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'TMUS', 'CCXI', 'JRVR', 'CXDC', 'BMBL', 'BCEL',
-                  'TAL', 'NGM', 'ALLO', 'OMIC', 'PLAN', 'ASTS', 'TSM', 'QDEL', 'TVTX', 'VLDR', 'WISH', 'VYGR']
+i_stocks_i_own = ['CYRN', 'AMC', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'INTC', 'RXT', 'VZIO',
+                  'TREE', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'CCXI', 'JRVR', 'CXDC', 'BMBL', 'BCEL',
+                  'TAL', 'NGM', 'ALLO', 'OMIC', 'PLAN', 'ASTS', 'TSM', 'QDEL', 'TVTX', 'VLDR', 'WISH', 'VYGR'
+                  'PSFE', 'MU', 'MRK', 'NRZ']
 
 i_interesting_stocks = ['ABNB', 'BABA', 'GOOGL', 'AMZN', 'AMC', 'AMD', 'AAL', 'AAPL', 'ARKK', 'T', 'ACB', 'BAC',
                         'BNGO', 'BB', 'BLNK', 'BA', 'CGC', 'CCL', 'CPRX', 'CHPT', 'CCIV', 'KO', 'COIN', 'CRON', 'DAL',
