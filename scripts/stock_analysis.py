@@ -65,10 +65,12 @@ def main(argv):
     i_stocks_list = os.listdir(i_log_directory)
     for i_stock in i_stocks_list:
 
-        # These logs are important in determining if the process
-        # is continuing or is getting stuck for some reason
-        print("Processing " + i_stock)
-        sys.stdout.flush()
+        # Only process the csv files
+        if i_stock.endswith(".csv"):
+            # These logs are important in determining if the process
+            # is continuing or is getting stuck for some reason
+            print("Processing " + i_stock)
+            sys.stdout.flush()
 
         stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)
 
