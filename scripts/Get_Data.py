@@ -3,9 +3,8 @@
 
 ##############################################################################
 #
-# This file is the main file. It will pull stock prices from the web
-# and generate expected results, along with suggestion on which stocks
-# to buy and which to sell
+# This file is used to pull stock market data from the web and into the
+# log directory.
 #
 ##############################################################################
 
@@ -45,12 +44,14 @@ import ML
 
 def usage():
     print("Usage: Please provide which stocks to process. Defaults to the top 100 stocks")
-    print("Example: python scripts/Main.py")
-    print("Example: python scripts/Main.py --all")
-    print("Example: python scripts/Main.py --top_100")
+    print("Example: python scripts/Get_Data.py")
+    print("Example: python scripts/Get_Data.py --all")
+    print("Example: python scripts/Get_Data.py --top_100")
 
 
 def main(argv):
+
+    # By Default get the short list of stock names
     i_stock_list = stock_constants.i_short_list
 
     for i in range(len(argv)):
@@ -109,18 +110,9 @@ def main(argv):
         # Load historial data for this particular company
         data = yf.download(tickers=i_stock_list[i], period='12mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
-        raw_data.append(data)
 
-        try:
-            # Start buying/selling analysis
-            stocks.append(stock.STOCK(i_stock_list[i], i_log_directory + i_stock_list[i] + '.csv'))
-        except Exception as e:
-            print(e)
+    print("Finished get all the required stock logs")
 
-    print("Start Machine Learning Algorithms")
-    for i in range(len(i_stock_list)):
-        ML.ML1(raw_data[i], stocks[i])
-    print("Finished")
 
 
 if __name__ == "__main__":
