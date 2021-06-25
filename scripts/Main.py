@@ -117,10 +117,10 @@ def main(argv):
         except Exception as e:
             print(e)
 
-    #print("Start Machine Learning Algorithms")
-    #for i in range(len(i_stock_list)):
-    #    ML.ML(raw_data[i], stocks[i])
-    #print("Finished")
+    print("Start Machine Learning Algorithms")
+    for i in range(len(i_stock_list)):
+        ML.ML1(raw_data[i], stocks[i])
+    print("Finished")
 
 
 if __name__ == "__main__":
