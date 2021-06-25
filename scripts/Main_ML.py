@@ -3,9 +3,8 @@
 
 ##############################################################################
 #
-# This file is used to pull analyse the stock data from a given directory.
-# This script needs a folder that has the .csv files within it to be able
-# to process/analyse data
+# This file is used to pull perform machine learning on stock data from a given directory.
+# This script needs a folder that has the .csv files within it to be able to process/analyse data.
 #
 ##############################################################################
 
@@ -47,8 +46,8 @@ import ML
 def usage():
     print("Usage: Please provide the directory where <stock>.csv files are stored."
           "Defaults to the log folder within the current directory")
-    print("Example: python scripts/stock_analysis.py")
-    print("Example: python scripts/stock_analysis.py --<location>")
+    print("Example: python scripts/Main_ML.py")
+    print("Example: python scripts/Main_ML.py --<location>")
 
 def main(argv):
 
@@ -72,7 +71,7 @@ def main(argv):
             print("Processing " + i_stock)
             sys.stdout.flush()
 
-            stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)
+            ML.ML1(raw_data[i], stocks[i])
 
 
 if __name__ == "__main__":
