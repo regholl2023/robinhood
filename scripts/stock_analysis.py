@@ -64,9 +64,9 @@ def main(argv):
     # Get a list of all files from the log directory
     i_stocks_list = os.listdir(i_log_directory)
     for i_stock in i_stocks_list:
+        print("Processing " + i_stock)
         stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)
 
-    x = 4
 
 if __name__ == "__main__":
     main(sys.argv[1:])
