@@ -9,12 +9,14 @@ import getopt
 import random
 import subprocess
 import os
+import csv
 
 # Import Machine Leaning Libraries
 #Install the dependencies
 import numpy as np
 import pandas as pd
 from sklearn.svm import SVR
+from sklearn.svm import NuSVR
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LinearRegression
@@ -26,17 +28,25 @@ plt.style.use('bmh')
 i_global_future_days_to_predict = 60
 
 class ML1:
-    def __init__(self, i_raw_data, i_stock):
-        self.raw_data = i_raw_data
-        self.stock = i_stock
+    def __init__(self, i_stock_file):
         self.df = None
+        self.models = [[]]
+        self.stock_file = i_stock_file
 
+        self.add_models()
         self.process_data()
+
+    def add_models(self):
+        self.models.append(["linear_SVR", SVR(kernel='linear', C=1000.0)])
+        self.models.append(["poly_SVR", SVR(kernel='poly', C=1000.0, degree=2)])
+        self.models.append(["RBF_SVR", SVR(kernel='rbf', C=10000.0, gamma=0.85)])
+        self.models.append(["RBF_NuSVR", NuSVR(kernel='rbf', C=10000.0, gamma=0.85)])
+        del self.models[0]
 
     def process_data(self):
         # Store the Closing value data into a separate variable
 
-        df = pd.read_csv(self.stock.file)
+        df = pd.read_csv(self.stock_file)
 
         # Create empty lists
         days = list()
@@ -54,36 +64,35 @@ class ML1:
         for adj_close_price in df_adj_close:
             adj_close_prices.append(float(adj_close_price))
 
+        # Process all the models one by one
+        for i in range(len(self.models)):
+            self.models[i][1].fit(days, adj_close_prices)
+            print(self.models[i][0] + " closing price yesterday:", self.models[i][1].predict([[251]]))
+            print(self.models[i][0] + " closing price today:", self.models[i][1].predict([[252]]))
+            print(self.models[i][0] + " closing price tomorrow:", self.models[i][1].predict([[253]]))
+            print(self.models[i][0] + " closing price day after tomorrow:", self.models[i][1].predict([[254]]))
+            print(self.models[i][0] + " closing price day after after tomorrow:", self.models[i][1].predict([[255]]))
+            print(self.models[i][0] + " closing price day after after after tomorrow:", self.models[i][1].predict([[256]]))
+            print(self.models[i][0] + " closing price day after after after after tomorrow:", self.models[i][1].predict([[257]]))
 
-        # Create 3 models
-        #lin_svr = SVR(kernel='linear', C=1000.0)
-        #lin_svr.fit(days, adj_close_prices)
-
-        #poly_svr = SVR(kernel='poly', C=1000.0, degree=2)
-        #poly_svr.fit(days, adj_close_prices)
-
-        rbf_svr = SVR(kernel='rbf', C=10000.0, gamma=0.85)
-        rbf_svr.fit(days, adj_close_prices)
 
 
-        # Plot the models
-        #plt.figure(figsize=(16,8))
-        #plt.scatter(days,adj_close_prices, color='black', label='Data')
-        #plt.plot(days, rbf_svr.predict(days), color='green', label = 'RBF Model')
-        #plt.plot(days, poly_svr.predict(days), color='orange', label='Polynomial Model')
-        #plt.plot(days, lin_svr.predict(days), color='blue', label='Linear Model')
-        #plt.xlabel('Days')
-        #plt.ylabel('Adj Close Price ($)')
-        #plt.legend()
-        #plt.show()
+        print(" The RBF SVR closing price yesterday:", rbf_svr.predict([[251]]))
+        print(" The RBF SVR predicted closing price today:", rbf_svr.predict([[252]]))
+        print(" The RBF SVR predicted closing price tomorrow:", rbf_svr.predict([[253]]))
+        print(" The RBF SVR predicted closing price day after tomorrow:", rbf_svr.predict([[254]]))
+        print(" The RBF SVR predicted closing price day after after tomorrow:", rbf_svr.predict([[255]]))
+        print(" The RBF SVR predicted closing price day after after after tomorrow:", rbf_svr.predict([[256]]))
+        print(" The RBF SVR predicted closing price day after after after after tomorrow:", rbf_svr.predict([[257]]))
 
-        print(" The RBF SVR predicted price:", rbf_svr.predict([[251]]))
-        #print(" The Polynomial SVR predicted price:", poly_svr.predict([[251]]))
-        #print(" The Linear SVR predicted price:", lin_svr.predict([[251]]))
 
-        print(" The RBF SVR predicted price:", rbf_svr.predict([[252]]))
-        #print(" The Polynomial SVR predicted price:", poly_svr.predict([[252]]))
-        #print(" The Linear SVR predicted price:", lin_svr.predict([[252]]))
+        print(" The RBF SVR closing price yesterday:", rbf_nusvr.predict([[251]]))
+        print(" The RBF SVR predicted closing price today:", rbf_nusvr.predict([[252]]))
+        print(" The RBF SVR predicted closing price tomorrow:", rbf_nusvr.predict([[253]]))
+        print(" The RBF SVR predicted closing price day after tomorrow:", rbf_nusvr.predict([[254]]))
+        print(" The RBF SVR predicted closing price day after after tomorrow:", rbf_nusvr.predict([[255]]))
+        print(" The RBF SVR predicted closing price day after after after tomorrow:", rbf_nusvr.predict([[256]]))
+        print(" The RBF SVR predicted closing price day after after after after tomorrow:", rbf_nusvr.predict([[257]]))
 
 
 

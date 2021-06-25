@@ -68,10 +68,9 @@ def main(argv):
         if i_stock.endswith(".csv"):
             # These logs are important in determining if the process
             # is continuing or is getting stuck for some reason
-            print("Processing " + i_stock)
+            print("\n\nProcessing " + i_stock)
             sys.stdout.flush()
-
-            ML.ML1(raw_data[i], stocks[i])
+            ML.ML1(i_log_directory + i_stock)
 
 
 if __name__ == "__main__":
