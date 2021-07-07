@@ -79,10 +79,16 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n")
                     print("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
-                    if self.sector is not None:
-                        print("Sector= " + self.sector)
-                    if self.industry is not None:
-                        print("Industry= " + self.industry)
+
+                    # Wrap it with try/catch statement because it is not re-creatable in pycharm
+                    try:
+                        if self.sector is not None:
+                            print("Sector= " + self.sector)
+                        if self.industry is not None:
+                            print("Industry= " + self.industry)
+                    except Exception as e:
+                        pass
+
                     print("Exchange= " + self.exchange)
                     print("Market= " + self.market)
                     print("Historic High: $" + str(self.highest_stock_value))
