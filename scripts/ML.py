@@ -10,6 +10,7 @@ import random
 import subprocess
 import os
 import csv
+from tabulate import tabulate
 
 # Import Machine Leaning Libraries
 #Install the dependencies
@@ -64,36 +65,17 @@ class ML1:
         for adj_close_price in df_adj_close:
             adj_close_prices.append(float(adj_close_price))
 
+        mydata = [[]]
+        head = ["Model Name", "Yesterday", "Today", "Tomorrow", "1 week", "1 month"]
         # Process all the models one by one
         for i in range(len(self.models)):
             self.models[i][1].fit(days, adj_close_prices)
-            print(self.models[i][0] + " closing price yesterday:", self.models[i][1].predict([[251]]))
-            print(self.models[i][0] + " closing price today:", self.models[i][1].predict([[252]]))
-            print(self.models[i][0] + " closing price tomorrow:", self.models[i][1].predict([[253]]))
-            print(self.models[i][0] + " closing price day after tomorrow:", self.models[i][1].predict([[254]]))
-            print(self.models[i][0] + " closing price day after after tomorrow:", self.models[i][1].predict([[255]]))
-            print(self.models[i][0] + " closing price day after after after tomorrow:", self.models[i][1].predict([[256]]))
-            print(self.models[i][0] + " closing price day after after after after tomorrow:", self.models[i][1].predict([[257]]))
+            mydata.append([self.models[i][0], self.models[i][1].predict([[len(days)]]).item(), self.models[i][1].predict([[len(days) + 1]]).item(),
+                           self.models[i][1].predict([[len(days) + 2]]).item(), self.models[i][1].predict([[len(days) + 7]]).item(),
+                           self.models[i][1].predict([[len(days) + 30]]).item()])
 
-
-
-        print(" The RBF SVR closing price yesterday:", rbf_svr.predict([[251]]))
-        print(" The RBF SVR predicted closing price today:", rbf_svr.predict([[252]]))
-        print(" The RBF SVR predicted closing price tomorrow:", rbf_svr.predict([[253]]))
-        print(" The RBF SVR predicted closing price day after tomorrow:", rbf_svr.predict([[254]]))
-        print(" The RBF SVR predicted closing price day after after tomorrow:", rbf_svr.predict([[255]]))
-        print(" The RBF SVR predicted closing price day after after after tomorrow:", rbf_svr.predict([[256]]))
-        print(" The RBF SVR predicted closing price day after after after after tomorrow:", rbf_svr.predict([[257]]))
-
-
-        print(" The RBF SVR closing price yesterday:", rbf_nusvr.predict([[251]]))
-        print(" The RBF SVR predicted closing price today:", rbf_nusvr.predict([[252]]))
-        print(" The RBF SVR predicted closing price tomorrow:", rbf_nusvr.predict([[253]]))
-        print(" The RBF SVR predicted closing price day after tomorrow:", rbf_nusvr.predict([[254]]))
-        print(" The RBF SVR predicted closing price day after after tomorrow:", rbf_nusvr.predict([[255]]))
-        print(" The RBF SVR predicted closing price day after after after tomorrow:", rbf_nusvr.predict([[256]]))
-        print(" The RBF SVR predicted closing price day after after after after tomorrow:", rbf_nusvr.predict([[257]]))
-
+        del mydata[0]
+        print(tabulate(mydata, headers=head, tablefmt="grid"))
 
 
 class ML:
