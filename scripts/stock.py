@@ -49,6 +49,9 @@ class STOCK:
                 self.market = self.ticker_object.info['market']
             if 'exchange' in self.ticker_object.info:
                 self.exchange = self.ticker_object.info['exchange']
+            if 'regularMarketPrice' not in self.ticker_object.info:
+                print("Unable to get the regularMarketPrice. Skipping!!!")
+                return
         except Exception as e:
             print(e.msg)
             raise Exception
