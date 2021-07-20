@@ -64,7 +64,6 @@ def main(argv):
     # Get a list of all files from the log directory
     i_stocks_list = os.listdir(i_log_directory)
     for i_stock in i_stocks_list:
-
         # Only process the csv files
         if i_stock.endswith(".csv"):
             # These logs are important in determining if the process

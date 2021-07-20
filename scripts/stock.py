@@ -24,7 +24,15 @@ class STOCK:
         self.VOLUME = []
         self.data = utils.read_CSV(i_file)
         self.file = i_file
-        self.process_data()
+
+        # It is possible that the csv file has not data points.
+        # So check the len(self.data) and skip this particular stock if no
+        # data exists
+        if len(self.data) <= 1:
+            print("Unable to get stock data from csv file. Skipping!!!")
+            return
+        else:
+            self.process_data()
 
         self.slope = None
         self.industry = None

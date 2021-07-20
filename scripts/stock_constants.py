@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-i_short_list = ['MGA']
+i_short_list = ['IBM']
 
 i_stocks_i_own = ['CYRN', 'AAPL', 'MSFT', 'T', 'RYCEY', 'NAK', 'CCL', 'INTC', 'RXT', 'VZIO',
                   'TREE', 'AMD', 'SQSP', 'IOVA', 'BDTX', 'CCXI', 'JRVR', 'CXDC', 'BMBL', 'BCEL',
