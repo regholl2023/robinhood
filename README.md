@@ -5,10 +5,10 @@ Tracks the stock prices and sends an alert of when to buy/sell stocks
 For Ubuntu:
 
    sudo apt-get update
+   
    sudo apt-get upgrade
-   sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev \
-                     libreadline-dev libffi-dev wget pip python python3 libxml2-dev libxslt-dev \
-                     python-dev libatlas-base-dev gfortran
+   
+   sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget pip python python3 libxml2-dev libxslt-dev python-dev libatlas-base-dev gfortran
    
    sudo pip3 install numpy pandas yfinance plotly scipy
 
