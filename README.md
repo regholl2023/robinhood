@@ -8,9 +8,9 @@ For Ubuntu:
    
    sudo apt-get upgrade
    
-   sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget pip python python3 libxml2-dev libxslt-dev python-dev libatlas-base-dev gfortran
+   sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget pip python python3 libxml2-dev libxslt-dev python-dev libatlas-base-dev gfortran cmake
    
-   sudo pip3 install numpy pandas yfinance plotly scipy
+   sudo pip3 install numpy pandas yfinance plotly scipy tabulate sklearn xgboost keras tensorflow
 
 # INFORMATION
 There are several scripts that serves several different purposes
