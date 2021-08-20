@@ -10,10 +10,12 @@ import subprocess
 import utils
 import yfinance as yf
 import stock_constants
+import sim_logging
 from scipy.stats import linregress
 
 class STOCK:
     def __init__(self, i_name, i_file):
+        self.simlog = sim_logging.SIMLOG()
         self.name = i_name
         self.DATE = []
         self.OPEN = []
@@ -29,7 +31,7 @@ class STOCK:
         # So check the len(self.data) and skip this particular stock if no
         # data exists
         if len(self.data) <= 1:
-            print("Unable to get stock data from csv file. Skipping!!!")
+            self.simlog.error("Unable to get stock data from csv file. Skipping!!!")
             return
         else:
             self.process_data()
@@ -45,23 +47,37 @@ class STOCK:
 
         try:
             self.ticker_object = yf.Ticker(i_name)
+
             if 'shortName' in self.ticker_object.info:
                 self.shortName = self.ticker_object.info['shortName']
+                self.simlog.debug("shortName is " + str(self.shortName))
+
             if 'longName' in self.ticker_object.info:
                 self.longName = self.ticker_object.info['longName']
+                self.simlog.debug("longName is " + str(self.longName))
+
             if 'sector' in self.ticker_object.info:
                 self.sector = self.ticker_object.info['sector']
+                self.simlog.debug("sector is " + str(self.sector))
+
             if 'industry' in self.ticker_object.info:
                 self.industry = self.ticker_object.info['industry']
+                self.simlog.debug("industry is " + str(self.industry))
+
             if 'market' in self.ticker_object.info:
                 self.market = self.ticker_object.info['market']
+                self.simlog.debug("market is " + str(self.market))
+
             if 'exchange' in self.ticker_object.info:
                 self.exchange = self.ticker_object.info['exchange']
+                self.simlog.debug("exchange is " + str(self.exchange))
+
             if 'regularMarketPrice' not in self.ticker_object.info:
-                print("Unable to get the regularMarketPrice. Skipping!!!")
+                self.simlog.error("Unable to get the regularMarketPrice. Skipping!!!")
                 return
             else:
                 self.regularMarketPrice = self.ticker_object.info['regularMarketPrice']
+                self.simlog.debug("regularMarketPrice is " + str(self.regularMarketPrice))
 
         except Exception as e:
             print(e)
@@ -80,43 +96,55 @@ class STOCK:
 
     def recommend_buying(self):
         try:
-            if (self.weighted_average == 0) or (self.lowest_stock_value == 0) or (self.lowest_stock_value == 0):
+            if (self.weighted_average == 0) or (self.lowest_stock_value == 0) or (self.highest_stock_value == 0):
+                self.simlog.warning("Unable to get one of the following values: "
+                             "weighted_average/lowest_stock_value/highest_stock_value")
                 pass
             else:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average)/(self.weighted_average)) * 100
-                i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value)/(self.highest_stock_value)) * 100
-                i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) / (self.lowest_stock_value)) * 100
+                self.simlog.debug("percentage_change = " + str(i_percentage_change) + "%")
+
+                i_percentage_difference_from_highest = ((self.current_stock_value - self.highest_stock_value) /
+                                                        self.highest_stock_value) * 100
+                self.simlog.debug("percentage_difference_from_highest = " + str(i_percentage_difference_from_highest) + "%")
+
+                i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) /
+                                                       self.lowest_stock_value) * 100
+                self.simlog.debug("percentage_difference_from_lowest = " + str(i_percentage_difference_from_lowest) + "%")
+
                 if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 1)) or \
                         ((i_percentage_change < -20) and (i_percentage_difference_from_lowest < 25) and (self.name in stock_constants.i_interesting_stocks)):
-                    print("\n\n\n\n===================================================")
-                    print("===================================================\n")
-                    print("===================================================\n")
-                    print("===================================================\n")
-                    print("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
+                    self.simlog.info("\n\n\n\n===================================================")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
 
                     # Wrap it with try/catch statement because it is not re-creatable in pycharm
                     try:
                         if self.sector is not None:
                             print("Sector= " + self.sector)
+                            simlog.debug("Sector = " + str(self.sector))
                         if self.industry is not None:
                             print("Industry= " + self.industry)
+                            simlog.debug("Industry = " + str(self.industry))
                     except Exception as e:
                         pass
 
-                    print("Exchange= " + self.exchange)
-                    print("Market= " + self.market)
-                    print("Historic High: $" + str(self.highest_stock_value))
-                    print("Historic Low: $" + str(self.lowest_stock_value))
-                    print("Weighted Average: $" + str(self.weighted_average))
-                    print("Current Price: $" + str(self.current_stock_value))
-                    print("Slope is equal to " + str(self.slope.slope))
-                    print("Percentage Difference from average = " + str(i_percentage_change) + "%")
-                    print("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
-                    print("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
-                    print("===================================================\n")
-                    print("===================================================\n")
-                    print("===================================================\n")
-                    print("===================================================\n\n\n\n")
+                    self.simlog.info("Exchange= " + self.exchange)
+                    self.simlog.info("Market= " + self.market)
+                    self.simlog.info("Historic High: $" + str(self.highest_stock_value))
+                    self.simlog.info("Historic Low: $" + str(self.lowest_stock_value))
+                    self.simlog.info("Weighted Average: $" + str(self.weighted_average))
+                    self.simlog.info("Current Price: $" + str(self.current_stock_value))
+                    self.simlog.info("Slope is equal to " + str(self.slope.slope))
+                    self.simlog.info("Percentage Difference from average = " + str(i_percentage_change) + "%")
+                    self.simlog.info("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
+                    self.simlog.info("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================\n\n\n\n")
         except Exception as e:
             print(e)
             raise Exception
