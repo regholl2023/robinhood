@@ -60,6 +60,9 @@ class STOCK:
             if 'regularMarketPrice' not in self.ticker_object.info:
                 print("Unable to get the regularMarketPrice. Skipping!!!")
                 return
+            else:
+                self.regularMarketPrice = self.ticker_object.info['regularMarketPrice']
+
         except Exception as e:
             print(e.msg)
             raise Exception
@@ -158,7 +161,7 @@ class STOCK:
     def process_misc_data(self):
         self.highest_stock_value = max(self.HIGH,key=lambda x:float(x))
         self.lowest_stock_value = min(self.LOW,key=lambda x:float(x))
-        self.current_stock_value = float(self.ticker_object.info['regularMarketPrice']) #(self.HIGH[-1] + self.LOW[-1]) / 2
+        self.current_stock_value = self.regularMarketPrice #(self.HIGH[-1] + self.LOW[-1]) / 2
         self.slope = linregress(self.HIGH, list(range(1, len(self.DATE) + 1)))
 
         # Calculate the weighted average based on OPENING and CLOSING value
