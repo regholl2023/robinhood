@@ -99,9 +99,8 @@ class STOCK:
             if (self.weighted_average == 0) or (self.lowest_stock_value == 0) or (self.highest_stock_value == 0) or (
                     self.weighted_average is None) or (self.lowest_stock_value is None) or (
                     self.highest_stock_value is None) or (self.current_stock_value is None):
-                self.simlog.warning("Unable to get one of the following values: "
-                                    "weighted_average/lowest_stock_value/highest_stock_value")
-                pass
+                self.simlog.warning("Unable to get one of the following values: weighted_average/lowest_stock_value/highest_stock_value")
+                return
             else:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average) / (
                     self.weighted_average)) * 100
