@@ -62,6 +62,8 @@ class STOCK:
 
             if 'industry' in self.ticker_object.info:
                 self.industry = self.ticker_object.info['industry']
+                if isinstance(self.industry, unicode):
+                    self.industry = 
                 print(str(self.industry))
                 self.simlog.debug("industry is " + str(self.industry.encode('utf-8')))
 
