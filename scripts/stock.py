@@ -81,7 +81,6 @@ class STOCK:
 
         except Exception as e:
             print(e)
-            self.simlog.error(e)
             raise Exception
 
         # MISC values
