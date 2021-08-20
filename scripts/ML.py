@@ -24,8 +24,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 from xgboost import XGBRegressor
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM
+from tensorflow import keras
+#from keras.models import Sequential
+#from keras.layers import Dense, Dropout, LSTM
 
 import matplotlib.pyplot as plt
 plt.style.use('bmh')
