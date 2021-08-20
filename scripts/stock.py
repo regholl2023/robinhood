@@ -119,7 +119,7 @@ class STOCK:
                 if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 1)) or \
                         ((i_percentage_change < -20) and (i_percentage_difference_from_lowest < 25) and (
                                 self.name in stock_constants.i_interesting_stocks)):
-                    self.simlog.info("\n\n\n\n===================================================")
+                    self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -173,7 +173,7 @@ class STOCK:
                 i_percentage_difference_from_lowest = ((self.current_stock_value - self.lowest_stock_value) / (
                     self.lowest_stock_value)) * 100
                 if (i_percentage_change > 25) and (i_percentage_difference_from_highest < 20):
-                    self.simlog.info("\n\n\n\n===================================================")
+                    self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
