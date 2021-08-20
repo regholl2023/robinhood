@@ -12,7 +12,7 @@ class SIMLOG:
         self.debug_log = debug
         self.error_log = error
         self.info_log = info
-        self.warning = warning
+        self.warning_log = warning
 
     def debug(self, i_msg):
         if self.debug_log:
@@ -36,7 +36,7 @@ class SIMLOG:
         file_object.close()
 
     def warning(self, i_msg):
-        if self.info_warning:
+        if self.warning_log:
             print("WARNING LOG: " + str(i_msg))
         file_object = open('log.txt', 'a+')
         file_object.write("WARNING LOG: " + str(i_msg) + "\n")
