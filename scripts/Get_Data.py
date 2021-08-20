@@ -20,8 +20,8 @@ import os
 import csv
 
 # Raw Package
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 # Data Source
 import yfinance as yf
 # Data viz
@@ -39,7 +39,7 @@ for root, dirs, files in os.walk(full_path):
 
 import stock_constants
 import stock
-import ML
+#import ML
 
 
 def usage():

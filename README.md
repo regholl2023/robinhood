@@ -17,9 +17,14 @@ There are several scripts that serves several different purposes
 
 1) Get_Data.py: Is a python script that pulls the stocks data into the log
                 folder (currently pulls data for 12 months)
-                Example: python scripts/Get_Data.py --top_100
-                         python scripts/Get_Data.py --all
-                         python scripts/Get_Data.py --big_list
+                
+                Example: python3 scripts/Get_Data.py --top_100
+                
+                         python3 scripts/Get_Data.py --all
+                         
+                         python3 scripts/Get_Data.py --big_list
+                         
+                         
 
 2) stock_analysis.py: Is also a python script that analyses the stock data
                       within the log folder.
@@ -29,3 +34,5 @@ There are several scripts that serves several different purposes
                          such as historic low/high price points, price slopes,
                          percentage difference from highest/lowest point and
                          averages.
+                         
+                      Example: python3 scripts/stock_analysis.py
