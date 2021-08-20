@@ -42,6 +42,7 @@ for root, dirs, files in os.walk(full_path):
 import stock_constants
 import stock
 import ML
+import sim_logging
 
 
 def usage():
@@ -61,6 +62,11 @@ def main(argv):
         i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
         i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
+    simlog = sim_logging.SIMLOG()
+    # Delete existing log files if they exists
+    if os.path.exists("log.txt"):
+        os.remove("log.txt")
+
     # Get a list of all files from the log directory
     i_stocks_list = os.listdir(i_log_directory)
     for i_stock in i_stocks_list:
@@ -68,7 +74,7 @@ def main(argv):
         if i_stock.endswith(".csv"):
             # These logs are important in determining if the process
             # is continuing or is getting stuck for some reason
-            print("Processing " + i_stock)
+            simlog.info("Processing " + i_stock)
             sys.stdout.flush()
 
             stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)

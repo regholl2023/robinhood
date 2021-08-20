@@ -14,10 +14,6 @@ class SIMLOG:
         self.info_log = info
         self.warning = warning
 
-        # Delete existing log files if they exists
-        if os.path.exists("log.txt"):
-            os.remove("log.txt")
-
     def debug(self, i_msg):
         if self.debug_log:
             print("DEBUG LOG: " + str(i_msg))

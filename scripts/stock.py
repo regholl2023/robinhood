@@ -81,6 +81,7 @@ class STOCK:
 
         except Exception as e:
             print(e)
+            self.simlog.error(e)
             raise Exception
 
         # MISC values
@@ -115,20 +116,19 @@ class STOCK:
                 if ((i_percentage_change < -25) and (i_percentage_difference_from_lowest < 1)) or \
                         ((i_percentage_change < -20) and (i_percentage_difference_from_lowest < 25) and (self.name in stock_constants.i_interesting_stocks)):
                     self.simlog.info("\n\n\n\n===================================================")
-                    self.simlog.info("===================================================\n")
-                    self.simlog.info("===================================================\n")
-                    self.simlog.info("===================================================\n")
+                    self.simlog.info("===================================================")
+                    self.simlog.info("===================================================")
+                    self.simlog.info("===================================================")
                     self.simlog.info("We recommend buying the following share: " + self.shortName + "(" + self.name + ")")
 
                     # Wrap it with try/catch statement because it is not re-creatable in pycharm
                     try:
                         if self.sector is not None:
-                            print("Sector= " + self.sector)
-                            simlog.debug("Sector = " + str(self.sector))
+                            self.simlog.info("Sector = " + str(self.sector))
                         if self.industry is not None:
-                            print("Industry= " + self.industry)
-                            simlog.debug("Industry = " + str(self.industry))
+                            self.simlog.info("Industry = " + str(self.industry))
                     except Exception as e:
+                        self.simlog.warning("Unable to get sector or industry value")
                         pass
 
                     self.simlog.info("Exchange= " + self.exchange)
@@ -141,10 +141,10 @@ class STOCK:
                     self.simlog.info("Percentage Difference from average = " + str(i_percentage_change) + "%")
                     self.simlog.info("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     self.simlog.info("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
-                    self.simlog.info("===================================================\n")
-                    self.simlog.info("===================================================\n")
-                    self.simlog.info("===================================================\n")
-                    self.simlog.info("===================================================\n\n\n\n")
+                    self.simlog.info("===================================================")
+                    self.simlog.info("===================================================")
+                    self.simlog.info("===================================================")
+                    self.simlog.info("===================================================\n\n\n")
         except Exception as e:
             print(e)
             raise Exception
