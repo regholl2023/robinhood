@@ -64,7 +64,7 @@ class STOCK:
                 self.regularMarketPrice = self.ticker_object.info['regularMarketPrice']
 
         except Exception as e:
-            print(e.msg)
+            print(e)
             raise Exception
 
         # MISC values
@@ -118,7 +118,7 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n\n\n\n")
         except Exception as e:
-            print(e.msg)
+            print(e)
             raise Exception
 
     def recommend_selling(self):
@@ -156,6 +156,7 @@ class STOCK:
                     print("===================================================\n")
                     print("===================================================\n\n\n\n")
         except Exception as e:
+            print(e)
             raise Exception
 
     def process_misc_data(self):
@@ -186,5 +187,6 @@ class STOCK:
                     self.ADJ_CLOSE.append(float(self.data[i][5]))
                     self.VOLUME.append(float(self.data[i][6]))
                 except Exception as e:
+                    print(e)
                     x = self.data[i][1]
                     raise Exception
