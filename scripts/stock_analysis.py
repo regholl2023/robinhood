@@ -62,7 +62,7 @@ def main(argv):
         i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
         i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
-    simlog = sim_logging.SIMLOG()
+    simlog = sim_logging.SIMLOG(log_dir=i_log_directory)
     # Delete existing log files if they exists
     if os.path.exists("log.txt"):
         os.remove("log.txt")

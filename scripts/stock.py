@@ -16,7 +16,7 @@ from scipy.stats import linregress
 
 class STOCK:
     def __init__(self, i_name, i_file):
-        self.simlog = sim_logging.SIMLOG()
+        self.simlog = sim_logging.SIMLOG(log_dir=i_file.rsplit('/', 1)[0])
         self.name = i_name
         self.DATE = []
         self.OPEN = []
@@ -99,7 +99,8 @@ class STOCK:
             if (self.weighted_average == 0) or (self.lowest_stock_value == 0) or (self.highest_stock_value == 0) or (
                     self.weighted_average is None) or (self.lowest_stock_value is None) or (
                     self.highest_stock_value is None) or (self.current_stock_value is None):
-                self.simlog.debug("Unable to get one of the following values: weighted_average/lowest_stock_value/highest_stock_value")
+                self.simlog.debug(
+                    "Unable to get one of the following values: weighted_average/lowest_stock_value/highest_stock_value")
                 return
             else:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average) / (
@@ -152,6 +153,28 @@ class STOCK:
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================\n\n\n")
+
+                    # We need to create a file in the log directory that has
+                    # our the recommendations to buy. Stocks must have the following attributes
+                    # Current Price over $10
+                    # Slope is positive
+                    file_object = open(self.file.rsplit('/', 3)[0] + '/blog/recommendations.txt', 'a+')
+                    file_object.write("BUY:")
+                    file_object.write("stockName = " + self.name)
+                    file_object.write("longName = " + self.longName)
+                    file_object.write("sector = " + self.longName)
+                    file_object.write("industry = " + self.longName)
+                    file_object.write("slope = " + str(self.slope))
+                    file_object.write("regularMarketPrice = " + str(self.regularMarketPrice))
+                    file_object.write("lowest_stock_value = " + str(self.lowest_stock_value))
+                    file_object.write("highest_stock_value = " + str(self.highest_stock_value))
+                    file_object.write("weighted_average = " + str(self.weighted_average))
+                    file_object.write("\n\n")
+                    file_object.close()
+
+                    file_object.close()
+
+
         except Exception as e:
             print(e)
             raise Exception
@@ -163,7 +186,8 @@ class STOCK:
                     self.weighted_average is None) or (self.lowest_stock_value is None) or (
                     self.highest_stock_value is None) or (self.current_stock_value is None) or (
                     self.name not in stock_constants.i_stocks_i_own)):
-                self.simlog.debug("Unable to get one of the following values: weighted_average/lowest_stock_value/highest_stock_value")
+                self.simlog.debug(
+                    "Unable to get one of the following values: weighted_average/lowest_stock_value/highest_stock_value")
                 return
             else:
                 i_percentage_change = ((self.current_stock_value - self.weighted_average) / (
@@ -177,7 +201,8 @@ class STOCK:
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
-                    self.simlog.info("We recommend selling the following share: " + self.shortName + "(" + self.name + ")")
+                    self.simlog.info(
+                        "We recommend selling the following share: " + self.shortName + "(" + self.name + ")")
                     if self.sector is not None:
                         self.simlog.info("Sector= " + self.sector)
                     if self.industry is not None:
@@ -190,8 +215,10 @@ class STOCK:
                     self.simlog.info("Current Price: $" + str(self.current_stock_value))
                     self.simlog.info("Slope is equal to " + str(self.slope.slope))
                     self.simlog.info("Percentage Difference from average = " + str(i_percentage_change) + "%")
-                    self.simlog.info("Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
-                    self.simlog.info("Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
+                    self.simlog.info(
+                        "Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
+                    self.simlog.info(
+                        "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
