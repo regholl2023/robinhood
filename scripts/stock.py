@@ -158,22 +158,20 @@ class STOCK:
                     # our the recommendations to buy. Stocks must have the following attributes
                     # Current Price over $10
                     # Slope is positive
-                    file_object = open(self.file.rsplit('/', 3)[0] + '/blog/recommendations.txt', 'a+')
-                    file_object.write("BUY:")
-                    file_object.write("stockName = " + self.name)
-                    file_object.write("longName = " + self.longName)
-                    file_object.write("sector = " + self.longName)
-                    file_object.write("industry = " + self.longName)
-                    file_object.write("slope = " + str(self.slope))
-                    file_object.write("regularMarketPrice = " + str(self.regularMarketPrice))
-                    file_object.write("lowest_stock_value = " + str(self.lowest_stock_value))
-                    file_object.write("highest_stock_value = " + str(self.highest_stock_value))
-                    file_object.write("weighted_average = " + str(self.weighted_average))
-                    file_object.write("\n\n")
-                    file_object.close()
-
-                    file_object.close()
-
+                    if (self.slope.slope > 0) and (self.current_stock_value > 10):
+                        file_object = open(self.file.rsplit('/', 3)[0] + '/blog/recommendations.txt', 'a+')
+                        file_object.write("BUY:\n")
+                        file_object.write("stockName = " + self.name + '\n')
+                        file_object.write("longName = " + self.longName + '\n')
+                        file_object.write("sector = " + self.longName + '\n')
+                        file_object.write("industry = " + self.longName + '\n')
+                        file_object.write("slope = " + str(self.slope.slope) + '\n')
+                        file_object.write("regularMarketPrice = " + str(self.regularMarketPrice) + '\n')
+                        file_object.write("lowest_stock_value = " + str(self.lowest_stock_value) + '\n')
+                        file_object.write("highest_stock_value = " + str(self.highest_stock_value) + '\n')
+                        file_object.write("weighted_average = " + str(self.weighted_average) + '\n')
+                        file_object.write("\n\n")
+                        file_object.close()
 
         except Exception as e:
             print(e)

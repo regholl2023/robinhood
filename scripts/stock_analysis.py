@@ -64,8 +64,11 @@ def main(argv):
 
     simlog = sim_logging.SIMLOG(log_dir=i_log_directory)
     # Delete existing log files if they exists
-    if os.path.exists("log.txt"):
-        os.remove("log.txt")
+    if os.path.exists(i_log_directory + "log.txt"):
+        os.remove(i_log_directory + "log.txt")
+    # Delete existing recommendation file if they exists
+    if os.path.exists(i_log_directory.rsplit('/', 2)[0] + "/blog/recommendations.txt"):
+        os.remove(i_log_directory.rsplit('/', 2)[0] + "/blog/recommendations.txt")
 
     # Get a list of all files from the log directory
     i_stocks_list = os.listdir(i_log_directory)
