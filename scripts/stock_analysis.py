@@ -69,6 +69,7 @@ def main(argv):
 
     # Get a list of all files from the log directory
     i_stocks_list = os.listdir(i_log_directory)
+    i_count = 0
     for i_stock in i_stocks_list:
         # Only process the csv files
         if i_stock.endswith(".csv"):
@@ -78,6 +79,12 @@ def main(argv):
             sys.stdout.flush()
 
             stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)
+
+        i_count += 1
+        if i_count == 100:
+            i_count = 0
+            simlog.info("Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'")
+            time.sleep(60)
 
 
 if __name__ == "__main__":
