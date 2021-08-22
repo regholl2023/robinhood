@@ -84,7 +84,7 @@ def main(argv):
             stock.STOCK(i_stock.split(".csv")[0], i_log_directory + "/" + i_stock)
 
         i_count += 1
-        if i_count == 100:
+        if i_count == 10:
             i_count = 0
             simlog.info("Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'")
             time.sleep(60)
