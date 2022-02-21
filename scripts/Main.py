@@ -107,7 +107,7 @@ def main(argv):
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
         # Load historial data for this particular company
-        data = yf.download(tickers=i_stock_list[i], period='24mo', interval='1d')
+        data = yf.download(tickers=i_stock_list[i], period='36mo', interval='1d')
         data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         raw_data.append(data)
 
