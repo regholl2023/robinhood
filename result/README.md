@@ -3,9 +3,13 @@ INFO LOG: ===================================================
 INFO LOG: ===================================================
 INFO LOG: ===================================================
 INFO LOG: ===================================================
+
 INFO LOG: We recommend buying the following share: Kingsoft Cloud Holdings Limited(KC)
+
 INFO LOG: Sector = Technology
+
 INFO LOG: Industry = Software—Application
+
 INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market
 INFO LOG: Historic High: $74.66999816894531
