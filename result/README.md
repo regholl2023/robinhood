@@ -266,7 +266,7 @@ INFO LOG: Historic High: $145.0
 INFO LOG: Historic Low: $37.18000030517578  
 INFO LOG: Weighted Average: $83.1679947432868  
 INFO LOG: Current Price: $106.72  
-INFO LOG: Slope is equal to 6.040059492863017  
+INFO LOG: Slope is equal to 6.040058306090819  
 INFO LOG: Percentage Difference from average = 28.318592181296143%  
 INFO LOG: Percentage Difference from highest = -26.400000000000002%  
 INFO LOG: Percentage Difference from lowest = 187.03603852618485%  
