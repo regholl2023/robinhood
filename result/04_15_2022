@@ -414,30 +414,6 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing SBUX.csv  
 INFO LOG: Processing MDB.csv  
 INFO LOG: Processing RYCEY.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: ROLLS ROYCE HOLDINGS SPON ADR E(RYCEY)  
-INFO LOG: Sector = Industrials  
-INFO LOG: Industry = Aerospace & Defense  
-INFO LOG: Exchange= PNK  
-INFO LOG: Market= us_market  
-INFO LOG: Historic High: $12.479999542236328  
-INFO LOG: Historic Low: $1.159999966621399  
-INFO LOG: Weighted Average: $4.533773095123378  
-INFO LOG: Current Price: $1.25  
-INFO LOG: Slope is equal to -52.57782024629883  
-INFO LOG: Percentage Difference from average = -72.42914513422548%  
-INFO LOG: Percentage Difference from highest = -89.98397399158871%  
-INFO LOG: Percentage Difference from lowest = 7.758623790372514%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
 INFO LOG: Processing SQSP.csv  
 INFO LOG: Processing PEGA.csv  
 INFO LOG: Processing JNJ.csv  
