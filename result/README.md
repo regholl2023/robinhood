@@ -650,10 +650,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $33.790000915527344  
 INFO LOG: Historic Low: $1.4299999475479126  
-INFO LOG: Weighted Average: $7.718240739334196  
+INFO LOG: Weighted Average: $7.726066223832945  
 INFO LOG: Current Price: $1.46  
-INFO LOG: Slope is equal to -1.0703506718071432  
-INFO LOG: Percentage Difference from average = -81.08377220524551%  
+INFO LOG: Slope is equal to -0.9686511563739221  
+INFO LOG: Percentage Difference from average = -81.10293184523488%  
 INFO LOG: Percentage Difference from highest = -95.6791951451854%  
 INFO LOG: Percentage Difference from lowest = 2.097905842830963%  
 INFO LOG: ===================================================  
