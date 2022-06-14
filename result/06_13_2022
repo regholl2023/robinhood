@@ -734,30 +734,6 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing MSFT.csv  
 INFO LOG: Processing PSEC.csv  
 INFO LOG: Processing PLTR.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Palantir Technologies Inc.(PLTR)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Software—Infrastructure  
-INFO LOG: Exchange= NYQ  
-INFO LOG: Market= us_market  
-INFO LOG: Historic High: $45.0  
-INFO LOG: Historic Low: $6.440000057220459  
-INFO LOG: Weighted Average: $20.075254121304695  
-INFO LOG: Current Price: $7.64  
-INFO LOG: Slope is equal to -8.418115021478245  
-INFO LOG: Percentage Difference from average = -61.94319656510792%  
-INFO LOG: Percentage Difference from highest = -83.02222222222223%  
-INFO LOG: Percentage Difference from lowest = 18.633539318592298%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
 INFO LOG: Processing MANH.csv  
 INFO LOG: Processing BB.csv  
 INFO LOG: Processing NNDM.csv  
