@@ -468,8 +468,6 @@ INFO LOG: ===================================================
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: We recommend buying the following share: ROLLS ROYCE HOLDINGS SPON ADR E(RYCEY)  
-INFO LOG: Sector = Industrials  
-INFO LOG: Industry = Aerospace & Defense  
 INFO LOG: Exchange= PNK  
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $11.270000457763672  
