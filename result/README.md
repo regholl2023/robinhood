@@ -468,6 +468,8 @@ INFO LOG: ===================================================
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: We recommend buying the following share: ROLLS ROYCE HOLDINGS SPON ADR E(RYCEY)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Aerospace & Defense  
 INFO LOG: Exchange= PNK  
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $11.270000457763672  
@@ -518,7 +520,7 @@ INFO LOG: Historic High: $62.290000915527344
 INFO LOG: Historic Low: $2.318000078201294  
 INFO LOG: Weighted Average: $16.369047426595902  
 INFO LOG: Current Price: $2.85  
-INFO LOG: Slope is equal to 3.3882078972806084  
+INFO LOG: Slope is equal to 3.3882119411547573  
 INFO LOG: Percentage Difference from average = -82.58909070438997%  
 INFO LOG: Percentage Difference from highest = -95.42462681311413%  
 INFO LOG: Percentage Difference from lowest = 22.95081552419635%  
