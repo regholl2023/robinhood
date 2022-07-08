@@ -632,4 +632,92 @@ INFO LOG: Processing SONY.csv
 INFO LOG: Processing CPRX.csv  
 INFO LOG: Processing MVIS.csv  
 INFO LOG: Processing NFLX.csv  
-'NoneType' object is not iterable
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Netflix, Inc.(NFLX)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NMS  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $700.989990234375  
+INFO LOG: Historic Low: $162.7100067138672  
+INFO LOG: Weighted Average: $437.76387001753125  
+INFO LOG: Current Price: $186.975  
+INFO LOG: Slope is equal to 0.4267690627624368  
+INFO LOG: Percentage Difference from average = -57.2886177215785%  
+INFO LOG: Percentage Difference from highest = -73.32700857290627%  
+INFO LOG: Percentage Difference from lowest = 14.913030720233378%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing KT.csv  
+INFO LOG: Processing PYPL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $67.58000183105469  
+INFO LOG: Weighted Average: $174.65039235849517  
+INFO LOG: Current Price: $73.43  
+INFO LOG: Slope is equal to 0.8984702276459055  
+INFO LOG: Percentage Difference from average = -57.956006277229356%  
+INFO LOG: Percentage Difference from highest = -76.32512279694348%  
+INFO LOG: Percentage Difference from lowest = 8.656404277066917%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+INFO LOG: Processing MORN.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing NRZ.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Processing PLTK.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Playtika Holding Corp.(PLTK)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Electronic Gaming & Multimedia  
+INFO LOG: Exchange= NMS  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $35.09000015258789  
+INFO LOG: Historic Low: $11.569999694824219  
+INFO LOG: Weighted Average: $22.452266862771612  
+INFO LOG: Current Price: $13.16  
+INFO LOG: Slope is equal to -17.353311401148936  
+INFO LOG: Percentage Difference from average = -41.38676472877328%  
+INFO LOG: Percentage Difference from highest = -62.49643789463065%  
+INFO LOG: Percentage Difference from lowest = 13.742440338067253%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing WIX.csv  
