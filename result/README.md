@@ -14,11 +14,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $46.29800033569336  
 INFO LOG: Historic Low: $1.149999976158142  
 INFO LOG: Weighted Average: $12.406958633189575  
-INFO LOG: Current Price: $1.275  
-INFO LOG: Slope is equal to -9.126431948764647  
-INFO LOG: Percentage Difference from average = -89.7235088977465%  
-INFO LOG: Percentage Difference from highest = -97.24610136343829%  
-INFO LOG: Percentage Difference from lowest = 10.869567515944754%  
+INFO LOG: Current Price: $1.27  
+INFO LOG: Slope is equal to -9.126397193912867  
+INFO LOG: Percentage Difference from average = -89.76380886285338%  
+INFO LOG: Percentage Difference from highest = -97.25690096593459%  
+INFO LOG: Percentage Difference from lowest = 10.434784898235176%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -39,12 +39,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $21.959999084472656  
 INFO LOG: Historic Low: $6.610000133514404  
-INFO LOG: Weighted Average: $14.951613785728572  
-INFO LOG: Current Price: $8.045  
-INFO LOG: Slope is equal to -16.902662812000223  
-INFO LOG: Percentage Difference from average = -46.19309918452406%  
-INFO LOG: Percentage Difference from highest = -63.365207944437444%  
-INFO LOG: Percentage Difference from lowest = 21.709528555223116%  
+INFO LOG: Weighted Average: $14.946251684782524  
+INFO LOG: Current Price: $8.04  
+INFO LOG: Slope is equal to -16.774862321926875  
+INFO LOG: Percentage Difference from average = -46.207248683053436%  
+INFO LOG: Percentage Difference from highest = -63.38797661569634%  
+INFO LOG: Percentage Difference from lowest = 21.63388559154677%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -80,13 +80,13 @@ INFO LOG: Sector = Healthcare
 INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
 INFO LOG: Exchange= NGM  
 INFO LOG: Market= us_market  
-INFO LOG: Historic High: $15.850000381469727  
+INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.569999933242798  
-INFO LOG: Weighted Average: $6.8606230048906145  
+INFO LOG: Weighted Average: $6.8492331015353205  
 INFO LOG: Current Price: $2.96  
-INFO LOG: Slope is equal to -48.527441471202906  
-INFO LOG: Percentage Difference from average = -56.855230233610634%  
-INFO LOG: Percentage Difference from highest = -81.32492158510895%  
+INFO LOG: Slope is equal to -48.6030986161122  
+INFO LOG: Percentage Difference from average = -56.78348282033958%  
+INFO LOG: Percentage Difference from highest = -81.3013265049529%  
 INFO LOG: Percentage Difference from lowest = 15.175100268002897%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -108,12 +108,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $51.939998626708984  
 INFO LOG: Historic Low: $7.800000190734863  
-INFO LOG: Weighted Average: $25.25380949368556  
-INFO LOG: Current Price: $8.5125  
-INFO LOG: Slope is equal to -11.572885594820672  
-INFO LOG: Percentage Difference from average = -66.2922142414654%  
-INFO LOG: Percentage Difference from highest = -83.61089675573723%  
-INFO LOG: Percentage Difference from lowest = 9.134612715926217%  
+INFO LOG: Weighted Average: $25.226794669801833  
+INFO LOG: Current Price: $8.49  
+INFO LOG: Slope is equal to -11.543569848852004  
+INFO LOG: Percentage Difference from average = -66.34530818866536%  
+INFO LOG: Percentage Difference from highest = -83.65421597136083%  
+INFO LOG: Percentage Difference from lowest = 8.846151184518494%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -136,12 +136,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $203.02000427246094  
 INFO LOG: Historic Low: $79.06999969482422  
-INFO LOG: Weighted Average: $145.0119576630769  
-INFO LOG: Current Price: $93.645  
-INFO LOG: Slope is equal to 1.7303040147158317  
-INFO LOG: Percentage Difference from average = -35.422566863364274%  
-INFO LOG: Percentage Difference from highest = -53.87400353202403%  
-INFO LOG: Percentage Difference from lowest = 18.43303447758813%  
+INFO LOG: Weighted Average: $145.01328476659504  
+INFO LOG: Current Price: $93.64  
+INFO LOG: Slope is equal to 1.7295069507677274  
+INFO LOG: Percentage Difference from average = -35.426605810138355%  
+INFO LOG: Percentage Difference from highest = -53.87646634351786%  
+INFO LOG: Percentage Difference from lowest = 18.426710966750527%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -165,13 +165,13 @@ INFO LOG: Industry = Drug Manufacturers—Specialty & Generic
 INFO LOG: Exchange= NMS  
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $56.49700164794922  
-INFO LOG: Historic Low: $2.3299999237060547  
-INFO LOG: Weighted Average: $18.76987696040877  
-INFO LOG: Current Price: $2.33  
-INFO LOG: Slope is equal to -12.789363109858176  
-INFO LOG: Percentage Difference from average = -87.5864929487036%  
-INFO LOG: Percentage Difference from highest = -95.87588733554576%  
-INFO LOG: Percentage Difference from lowest = 3.2744183640230567e-06%  
+INFO LOG: Historic Low: $2.309999942779541  
+INFO LOG: Weighted Average: $18.74371785643872  
+INFO LOG: Current Price: $2.31  
+INFO LOG: Slope is equal to -12.748713779538065  
+INFO LOG: Percentage Difference from average = -87.67587082940175%  
+INFO LOG: Percentage Difference from highest = -95.91128744425352%  
+INFO LOG: Percentage Difference from lowest = 2.4770762101757613e-06%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -192,11 +192,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $65.69999694824219  
 INFO LOG: Historic Low: $18.790000915527344  
 INFO LOG: Weighted Average: $33.82552121136641  
-INFO LOG: Current Price: $21.355  
+INFO LOG: Current Price: $21.3  
 INFO LOG: Slope is equal to -5.831995389632597  
-INFO LOG: Percentage Difference from average = -36.86719602468662%  
-INFO LOG: Percentage Difference from highest = -67.49619331516368%  
-INFO LOG: Percentage Difference from lowest = 13.650872589117538%  
+INFO LOG: Percentage Difference from average = -37.02979514520371%  
+INFO LOG: Percentage Difference from highest = -67.57990716988932%  
+INFO LOG: Percentage Difference from lowest = 13.358163715673314%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -221,12 +221,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $182.94000244140625  
 INFO LOG: Historic Low: $48.14500045776367  
-INFO LOG: Weighted Average: $115.56536719407993  
-INFO LOG: Current Price: $144.57  
-INFO LOG: Slope is equal to 5.330256892719918  
-INFO LOG: Percentage Difference from average = 25.098031971126634%  
-INFO LOG: Percentage Difference from highest = -20.974090920161522%  
-INFO LOG: Percentage Difference from lowest = 200.28040009435125%  
+INFO LOG: Weighted Average: $115.65111271435055  
+INFO LOG: Current Price: $144.87  
+INFO LOG: Slope is equal to 5.3287205841046275  
+INFO LOG: Percentage Difference from average = 25.26468323553262%  
+INFO LOG: Percentage Difference from highest = -20.81010272949989%  
+INFO LOG: Percentage Difference from lowest = 200.90351775381245%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -244,14 +244,14 @@ INFO LOG: Sector = Healthcare
 INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
 INFO LOG: Exchange= NMS  
 INFO LOG: Market= us_market  
-INFO LOG: Historic High: $89.76000213623047  
+INFO LOG: Historic High: $89.5199966430664  
 INFO LOG: Historic Low: $1.2100000381469727  
-INFO LOG: Weighted Average: $15.907746036532055  
-INFO LOG: Current Price: $1.27  
-INFO LOG: Slope is equal to -8.20424480891844  
-INFO LOG: Percentage Difference from average = -92.01646797048777%  
-INFO LOG: Percentage Difference from highest = -98.58511589820097%  
-INFO LOG: Percentage Difference from lowest = 4.958674376978777%  
+INFO LOG: Weighted Average: $15.811517888820736  
+INFO LOG: Current Price: $1.26  
+INFO LOG: Slope is equal to -8.263819339398962  
+INFO LOG: Percentage Difference from average = -92.03112560818172%  
+INFO LOG: Percentage Difference from highest = -98.59249324480666%  
+INFO LOG: Percentage Difference from lowest = 4.132228122041936%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -271,12 +271,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $85.6500015258789  
 INFO LOG: Historic Low: $27.049999237060547  
-INFO LOG: Weighted Average: $55.442837263541165  
-INFO LOG: Current Price: $33.15  
-INFO LOG: Slope is equal to 6.72034262364914  
-INFO LOG: Percentage Difference from average = -40.2086876571174%  
-INFO LOG: Percentage Difference from highest = -61.2959726685074%  
-INFO LOG: Percentage Difference from lowest = 22.55083524949601%  
+INFO LOG: Weighted Average: $55.44541055793002  
+INFO LOG: Current Price: $33.25  
+INFO LOG: Slope is equal to 6.712758270745041  
+INFO LOG: Percentage Difference from average = -40.03110507178947%  
+INFO LOG: Percentage Difference from highest = -61.17921843824649%  
+INFO LOG: Percentage Difference from lowest = 22.92052102702089%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -298,14 +298,14 @@ INFO LOG: Sector = Healthcare
 INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
 INFO LOG: Exchange= NCM  
 INFO LOG: Market= us_market  
-INFO LOG: Historic High: $20.799999237060547  
+INFO LOG: Historic High: $20.600000381469727  
 INFO LOG: Historic Low: $0.19099999964237213  
-INFO LOG: Weighted Average: $4.830754630011378  
-INFO LOG: Current Price: $0.1992  
-INFO LOG: Slope is equal to -32.89100923042346  
-INFO LOG: Percentage Difference from average = -95.87642065770724%  
-INFO LOG: Percentage Difference from highest = -99.04230765717973%  
-INFO LOG: Percentage Difference from lowest = 4.293193912555767%  
+INFO LOG: Weighted Average: $4.809603312651062  
+INFO LOG: Current Price: $0.2  
+INFO LOG: Slope is equal to -33.02713043688852  
+INFO LOG: Percentage Difference from average = -95.84165289736214%  
+INFO LOG: Percentage Difference from highest = -99.02912623157083%  
+INFO LOG: Percentage Difference from lowest = 4.7120420808792955%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -325,12 +325,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $384.3299865722656  
 INFO LOG: Historic Low: $137.10060119628906  
-INFO LOG: Weighted Average: $253.97250655218463  
-INFO LOG: Current Price: $162.62  
-INFO LOG: Slope is equal to 1.6281280595142782  
-INFO LOG: Percentage Difference from average = -35.96944716274401%  
-INFO LOG: Percentage Difference from highest = -57.687402575488974%  
-INFO LOG: Percentage Difference from lowest = 18.61363012345542%  
+INFO LOG: Weighted Average: $254.03976452571928  
+INFO LOG: Current Price: $162.88  
+INFO LOG: Slope is equal to 1.6227424422358618  
+INFO LOG: Percentage Difference from average = -35.88405330791832%  
+INFO LOG: Percentage Difference from highest = -57.619752376679656%  
+INFO LOG: Percentage Difference from lowest = 18.803271888503367%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -353,11 +353,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $171.08999633789062  
 INFO LOG: Historic Low: $8.729999542236328  
 INFO LOG: Weighted Average: $67.29337897124103  
-INFO LOG: Current Price: $8.965  
+INFO LOG: Current Price: $8.92  
 INFO LOG: Slope is equal to 0.14863872040879603  
-INFO LOG: Percentage Difference from average = -86.67773837923735%  
-INFO LOG: Percentage Difference from highest = -94.76006768841425%  
-INFO LOG: Percentage Difference from lowest = 2.6918725095771614%  
+INFO LOG: Percentage Difference from average = -86.7446097426433%  
+INFO LOG: Percentage Difference from highest = -94.78636963532128%  
+INFO LOG: Percentage Difference from lowest = 2.176408565022675%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -378,11 +378,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $219.94000244140625  
 INFO LOG: Historic Low: $86.70999908447266  
 INFO LOG: Weighted Average: $158.7011362455356  
-INFO LOG: Current Price: $94.71  
+INFO LOG: Current Price: $95.1  
 INFO LOG: Slope is equal to -2.1433747329032884  
-INFO LOG: Percentage Difference from average = -40.32178833712398%  
-INFO LOG: Percentage Difference from highest = -56.938256365968954%  
-INFO LOG: Percentage Difference from lowest = 9.226157305957019%  
+INFO LOG: Percentage Difference from average = -40.076043404714284%  
+INFO LOG: Percentage Difference from highest = -56.76093528036793%  
+INFO LOG: Percentage Difference from lowest = 9.675932423149746%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -409,12 +409,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $64.69999694824219  
 INFO LOG: Historic Low: $18.6200008392334  
-INFO LOG: Weighted Average: $40.71358459210278  
-INFO LOG: Current Price: $20.5011  
-INFO LOG: Slope is equal to -6.941628612895979  
-INFO LOG: Percentage Difference from average = -49.645553921634786%  
-INFO LOG: Percentage Difference from highest = -68.31359974189769%  
-INFO LOG: Percentage Difference from lowest = 10.102572910754224%  
+INFO LOG: Weighted Average: $40.71129795099728  
+INFO LOG: Current Price: $20.52  
+INFO LOG: Slope is equal to -6.935358631415232  
+INFO LOG: Percentage Difference from average = -49.59630119211826%  
+INFO LOG: Percentage Difference from highest = -68.28438799399743%  
+INFO LOG: Percentage Difference from lowest = 10.204076665577775%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -441,13 +441,13 @@ INFO LOG: Industry = Biotechnology
 INFO LOG: Exchange= NCM  
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $390.3999938964844  
-INFO LOG: Historic Low: $1.5299999713897705  
-INFO LOG: Weighted Average: $38.98403441133333  
-INFO LOG: Current Price: $1.5483  
-INFO LOG: Slope is equal to -3.045529782551982  
-INFO LOG: Percentage Difference from average = -96.02837411935518%  
-INFO LOG: Percentage Difference from highest = -99.60340675609474%  
-INFO LOG: Percentage Difference from lowest = 1.1960803236882893%  
+INFO LOG: Historic Low: $1.5199999809265137  
+INFO LOG: Weighted Average: $38.544013248689986  
+INFO LOG: Current Price: $1.52  
+INFO LOG: Slope is equal to -3.1889595602638168  
+INFO LOG: Percentage Difference from average = -96.05645631607482%  
+INFO LOG: Percentage Difference from highest = -99.61065573161791%  
+INFO LOG: Percentage Difference from lowest = 1.2548346437650842e-06%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -468,11 +468,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $74.37999725341797  
 INFO LOG: Historic Low: $9.760000228881836  
 INFO LOG: Weighted Average: $34.151936211822736  
-INFO LOG: Current Price: $11.4055  
+INFO LOG: Current Price: $11.43  
 INFO LOG: Slope is equal to 2.1067432163811186  
-INFO LOG: Percentage Difference from average = -66.6036504365113%  
-INFO LOG: Percentage Difference from highest = -84.6659042468896%  
-INFO LOG: Percentage Difference from lowest = 16.85962840706493%  
+INFO LOG: Percentage Difference from average = -66.53191219055054%  
+INFO LOG: Percentage Difference from highest = -84.6329652835867%  
+INFO LOG: Percentage Difference from lowest = 17.110652991342082%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -493,12 +493,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $6.949999809265137  
 INFO LOG: Historic Low: $0.8999999761581421  
-INFO LOG: Weighted Average: $2.2984999981979826  
-INFO LOG: Current Price: $1.025  
-INFO LOG: Slope is equal to -89.19093668124188  
-INFO LOG: Percentage Difference from average = -55.40569933419199%  
-INFO LOG: Percentage Difference from highest = -85.25179815640341%  
-INFO LOG: Percentage Difference from lowest = 13.888891905914189%  
+INFO LOG: Weighted Average: $2.2926966871646837  
+INFO LOG: Current Price: $1.02  
+INFO LOG: Slope is equal to -89.22394873813276  
+INFO LOG: Percentage Difference from average = -55.51090531467524%  
+INFO LOG: Percentage Difference from highest = -85.32374060442096%  
+INFO LOG: Percentage Difference from lowest = 13.33333633564145%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -520,11 +520,11 @@ INFO LOG: Market= us_market
 INFO LOG: Historic High: $57.0  
 INFO LOG: Historic Low: $5.690000057220459  
 INFO LOG: Weighted Average: $23.760426539641163  
-INFO LOG: Current Price: $6.025  
+INFO LOG: Current Price: $6.03  
 INFO LOG: Slope is equal to -5.495088522176198  
-INFO LOG: Percentage Difference from average = -74.64271110643541%  
-INFO LOG: Percentage Difference from highest = -89.42982456140352%  
-INFO LOG: Percentage Difference from lowest = 5.8875209035267995%  
+INFO LOG: Percentage Difference from average = -74.62166771316274%  
+INFO LOG: Percentage Difference from highest = -89.42105263157895%  
+INFO LOG: Percentage Difference from lowest = 5.975394364857525%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -544,12 +544,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $93.98999786376953  
 INFO LOG: Historic Low: $4.414999961853027  
-INFO LOG: Weighted Average: $16.49982985883004  
-INFO LOG: Current Price: $5.165  
-INFO LOG: Slope is equal to -4.476120242541413  
-INFO LOG: Percentage Difference from average = -68.6966469097504%  
-INFO LOG: Percentage Difference from highest = -94.50473442133041%  
-INFO LOG: Percentage Difference from lowest = 16.98754347966492%  
+INFO LOG: Weighted Average: $16.508652337700365  
+INFO LOG: Current Price: $5.14  
+INFO LOG: Slope is equal to -4.4976094265343685  
+INFO LOG: Percentage Difference from average = -68.86481164630307%  
+INFO LOG: Percentage Difference from highest = -94.53133299625136%  
+INFO LOG: Percentage Difference from lowest = 16.421292059143784%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -572,12 +572,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $794.0  
 INFO LOG: Historic Low: $6.639999866485596  
-INFO LOG: Weighted Average: $125.00980159466847  
-INFO LOG: Current Price: $6.679  
-INFO LOG: Slope is equal to -0.8692465035410611  
-INFO LOG: Percentage Difference from average = -94.65721894219465%  
-INFO LOG: Percentage Difference from highest = -99.1588161209068%  
-INFO LOG: Percentage Difference from lowest = 0.5873514201596884%  
+INFO LOG: Weighted Average: $124.91709934512515  
+INFO LOG: Current Price: $6.67  
+INFO LOG: Slope is equal to -0.8661097919523775  
+INFO LOG: Percentage Difference from average = -94.66045878829455%  
+INFO LOG: Percentage Difference from highest = -99.15994962216625%  
+INFO LOG: Percentage Difference from lowest = 0.45180924875955797%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -618,12 +618,12 @@ INFO LOG: Exchange= PNK
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $11.270000457763672  
 INFO LOG: Historic Low: $0.9700000286102295  
-INFO LOG: Weighted Average: $3.710145508170753  
-INFO LOG: Current Price: $1.085  
-INFO LOG: Slope is equal to -58.58963649990803  
-INFO LOG: Percentage Difference from average = -70.75586395168239%  
-INFO LOG: Percentage Difference from highest = -90.37267119849524%  
-INFO LOG: Percentage Difference from lowest = 11.85566680390072%  
+INFO LOG: Weighted Average: $3.7008476882580874  
+INFO LOG: Current Price: $1.08  
+INFO LOG: Slope is equal to -58.619390157590956  
+INFO LOG: Percentage Difference from average = -70.81749666632906%  
+INFO LOG: Percentage Difference from highest = -90.41703676900909%  
+INFO LOG: Percentage Difference from lowest = 11.340202901578609%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -686,10 +686,10 @@ INFO LOG: Exchange= NYQ
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $62.290000915527344  
 INFO LOG: Historic Low: $2.318000078201294  
-INFO LOG: Weighted Average: $16.3704029860296  
+INFO LOG: Weighted Average: $16.382319294564095  
 INFO LOG: Current Price: $2.56  
-INFO LOG: Slope is equal to 3.153305964594825  
-INFO LOG: Percentage Difference from average = -84.36202210669651%  
+INFO LOG: Slope is equal to 3.1204521314021223  
+INFO LOG: Percentage Difference from average = -84.37339698995217%  
 INFO LOG: Percentage Difference from highest = -95.89019110230602%  
 INFO LOG: Percentage Difference from lowest = 10.440030786646547%  
 INFO LOG: ===================================================  
@@ -715,10 +715,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $700.989990234375  
 INFO LOG: Historic Low: $162.7100067138672  
-INFO LOG: Weighted Average: $437.57956297940007  
+INFO LOG: Weighted Average: $437.65437033950093  
 INFO LOG: Current Price: $177.34  
-INFO LOG: Slope is equal to 0.41269278489272826  
-INFO LOG: Percentage Difference from average = -59.47251311452389%  
+INFO LOG: Slope is equal to 0.4109362230124759  
+INFO LOG: Percentage Difference from average = -59.479440394384184%  
 INFO LOG: Percentage Difference from highest = -74.70149324946756%  
 INFO LOG: Percentage Difference from lowest = 8.991452696489844%  
 INFO LOG: ===================================================  
@@ -741,10 +741,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $310.1600036621094  
 INFO LOG: Historic Low: $67.58000183105469  
-INFO LOG: Weighted Average: $174.66604102603992  
+INFO LOG: Weighted Average: $174.73822121525467  
 INFO LOG: Current Price: $70.47  
-INFO LOG: Slope is equal to 0.8750224152628618  
-INFO LOG: Percentage Difference from average = -59.654435638411215%  
+INFO LOG: Slope is equal to 0.8700043971104778  
+INFO LOG: Percentage Difference from average = -59.67110142823867%  
 INFO LOG: Percentage Difference from highest = -77.27946892960108%  
 INFO LOG: Percentage Difference from lowest = 4.276410314652116%  
 INFO LOG: ===================================================  
@@ -804,10 +804,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $362.07000732421875  
 INFO LOG: Historic Low: $53.119998931884766  
-INFO LOG: Weighted Average: $189.6642303618173  
+INFO LOG: Weighted Average: $189.72105716427419  
 INFO LOG: Current Price: $64.08  
-INFO LOG: Slope is equal to -0.12914092225007473  
-INFO LOG: Percentage Difference from average = -66.21397725983633%  
+INFO LOG: Slope is equal to -0.13291041724688246  
+INFO LOG: Percentage Difference from average = -66.22409712564752%  
 INFO LOG: Percentage Difference from highest = -82.30176521011336%  
 INFO LOG: Percentage Difference from lowest = 20.632532546111552%  
 INFO LOG: ===================================================  
