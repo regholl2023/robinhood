@@ -99,6 +99,7 @@ ERROR LOG: Unable to get stock data from csv file. Skipping!!!
 INFO LOG: Processing XOM.csv  
 INFO LOG: Processing HEXO.csv  
 INFO LOG: Processing FB.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing VTI.csv  
 INFO LOG: Processing TLRY.csv  
 INFO LOG: Processing PTON.csv  
