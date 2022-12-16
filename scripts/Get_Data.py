@@ -90,7 +90,7 @@ def main(argv):
             i_stock_list = stock_constants.i_big_list_stocks
 
         elif argv[i] == '--top_100':
-            i_stock_list = stock_constants.i_interesting_stocks
+            i_stock_list = stock_constants.i_interesting_stocks_by_symbol
         else:
             i_stock_list = stock_constants.i_short_list
 
