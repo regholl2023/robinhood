@@ -95,4 +95,15 @@ INFO LOG: Processing CPRX.csv
 INFO LOG: Processing NFLX.csv  
 INFO LOG: Processing PYPL.csv  
 INFO LOG: Processing BAC.csv  
-('Connection aborted.', TimeoutError(110, 'Connection timed out'))
+INFO LOG: Processing CRM.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
