@@ -76,34 +76,4 @@ INFO LOG: Processing SOFI.csv
 INFO LOG: Processing QQQ.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
-INFO LOG: Processing UAL.csv  
-INFO LOG: Processing NVDA.csv  
-INFO LOG: Processing WMT.csv  
-INFO LOG: Processing MSFT.csv  
-INFO LOG: Processing PSEC.csv  
-INFO LOG: Processing PLTR.csv  
-INFO LOG: Processing BRK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BB.csv  
-INFO LOG: Processing VWO.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SIRI.csv  
-INFO LOG: Processing KO.csv  
-INFO LOG: Processing FUBO.csv  
-INFO LOG: Processing SONY.csv  
-INFO LOG: Processing CPRX.csv  
-INFO LOG: Processing NFLX.csv  
-INFO LOG: Processing PYPL.csv  
-INFO LOG: Processing BAC.csv  
-INFO LOG: Processing CRM.csv  
-INFO LOG: Processing NOK.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing RCL.csv  
-INFO LOG: Processing OCGN.csv  
-INFO LOG: Processing AAL.csv  
-INFO LOG: Processing WKHS.csv  
-INFO LOG: Processing COST.csv  
-INFO LOG: Processing NKE.csv  
-INFO LOG: Processing GM.csv  
-INFO LOG: Processing RIOT.csv  
-INFO LOG: Processing GOOG.csv  
+HTTPSConnectionPool(host='finance.yahoo.com', port=443): Max retries exceeded with url: /quote/JNJ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5aec069278>: Failed to establish a new connection: [Errno -2] Name or service not known',))
