@@ -46,25 +46,4 @@ INFO LOG: Processing IVR.csv
 INFO LOG: Processing MRO.csv  
 INFO LOG: Processing META.csv  
 INFO LOG: Processing LUV.csv  
-INFO LOG: Processing AMC.csv  
-INFO LOG: Processing BABA.csv  
-INFO LOG: Processing DKNG.csv  
-INFO LOG: Processing NCLH.csv  
-INFO LOG: Processing DWAC.csv  
-INFO LOG: Processing NKLA.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing RBLX.csv  
-INFO LOG: Processing BND.csv  
-INFO LOG: Processing DAL.csv  
-INFO LOG: Processing SPCE.csv  
-INFO LOG: Processing INTC.csv  
-INFO LOG: Processing VOO.csv  
-INFO LOG: Processing TSM.csv  
-INFO LOG: Processing PLUG.csv  
-INFO LOG: Processing CLOV.csv  
-INFO LOG: Processing WISH.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SQ.csv  
-INFO LOG: Processing AMD.csv  
-INFO LOG: Processing ET.csv  
 ('Connection aborted.', TimeoutError(110, 'Connection timed out'))
