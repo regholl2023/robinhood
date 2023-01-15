@@ -239,7 +239,6 @@ INFO LOG: ===================================================
 INFO LOG: Processing SBUX.csv  
 INFO LOG: Processing RYCEY.csv  
 INFO LOG: Processing SOFI.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing QQQ.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
