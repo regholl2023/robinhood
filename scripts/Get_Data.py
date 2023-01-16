@@ -67,7 +67,9 @@ def main(argv):
                     # It is possible that the listed company no longer exists now.
                     # Therefore check it attributes and then skip it if needed
                     ticker_object = yf.Ticker(r[j]['symbol'])
-                    if (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
+                    if ticker_object.info is None:
+                        continue
+                    elif (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
                             or ('exchange' not in ticker_object.info)):
                         continue
                     else:
