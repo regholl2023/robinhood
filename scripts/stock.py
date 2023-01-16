@@ -48,6 +48,11 @@ class STOCK:
         try:
             self.ticker_object = yf.Ticker(i_name)
 
+            # No need to process any data if there is no information on this stock
+            if self.ticker_object.info is None:
+                self.simlog.error("Unable to get the ticker_object.info. Skipping!!!")
+                return
+
             if 'shortName' in self.ticker_object.info:
                 self.shortName = self.ticker_object.info['shortName']
                 self.simlog.debug("shortName is " + str(self.shortName))
