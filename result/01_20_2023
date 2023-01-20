@@ -252,4 +252,144 @@ INFO LOG: Processing VOO.csv
 INFO LOG: Processing TSM.csv  
 INFO LOG: Processing PLUG.csv  
 INFO LOG: Processing CLOV.csv  
-HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=30)
+INFO LOG: Processing WISH.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SQ.csv  
+INFO LOG: Processing AMD.csv  
+INFO LOG: Processing ET.csv  
+INFO LOG: Processing FCEL.csv  
+INFO LOG: Processing NIO.csv  
+INFO LOG: Processing ZM.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange= NMS  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $63.54999923706055  
+INFO LOG: Weighted Average: $228.05555048947633  
+INFO LOG: Current Price: $66.835  
+INFO LOG: Slope is equal to -0.8028089490820516  
+INFO LOG: Percentage Difference from average = -70.69354380695763%  
+INFO LOG: Percentage Difference from highest = -88.64971860746064%  
+INFO LOG: Percentage Difference from lowest = 5.169159405786001%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SBUX.csv  
+INFO LOG: Processing RYCEY.csv  
+INFO LOG: Processing SOFI.csv  
+INFO LOG: Processing QQQ.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing JNJ.csv  
+INFO LOG: Processing UAL.csv  
+INFO LOG: Processing NVDA.csv  
+INFO LOG: Processing WMT.csv  
+INFO LOG: Processing MSFT.csv  
+INFO LOG: Processing PSEC.csv  
+INFO LOG: Processing PLTR.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Palantir Technologies Inc.(PLTR)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Infrastructure  
+INFO LOG: Exchange= NYQ  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $45.0  
+INFO LOG: Historic Low: $5.920000076293945  
+INFO LOG: Weighted Average: $16.971110375996307  
+INFO LOG: Current Price: $6.73  
+INFO LOG: Slope is equal to -15.08687509292198  
+INFO LOG: Percentage Difference from average = -60.34437434619001%  
+INFO LOG: Percentage Difference from highest = -85.04444444444444%  
+INFO LOG: Percentage Difference from lowest = 13.682430967351161%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BRK.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing BB.csv  
+INFO LOG: Processing VWO.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SIRI.csv  
+INFO LOG: Processing KO.csv  
+INFO LOG: Processing FUBO.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Broadcasting  
+INFO LOG: Exchange= NYQ  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $62.290000915527344  
+INFO LOG: Historic Low: $1.6100000143051147  
+INFO LOG: Weighted Average: $15.06697486396191  
+INFO LOG: Current Price: $1.97  
+INFO LOG: Slope is equal to -5.753127630309535  
+INFO LOG: Percentage Difference from average = -86.92504621672951%  
+INFO LOG: Percentage Difference from highest = -96.83737362169643%  
+INFO LOG: Percentage Difference from lowest = 22.36024736001405%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SONY.csv  
+INFO LOG: Processing CPRX.csv  
+INFO LOG: Processing NFLX.csv  
+INFO LOG: Processing PYPL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $170.59902119510403  
+INFO LOG: Current Price: $76.75  
+INFO LOG: Slope is equal to -1.1131462373864134  
+INFO LOG: Percentage Difference from average = -55.01146521103099%  
+INFO LOG: Percentage Difference from highest = -75.25470754004374%  
+INFO LOG: Percentage Difference from lowest = 15.61346317726892%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+INFO LOG: Processing CRM.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
