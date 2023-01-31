@@ -27,12 +27,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.390000104904175  
-INFO LOG: Weighted Average: $5.606830673873737  
-INFO LOG: Current Price: $2.4649999141693115  
-INFO LOG: Slope is equal to -56.842590311487164  
-INFO LOG: Percentage Difference from average = -56.03577033892745%  
-INFO LOG: Percentage Difference from highest = -84.4283011620368%  
-INFO LOG: Percentage Difference from lowest = 3.138067195530261%  
+INFO LOG: Weighted Average: $5.606804218872512  
+INFO LOG: Current Price: $2.490000009536743  
+INFO LOG: Slope is equal to -56.842566067523805  
+INFO LOG: Percentage Difference from average = -55.589674396773134%  
+INFO LOG: Percentage Difference from highest = -84.27037257398928%  
+INFO LOG: Percentage Difference from lowest = 4.184096244488566%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -93,12 +93,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $48.95188490549729  
-INFO LOG: Current Price: $27.7450008392334  
-INFO LOG: Slope is equal to -15.836076571637772  
-INFO LOG: Percentage Difference from average = -43.32189476912739%  
-INFO LOG: Percentage Difference from highest = -59.490434071235086%  
-INFO LOG: Percentage Difference from lowest = 12.830421582219756%  
+INFO LOG: Weighted Average: $48.95197088503969  
+INFO LOG: Current Price: $28.065000534057617  
+INFO LOG: Slope is equal to -15.836942898497675  
+INFO LOG: Percentage Difference from average = -42.66829296829269%  
+INFO LOG: Percentage Difference from highest = -59.02321301005077%  
+INFO LOG: Percentage Difference from lowest = 14.131762342034845%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -129,12 +129,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $588.8400268554688  
 INFO LOG: Historic Low: $63.54999923706055  
-INFO LOG: Weighted Average: $228.01774625425006  
-INFO LOG: Current Price: $74.23999786376953  
-INFO LOG: Slope is equal to -0.8752180590141299  
-INFO LOG: Percentage Difference from average = -67.4411316297335%  
-INFO LOG: Percentage Difference from highest = -87.39216179643444%  
-INFO LOG: Percentage Difference from lowest = 16.821398513054397%  
+INFO LOG: Weighted Average: $228.01828858713645  
+INFO LOG: Current Price: $74.22000122070312  
+INFO LOG: Slope is equal to -0.8752155864606069  
+INFO LOG: Percentage Difference from average = -67.44997882380817%  
+INFO LOG: Percentage Difference from highest = -87.39555773457627%  
+INFO LOG: Percentage Difference from lowest = 16.789932512572143%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -177,12 +177,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $310.1600036621094  
 INFO LOG: Historic Low: $66.38500213623047  
-INFO LOG: Weighted Average: $170.21218521885154  
-INFO LOG: Current Price: $80.55000305175781  
-INFO LOG: Slope is equal to -1.207883242923346  
-INFO LOG: Percentage Difference from average = -52.67671174764013%  
-INFO LOG: Percentage Difference from highest = -74.029532466891%  
-INFO LOG: Percentage Difference from lowest = 21.337652270401318%  
+INFO LOG: Weighted Average: $170.21063759213416  
+INFO LOG: Current Price: $81.0999984741211  
+INFO LOG: Slope is equal to -1.2078655255230928  
+INFO LOG: Percentage Difference from average = -52.353155113338865%  
+INFO LOG: Percentage Difference from highest = -73.85220611408296%  
+INFO LOG: Percentage Difference from lowest = 22.16614576240215%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
