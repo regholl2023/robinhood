@@ -1,207 +1,253 @@
 INFO LOG: Processing GOOGL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing AMZN.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Amazon.com, Inc.(AMZN)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $188.6540069580078  
+INFO LOG: Historic Low: $81.30149841308594  
+INFO LOG: Weighted Average: $142.60502182916312  
+INFO LOG: Current Price: $100.55000305175781  
+INFO LOG: Slope is equal to -1.7134818237802434  
+INFO LOG: Percentage Difference from average = -29.490559475378124%  
+INFO LOG: Percentage Difference from highest = -46.70136899125653%  
+INFO LOG: Percentage Difference from lowest = 23.67546111004237%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing TSLA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing JBLU.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing TGT.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing ARKK.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing QS.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing GE.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SPY.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing BA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing MRNA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing T.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing LCID.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing COIN.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing BNGO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PFE.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing CRON.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $2.390000104904175  
+INFO LOG: Weighted Average: $5.610998661470726  
+INFO LOG: Current Price: $2.440000057220459  
+INFO LOG: Slope is equal to -56.70614692359103  
+INFO LOG: Percentage Difference from average = -56.51397898247049%  
+INFO LOG: Percentage Difference from highest = -84.58622824396568%  
+INFO LOG: Percentage Difference from lowest = 2.092048122244283%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing CCL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing UBER.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing DIS.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing CHPT.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing CGC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing RIVN.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing RITM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing GME.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing AAPL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing JPM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SNAP.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing V.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing XOM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing O.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing VTI.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing TLRY.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SHOP.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing HOOD.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PTON.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing ABNB.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SPHD.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing F.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SNDL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing IVR.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing MRO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing META.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing LUV.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing AMC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing BABA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing DKNG.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NCLH.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing DWAC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NKLA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $2.009999990463257  
+INFO LOG: Weighted Average: $15.070549653855409  
+INFO LOG: Current Price: $2.509999990463257  
+INFO LOG: Slope is equal to -10.04012325103666  
+INFO LOG: Percentage Difference from average = -83.34500036087842%  
+INFO LOG: Percentage Difference from highest = -97.32950308808253%  
+INFO LOG: Percentage Difference from lowest = 24.87562200857334%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RBLX.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing BND.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing DAL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SPCE.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing INTC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $48.980013229673354  
+INFO LOG: Current Price: $27.950000762939453  
+INFO LOG: Slope is equal to -15.827879362320086  
+INFO LOG: Percentage Difference from average = -42.93590605645933%  
+INFO LOG: Percentage Difference from highest = -59.19112040486031%  
+INFO LOG: Percentage Difference from lowest = 13.664093491263971%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing VOO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing TSM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PLUG.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing CLOV.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing WISH.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SQ.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing AMD.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing ET.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing FCEL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NIO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing ZM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $63.54999923706055  
+INFO LOG: Weighted Average: $228.22294857201985  
+INFO LOG: Current Price: $73.5  
+INFO LOG: Slope is equal to -0.8723537348322347  
+INFO LOG: Percentage Difference from average = -67.79464972305107%  
+INFO LOG: Percentage Difference from highest = -87.5178322383236%  
+INFO LOG: Percentage Difference from lowest = 15.656964409744473%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing SBUX.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing RYCEY.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SOFI.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing QQQ.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing UAL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NVDA.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing WMT.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing MSFT.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PSEC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PLTR.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing BRK.csv  
 ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing BB.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing VWO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SIRI.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing KO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing FUBO.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing SONY.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing CPRX.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NFLX.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing PYPL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $170.33051923537113  
+INFO LOG: Current Price: $79.63999938964844  
+INFO LOG: Slope is equal to -1.202038556181695  
+INFO LOG: Percentage Difference from average = -53.243846289461516%  
+INFO LOG: Percentage Difference from highest = -74.3229306005526%  
+INFO LOG: Percentage Difference from lowest = 19.966855203554907%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing BAC.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing CRM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NOK.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RCL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing OCGN.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing AAL.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing WKHS.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing COST.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing NKE.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing GM.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing RIOT.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
 INFO LOG: Processing GOOG.csv  
-ERROR LOG: Unable to get the regularMarketPrice. Skipping!!!  
