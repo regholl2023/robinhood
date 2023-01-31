@@ -77,11 +77,11 @@ class STOCK:
                 self.exchange = self.ticker_object.info['exchange']
                 self.simlog.debug("exchange is " + str(self.exchange))
 
-            if 'regularMarketPrice' not in self.ticker_object.info:
+            if 'last_price' not in self.ticker_object.fast_info:
                 self.simlog.error("Unable to get the regularMarketPrice. Skipping!!!")
                 return
             else:
-                self.regularMarketPrice = self.ticker_object.info['regularMarketPrice']
+                self.regularMarketPrice = self.ticker_object.fast_info['last_price']
                 self.simlog.debug("regularMarketPrice is " + str(self.regularMarketPrice))
 
         except Exception as e:
