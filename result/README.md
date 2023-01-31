@@ -245,9 +245,4 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing RCL.csv  
 INFO LOG: Processing OCGN.csv  
 INFO LOG: Processing AAL.csv  
-INFO LOG: Processing WKHS.csv  
-INFO LOG: Processing COST.csv  
-INFO LOG: Processing NKE.csv  
-INFO LOG: Processing GM.csv  
-INFO LOG: Processing RIOT.csv  
-INFO LOG: Processing GOOG.csv  
+Expecting value: line 1 column 1 (char 0)
