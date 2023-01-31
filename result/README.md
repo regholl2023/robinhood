@@ -1,29 +1,5 @@
 INFO LOG: Processing GOOGL.csv  
 INFO LOG: Processing AMZN.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Amazon.com, Inc.(AMZN)  
-INFO LOG: Sector = Consumer Cyclical  
-INFO LOG: Industry = Internet Retail  
-INFO LOG: Exchange=   
-INFO LOG: Market= us_market  
-INFO LOG: Historic High: $188.6540069580078  
-INFO LOG: Historic Low: $81.30149841308594  
-INFO LOG: Weighted Average: $142.60502182916312  
-INFO LOG: Current Price: $100.55000305175781  
-INFO LOG: Slope is equal to -1.7134818237802434  
-INFO LOG: Percentage Difference from average = -29.490559475378124%  
-INFO LOG: Percentage Difference from highest = -46.70136899125653%  
-INFO LOG: Percentage Difference from lowest = 23.67546111004237%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
 INFO LOG: Processing TSLA.csv  
 INFO LOG: Processing JBLU.csv  
 INFO LOG: Processing TGT.csv  
@@ -51,12 +27,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.390000104904175  
-INFO LOG: Weighted Average: $5.610998661470726  
-INFO LOG: Current Price: $2.440000057220459  
-INFO LOG: Slope is equal to -56.70614692359103  
-INFO LOG: Percentage Difference from average = -56.51397898247049%  
-INFO LOG: Percentage Difference from highest = -84.58622824396568%  
-INFO LOG: Percentage Difference from lowest = 2.092048122244283%  
+INFO LOG: Weighted Average: $5.606830673873737  
+INFO LOG: Current Price: $2.4649999141693115  
+INFO LOG: Slope is equal to -56.842590311487164  
+INFO LOG: Percentage Difference from average = -56.03577033892745%  
+INFO LOG: Percentage Difference from highest = -84.4283011620368%  
+INFO LOG: Percentage Difference from lowest = 3.138067195530261%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -100,30 +76,6 @@ INFO LOG: Processing DKNG.csv
 INFO LOG: Processing NCLH.csv  
 INFO LOG: Processing DWAC.csv  
 INFO LOG: Processing NKLA.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
-INFO LOG: Sector = Industrials  
-INFO LOG: Industry = Farm & Heavy Construction Machinery  
-INFO LOG: Exchange=   
-INFO LOG: Market= us_market  
-INFO LOG: Historic High: $93.98999786376953  
-INFO LOG: Historic Low: $2.009999990463257  
-INFO LOG: Weighted Average: $15.070549653855409  
-INFO LOG: Current Price: $2.509999990463257  
-INFO LOG: Slope is equal to -10.04012325103666  
-INFO LOG: Percentage Difference from average = -83.34500036087842%  
-INFO LOG: Percentage Difference from highest = -97.32950308808253%  
-INFO LOG: Percentage Difference from lowest = 24.87562200857334%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RBLX.csv  
 INFO LOG: Processing BND.csv  
@@ -141,12 +93,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $48.980013229673354  
-INFO LOG: Current Price: $27.950000762939453  
-INFO LOG: Slope is equal to -15.827879362320086  
-INFO LOG: Percentage Difference from average = -42.93590605645933%  
-INFO LOG: Percentage Difference from highest = -59.19112040486031%  
-INFO LOG: Percentage Difference from lowest = 13.664093491263971%  
+INFO LOG: Weighted Average: $48.95188490549729  
+INFO LOG: Current Price: $27.7450008392334  
+INFO LOG: Slope is equal to -15.836076571637772  
+INFO LOG: Percentage Difference from average = -43.32189476912739%  
+INFO LOG: Percentage Difference from highest = -59.490434071235086%  
+INFO LOG: Percentage Difference from lowest = 12.830421582219756%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -177,12 +129,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $588.8400268554688  
 INFO LOG: Historic Low: $63.54999923706055  
-INFO LOG: Weighted Average: $228.22294857201985  
-INFO LOG: Current Price: $73.5  
-INFO LOG: Slope is equal to -0.8723537348322347  
-INFO LOG: Percentage Difference from average = -67.79464972305107%  
-INFO LOG: Percentage Difference from highest = -87.5178322383236%  
-INFO LOG: Percentage Difference from lowest = 15.656964409744473%  
+INFO LOG: Weighted Average: $228.01774625425006  
+INFO LOG: Current Price: $74.23999786376953  
+INFO LOG: Slope is equal to -0.8752180590141299  
+INFO LOG: Percentage Difference from average = -67.4411316297335%  
+INFO LOG: Percentage Difference from highest = -87.39216179643444%  
+INFO LOG: Percentage Difference from lowest = 16.821398513054397%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -225,12 +177,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $310.1600036621094  
 INFO LOG: Historic Low: $66.38500213623047  
-INFO LOG: Weighted Average: $170.33051923537113  
-INFO LOG: Current Price: $79.63999938964844  
-INFO LOG: Slope is equal to -1.202038556181695  
-INFO LOG: Percentage Difference from average = -53.243846289461516%  
-INFO LOG: Percentage Difference from highest = -74.3229306005526%  
-INFO LOG: Percentage Difference from lowest = 19.966855203554907%  
+INFO LOG: Weighted Average: $170.21218521885154  
+INFO LOG: Current Price: $80.55000305175781  
+INFO LOG: Slope is equal to -1.207883242923346  
+INFO LOG: Percentage Difference from average = -52.67671174764013%  
+INFO LOG: Percentage Difference from highest = -74.029532466891%  
+INFO LOG: Percentage Difference from lowest = 21.337652270401318%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -245,4 +197,9 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing RCL.csv  
 INFO LOG: Processing OCGN.csv  
 INFO LOG: Processing AAL.csv  
-Expecting value: line 1 column 1 (char 0)
+INFO LOG: Processing WKHS.csv  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
