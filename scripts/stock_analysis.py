@@ -87,7 +87,7 @@ def main(argv):
         if i_count == 10:
             i_count = 0
             simlog.info("Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'")
-            time.sleep(60)
+            time.sleep(100)
 
 
 if __name__ == "__main__":

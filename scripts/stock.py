@@ -46,6 +46,7 @@ class STOCK:
         self.longName = ''
 
         try:
+            time.sleep(1)
             self.ticker_object = yf.Ticker(i_name)
 
             # No need to process any data if there is no information on this stock
