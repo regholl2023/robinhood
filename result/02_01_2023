@@ -149,7 +149,6 @@ INFO LOG: Processing QQQ.csv
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
 INFO LOG: Processing UAL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing NVDA.csv  
 INFO LOG: Processing WMT.csv  
 INFO LOG: Processing MSFT.csv  
@@ -204,4 +203,3 @@ INFO LOG: Processing NKE.csv
 INFO LOG: Processing GM.csv  
 INFO LOG: Processing RIOT.csv  
 INFO LOG: Processing GOOG.csv  
-'currentTradingPeriod'
