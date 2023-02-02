@@ -27,12 +27,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.390000104904175  
-INFO LOG: Weighted Average: $5.600322737264882  
-INFO LOG: Current Price: $2.509999990463257  
-INFO LOG: Slope is equal to -56.877253402500244  
-INFO LOG: Percentage Difference from average = -55.18115458308203%  
-INFO LOG: Percentage Difference from highest = -84.14403030599873%  
-INFO LOG: Percentage Difference from lowest = 5.020915493386279%  
+INFO LOG: Weighted Average: $5.596227198642341  
+INFO LOG: Current Price: $2.6050000190734863  
+INFO LOG: Slope is equal to -57.01283650885429  
+INFO LOG: Percentage Difference from average = -53.45078163185608%  
+INFO LOG: Percentage Difference from highest = -83.54390377998426%  
+INFO LOG: Percentage Difference from lowest = 8.99581191348658%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -69,4 +69,43 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing IVR.csv  
 INFO LOG: Processing MRO.csv  
 INFO LOG: Processing META.csv  
-HTTPSConnectionPool(host='finance.yahoo.com', port=443): Read timed out. (read timeout=30)
+INFO LOG: Processing LUV.csv  
+INFO LOG: Processing AMC.csv  
+INFO LOG: Processing BABA.csv  
+INFO LOG: Processing DKNG.csv  
+INFO LOG: Processing NCLH.csv  
+INFO LOG: Processing DWAC.csv  
+INFO LOG: Processing NKLA.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RBLX.csv  
+INFO LOG: Processing BND.csv  
+INFO LOG: Processing DAL.csv  
+INFO LOG: Processing SPCE.csv  
+INFO LOG: Processing INTC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange=   
+INFO LOG: Market= us_market  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $48.8740686721499  
+INFO LOG: Current Price: $29.014999389648438  
+INFO LOG: Slope is equal to -15.842241295736686  
+INFO LOG: Percentage Difference from average = -40.63314109516287%  
+INFO LOG: Percentage Difference from highest = -57.63615083276699%  
+INFO LOG: Percentage Difference from lowest = 17.995116753160545%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing VOO.csv  
+INFO LOG: Processing TSM.csv  
+HTTPSConnectionPool(host='query1.finance.yahoo.com', port=443): Read timed out. (read timeout=30)
