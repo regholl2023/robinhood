@@ -27,12 +27,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.390000104904175  
-INFO LOG: Weighted Average: $5.59216885138941  
-INFO LOG: Current Price: $2.5625  
+INFO LOG: Weighted Average: $5.592195236588521  
+INFO LOG: Current Price: $2.515000104904175  
 INFO LOG: Slope is equal to -57.14822399344646  
-INFO LOG: Percentage Difference from average = -54.17699164496204%  
-INFO LOG: Percentage Difference from highest = -83.81238147599386%  
-INFO LOG: Percentage Difference from lowest = 7.217568515660858%  
+INFO LOG: Percentage Difference from average = -55.026604070453864%  
+INFO LOG: Percentage Difference from highest = -84.11244398594177%  
+INFO LOG: Percentage Difference from lowest = 5.230125293446871%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -93,12 +93,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $48.849973595551276  
-INFO LOG: Current Price: $30.309999465942383  
-INFO LOG: Slope is equal to -15.859982910637026  
-INFO LOG: Percentage Difference from average = -37.952884648636356%  
-INFO LOG: Percentage Difference from highest = -55.74536368619739%  
-INFO LOG: Percentage Difference from lowest = 23.261485473201635%  
+INFO LOG: Weighted Average: $48.850461723307525  
+INFO LOG: Current Price: $30.450000762939453  
+INFO LOG: Slope is equal to -15.86252045906748  
+INFO LOG: Percentage Difference from average = -37.666913087924506%  
+INFO LOG: Percentage Difference from highest = -55.54095238328636%  
+INFO LOG: Percentage Difference from lowest = 23.830827873072813%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
