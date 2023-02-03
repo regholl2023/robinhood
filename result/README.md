@@ -27,12 +27,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $2.390000104904175  
-INFO LOG: Weighted Average: $5.592195236588521  
-INFO LOG: Current Price: $2.515000104904175  
-INFO LOG: Slope is equal to -57.14822399344646  
-INFO LOG: Percentage Difference from average = -55.026604070453864%  
-INFO LOG: Percentage Difference from highest = -84.11244398594177%  
-INFO LOG: Percentage Difference from lowest = 5.230125293446871%  
+INFO LOG: Weighted Average: $5.5900977404303385  
+INFO LOG: Current Price: $2.490000009536743  
+INFO LOG: Slope is equal to -57.051582630087005  
+INFO LOG: Percentage Difference from average = -55.45695039412571%  
+INFO LOG: Percentage Difference from highest = -84.27037257398928%  
+INFO LOG: Percentage Difference from lowest = 4.184096244488566%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -93,12 +93,12 @@ INFO LOG: Exchange=
 INFO LOG: Market= us_market  
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $48.850461723307525  
-INFO LOG: Current Price: $30.450000762939453  
-INFO LOG: Slope is equal to -15.86252045906748  
-INFO LOG: Percentage Difference from average = -37.666913087924506%  
-INFO LOG: Percentage Difference from highest = -55.54095238328636%  
-INFO LOG: Percentage Difference from lowest = 23.830827873072813%  
+INFO LOG: Weighted Average: $48.82984146259259  
+INFO LOG: Current Price: $30.31999969482422  
+INFO LOG: Slope is equal to -15.83985613266409  
+INFO LOG: Percentage Difference from average = -37.906823395993065%  
+INFO LOG: Percentage Difference from highest = -55.73076267992823%  
+INFO LOG: Percentage Difference from lowest = 23.302153341521205%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
