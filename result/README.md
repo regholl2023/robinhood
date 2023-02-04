@@ -51,6 +51,8 @@ INFO LOG: Processing RITM.csv
 INFO LOG: Processing GME.csv  
 INFO LOG: Processing AAPL.csv  
 INFO LOG: Processing JPM.csv  
+- JPM: No summary info found, symbol may be delisted
+ERROR LOG: Unable to get the ticker_object.info. Skipping!!!  
 INFO LOG: Processing SNAP.csv  
 INFO LOG: Processing V.csv  
 INFO LOG: Processing XOM.csv  
