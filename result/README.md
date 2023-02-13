@@ -1,2 +1,2 @@
-INFO LOG: Processing SCOR.csv  
+INFO LOG: Processing GOOGL.csv  
 yfinance failed to decrypt Yahoo data response
