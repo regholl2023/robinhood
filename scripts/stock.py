@@ -50,32 +50,32 @@ class STOCK:
             self.ticker_object = yf.Ticker(i_name)
 
             # No need to process any data if there is no information on this stock
-            if self.ticker_object.info is None:
-                self.simlog.error("Unable to get the ticker_object.info. Skipping!!!")
+            if self.ticker_object.fast_info is None:
+                self.simlog.error("Unable to get the ticker_object.fast_info. Skipping!!!")
                 return
 
-            if 'shortName' in self.ticker_object.info:
-                self.shortName = self.ticker_object.info['shortName']
-                self.simlog.debug("shortName is " + str(self.shortName))
+            #if 'shortName' in self.ticker_object.info:
+            #    self.shortName = self.ticker_object.info['shortName']
+            #    self.simlog.debug("shortName is " + str(self.shortName))
 
-            if 'longName' in self.ticker_object.info:
-                self.longName = self.ticker_object.info['longName']
-                self.simlog.debug("longName is " + str(self.longName))
+            #if 'longName' in self.ticker_object.info:
+            #    self.longName = self.ticker_object.info['longName']
+            #    self.simlog.debug("longName is " + str(self.longName))
 
-            if 'sector' in self.ticker_object.info:
-                self.sector = self.ticker_object.info['sector']
-                self.simlog.debug("sector is " + str(self.sector))
+            #if 'sector' in self.ticker_object.info:
+            #    self.sector = self.ticker_object.info['sector']
+            #    self.simlog.debug("sector is " + str(self.sector))
 
-            if 'industry' in self.ticker_object.info:
-                self.industry = self.ticker_object.info['industry']
-                self.simlog.debug("industry is " + str(self.industry))
+            #if 'industry' in self.ticker_object.info:
+            #    self.industry = self.ticker_object.info['industry']
+            #    self.simlog.debug("industry is " + str(self.industry))
 
-            if 'market' in self.ticker_object.info:
-                self.market = self.ticker_object.info['market']
-                self.simlog.debug("market is " + str(self.market))
+            #if 'market' in self.ticker_object.info:
+            #    self.market = self.ticker_object.info['market']
+            #    self.simlog.debug("market is " + str(self.market))
 
-            if 'exchange' in self.ticker_object.info:
-                self.exchange = self.ticker_object.info['exchange']
+            if 'exchange' in self.ticker_object.basic_info:
+                self.exchange = self.ticker_object.basic_info['exchange']
                 self.simlog.debug("exchange is " + str(self.exchange))
 
             if 'last_price' not in self.ticker_object.fast_info:
