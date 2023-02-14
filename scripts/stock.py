@@ -60,21 +60,25 @@ class STOCK:
             response = urllib.request.urlopen(f'https://query2.finance.yahoo.com/v1/finance/search?q={i_name}')
             content = response.read()
 
+            if 'shortname' in json.loads(content.decode('utf8'))['quotes'][0]:
+                self.shortName = json.loads(content.decode('utf8'))['quotes'][0]['shortname']
+                self.simlog.debug("shortName is " + str(self.shortName))
 
-            self.shortName = json.loads(content.decode('utf8'))['quotes'][0]['shortname']
-            self.simlog.debug("shortName is " + str(self.shortName))
+            if 'longname' in json.loads(content.decode('utf8'))['quotes'][0]:
+                self.longName = json.loads(content.decode('utf8'))['quotes'][0]['longname']
+                self.simlog.debug("longName is " + str(self.shortName))
 
-            self.longName = json.loads(content.decode('utf8'))['quotes'][0]['longname']
-            self.simlog.debug("longName is " + str(self.shortName))
+            if 'sector' in json.loads(content.decode('utf8'))['quotes'][0]:
+                self.sector = json.loads(content.decode('utf8'))['quotes'][0]['sector']
+                self.simlog.debug("sector is " + str(self.sector))
 
-            self.sector = json.loads(content.decode('utf8'))['quotes'][0]['sector']
-            self.simlog.debug("sector is " + str(self.sector))
+            if 'industry' in json.loads(content.decode('utf8'))['quotes'][0]:
+                self.industry = json.loads(content.decode('utf8'))['quotes'][0]['industry']
+                self.simlog.debug("industry is " + str(self.industry))
 
-            self.industry = json.loads(content.decode('utf8'))['quotes'][0]['industry']
-            self.simlog.debug("industry is " + str(self.industry))
-
-            self.ExchDisp = json.loads(content.decode('utf8'))['quotes'][0]['exchDisp']
-            self.simlog.debug("ExchDisp is " + str(self.ExchDisp))
+            if 'exchDisp' in json.loads(content.decode('utf8'))['quotes'][0]:
+                self.ExchDisp = json.loads(content.decode('utf8'))['quotes'][0]['exchDisp']
+                self.simlog.debug("ExchDisp is " + str(self.ExchDisp))
 
             if 'exchange' in self.ticker_object.fast_info:
                 self.exchange = self.ticker_object.fast_info['exchange']
