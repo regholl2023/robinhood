@@ -8,6 +8,8 @@ import datetime
 import random
 import subprocess
 import utils
+import urllib
+import json
 import yfinance as yf
 import stock_constants
 import sim_logging
@@ -44,6 +46,7 @@ class STOCK:
         self.market = ''
         self.shortName = ''
         self.longName = ''
+        self.ExchDisp = ''
 
         try:
             time.sleep(1)
@@ -54,25 +57,24 @@ class STOCK:
                 self.simlog.error("Unable to get the ticker_object.fast_info. Skipping!!!")
                 return
 
-            #if 'shortName' in self.ticker_object.info:
-            #    self.shortName = self.ticker_object.info['shortName']
-            #    self.simlog.debug("shortName is " + str(self.shortName))
+            response = urllib.request.urlopen(f'https://query2.finance.yahoo.com/v1/finance/search?q={i_name}')
+            content = response.read()
 
-            #if 'longName' in self.ticker_object.info:
-            #    self.longName = self.ticker_object.info['longName']
-            #    self.simlog.debug("longName is " + str(self.longName))
 
-            #if 'sector' in self.ticker_object.info:
-            #    self.sector = self.ticker_object.info['sector']
-            #    self.simlog.debug("sector is " + str(self.sector))
+            self.shortName = json.loads(content.decode('utf8'))['quotes'][0]['shortname']
+            self.simlog.debug("shortName is " + str(self.shortName))
 
-            #if 'industry' in self.ticker_object.info:
-            #    self.industry = self.ticker_object.info['industry']
-            #    self.simlog.debug("industry is " + str(self.industry))
+            self.longName = json.loads(content.decode('utf8'))['quotes'][0]['longname']
+            self.simlog.debug("longName is " + str(self.shortName))
 
-            #if 'market' in self.ticker_object.info:
-            #    self.market = self.ticker_object.info['market']
-            #    self.simlog.debug("market is " + str(self.market))
+            self.sector = json.loads(content.decode('utf8'))['quotes'][0]['sector']
+            self.simlog.debug("sector is " + str(self.sector))
+
+            self.industry = json.loads(content.decode('utf8'))['quotes'][0]['industry']
+            self.simlog.debug("industry is " + str(self.industry))
+
+            self.ExchDisp = json.loads(content.decode('utf8'))['quotes'][0]['exchDisp']
+            self.simlog.debug("ExchDisp is " + str(self.ExchDisp))
 
             if 'exchange' in self.ticker_object.fast_info:
                 self.exchange = self.ticker_object.fast_info['exchange']
@@ -144,7 +146,7 @@ class STOCK:
                         pass
 
                     self.simlog.info("Exchange= " + self.exchange)
-                    self.simlog.info("Market= " + self.market)
+                    self.simlog.info("ExchDisp= " + self.ExchDisp)
                     self.simlog.info("Historic High: $" + str(self.highest_stock_value))
                     self.simlog.info("Historic Low: $" + str(self.lowest_stock_value))
                     self.simlog.info("Weighted Average: $" + str(self.weighted_average))
@@ -212,7 +214,7 @@ class STOCK:
                     if self.industry is not None:
                         self.simlog.info("Industry= " + self.industry)
                     self.simlog.info("Exchange= " + self.exchange)
-                    self.simlog.info("Market= " + self.market)
+                    self.simlog.info("ExchDisp= " + self.ExchDisp)
                     self.simlog.info("Historic High: $" + str(self.highest_stock_value))
                     self.simlog.info("Historic Low: $" + str(self.lowest_stock_value))
                     self.simlog.info("Weighted Average: $" + str(self.weighted_average))
