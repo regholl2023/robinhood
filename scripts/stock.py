@@ -74,8 +74,8 @@ class STOCK:
             #    self.market = self.ticker_object.info['market']
             #    self.simlog.debug("market is " + str(self.market))
 
-            if 'exchange' in self.ticker_object.basic_info:
-                self.exchange = self.ticker_object.basic_info['exchange']
+            if 'exchange' in self.ticker_object.fast_info:
+                self.exchange = self.ticker_object.fast_info['exchange']
                 self.simlog.debug("exchange is " + str(self.exchange))
 
             if 'last_price' not in self.ticker_object.fast_info:
