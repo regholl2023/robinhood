@@ -14,7 +14,7 @@ import yfinance as yf
 import stock_constants
 import sim_logging
 from scipy.stats import linregress
-
+from urllib.error import HTTPError
 
 class STOCK:
     def __init__(self, i_name, i_file):
@@ -90,6 +90,11 @@ class STOCK:
             else:
                 self.regularMarketPrice = self.ticker_object.fast_info['last_price']
                 self.simlog.debug("regularMarketPrice is " + str(self.regularMarketPrice))
+
+        except urllib.error.HTTPError as e:
+            self.simlog.warning(str(e))
+            self.simlog.warning("Skipping......")
+            return
 
         except Exception as e:
             print(e)
