@@ -96,6 +96,11 @@ class STOCK:
             self.simlog.warning("Skipping......")
             return
 
+        except IndexError as e:
+            self.simlog.warning(str(e))
+            self.simlog.warning("Skipping.........")
+            return
+
         except Exception as e:
             print(e)
             raise Exception
