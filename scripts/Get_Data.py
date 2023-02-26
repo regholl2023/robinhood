@@ -61,24 +61,25 @@ def main(argv):
             r = requests.get('https://finnhub.io/api/v1/stock/symbol?exchange=US&token=' + API_key)
             r = r.json()
             for j in range(len(r)):
+                print("Processing logs for " + str(r[j]['displaySymbol']))
                 stock_type = r[j]['type']
                 # Only consider Common stocks and ignore all other types of stocks
                 if stock_type == 'Common Stock':
                     # It is possible that the listed company no longer exists now.
                     # Therefore check it attributes and then skip it if needed
                     ticker_object = yf.Ticker(r[j]['symbol'])
-                    if ticker_object.info is None:
-                        continue
-                    elif (('regularMarketPrice' not in ticker_object.info) or ('market' not in ticker_object.info)
-                            or ('exchange' not in ticker_object.info)):
-                        continue
-                    else:
-                        i_exchange = ticker_object.info['exchange']
-                        i_market = ticker_object.info['market']
-
-                        # Only select stocks that are in US market &&
-                        if i_market != 'us_market':
+                    try:
+                        if ticker_object.fast_info is None:
                             continue
+                        elif (('last_price' not in ticker_object.fast_info) or ('exchange' not in ticker_object.fast_info)):
+                            continue
+                        else:
+                            ticker_object.fast_info['last_price']
+                    except Exception as e:
+                        print("Error: " + str(e))
+                        print("Continuing")
+                        continue
+
 
                         # Don't select the following stocks:
                         #      1) PNK -> Pink Sheet stocks (Rolls Royce is PNK)
