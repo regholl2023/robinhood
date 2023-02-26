@@ -73,11 +73,14 @@ def main(argv):
                             continue
                         elif (('last_price' not in ticker_object.fast_info) or ('exchange' not in ticker_object.fast_info)):
                             continue
+                        elif 'last_price' in ticker_object.fast_info:
+                            i_lastprice = ticker_object.fast_info['last_price']
+                            if i_lastprice < 2:
+                                continue
                         else:
                             ticker_object.fast_info['last_price']
                     except Exception as e:
-                        print("Error: " + str(e))
-                        print("Continuing")
+                        print("Warning: " + str(e) + ". Continuing......")
                         continue
 
 
