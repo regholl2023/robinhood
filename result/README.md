@@ -1,458 +1,4 @@
-INFO LOG: Processing FMBN.csv  
-INFO LOG: Processing PWSC.csv  
-INFO LOG: Processing CSSE.csv  
-INFO LOG: Processing QRVO.csv  
-INFO LOG: Processing EFHT.csv  
-INFO LOG: Processing MRTX.csv  
-INFO LOG: Processing KRNT.csv  
-INFO LOG: Processing INMB.csv  
-INFO LOG: Processing ELLH.csv  
-INFO LOG: Processing OSBK.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing EQBBF.csv  
-INFO LOG: Processing RTOBF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing ASRV.csv  
-INFO LOG: Processing AGBA.csv  
-INFO LOG: Processing SCXLB.csv  
-INFO LOG: Processing AEIS.csv  
-INFO LOG: Processing SNNF.csv  
-INFO LOG: Processing FFIN.csv  
-INFO LOG: Processing ASAAF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing NWSA.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ACHC.csv  
-INFO LOG: Processing PDER.csv  
-INFO LOG: Processing SNCAF.csv  
-INFO LOG: Processing GVFF.csv  
-INFO LOG: Processing NCBDF.csv  
-INFO LOG: Processing KROS.csv  
-INFO LOG: Processing SERA.csv  
-INFO LOG: Processing AIRT.csv  
-INFO LOG: Processing KVSA.csv  
-INFO LOG: Processing ALIM.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing COENF.csv  
-INFO LOG: Processing FNNTF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing ADBMF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing LVTX.csv  
-INFO LOG: Processing FAF.csv  
-INFO LOG: Processing AWI.csv  
-INFO LOG: Processing AVGO.csv  
-INFO LOG: Processing CONX.csv  
-INFO LOG: Processing BZLFF.csv  
-INFO LOG: Processing CERGF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing BAND.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PTZIF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TGVC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NRIX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NCNO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NSYC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BVHBB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HNRA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CDNTF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MTSI.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing GRKZF.csv  
-INFO LOG: Processing BAYZF.csv  
-INFO LOG: Processing MPHYF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing NCRBF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing ORAAF.csv  
-INFO LOG: Processing MYPS.csv  
-INFO LOG: Processing INTG.csv  
-INFO LOG: Processing VADP.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing SKHSF.csv  
-INFO LOG: Processing REVNF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing UNP.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing EVBN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SOUB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TRCLF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing WCRS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NGRRF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing RBOT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SNMYF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ICHMF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PPBI.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CFB.csv  
-INFO LOG: Processing AUDGF.csv  
-INFO LOG: Processing QSR.csv  
-INFO LOG: Processing VTSYF.csv  
-INFO LOG: Processing OM.csv  
-INFO LOG: Processing ASBRF.csv  
-INFO LOG: Processing HNSDF.csv  
-INFO LOG: Processing ARMP.csv  
-INFO LOG: Processing UCTT.csv  
-INFO LOG: Processing TMNSF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing VICR.csv  
-INFO LOG: Processing BILL.csv  
-INFO LOG: Processing CMSYF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing EYEN.csv  
-INFO LOG: Processing ERAS.csv  
-INFO LOG: Processing SUUIF.csv  
-INFO LOG: Processing TGLS.csv  
-INFO LOG: Processing OPXS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing KRKKF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GEODF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing TWNK.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CHEOF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CUE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CMCA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PNT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PLSE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NSFMF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MONOF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CTG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TW.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SZHIF.csv  
-INFO LOG: Processing EVC.csv  
-INFO LOG: Processing FMOO.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing DALN.csv  
-INFO LOG: Processing FTNT.csv  
-INFO LOG: Processing WSHP.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing COHU.csv  
-INFO LOG: Processing LASE.csv  
-INFO LOG: Processing PEGR.csv  
-INFO LOG: Processing LNTEF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ASPA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SGLJF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ISRG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing EMBC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SAMG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ARGNF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HLX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SCSC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TGVSF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CVLT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MIDD.csv  
-INFO LOG: Processing KINZ.csv  
-INFO LOG: Processing CDNAF.csv  
-INFO LOG: Processing CEG.csv  
-INFO LOG: Processing LIOPF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing RYKKF.csv  
-INFO LOG: Processing FTFI.csv  
-INFO LOG: Processing BSEFF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing RJF.csv  
-INFO LOG: Processing BHPLF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AGRO.csv  
-INFO LOG: Processing POET.csv  
-INFO LOG: Processing BMEA.csv  
-INFO LOG: Processing CWT.csv  
-INFO LOG: Processing PFIN.csv  
-INFO LOG: Processing CLNXF.csv  
-INFO LOG: Processing OTGLS.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing ACN.csv  
-INFO LOG: Processing SPSC.csv  
-INFO LOG: Processing SLFPF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing NWYF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing VEOEF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ABANF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing STRL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ITOS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GAMC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CFRHF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GHM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GRCGF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FPAC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PPBB.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing SUSRF.csv  
-INFO LOG: Processing WPNTF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing DJCO.csv  
-INFO LOG: Processing OMER.csv  
-INFO LOG: Processing IRTC.csv  
-INFO LOG: Processing INGR.csv  
-INFO LOG: Processing AETUF.csv  
-INFO LOG: Processing HINKF.csv  
-INFO LOG: Processing APCA.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing NWFFF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing STIM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TLS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MCHIF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FRFC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BY.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing YZCHF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GDIFF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CHRD.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing GOOGL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing BALDF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing HUDI.csv  
-INFO LOG: Processing MCFT.csv  
-INFO LOG: Processing VSAT.csv  
-INFO LOG: Processing SMLR.csv  
-INFO LOG: Processing OXBDF.csv  
-INFO LOG: Processing CBLNF.csv  
-INFO LOG: Processing CHTR.csv  
-INFO LOG: Processing RPYTF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing MTNOF.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SF.csv  
-INFO LOG: Processing KR.csv  
-INFO LOG: Processing MDWT.csv  
-INFO LOG: Processing FLO.csv  
-INFO LOG: Processing LQDA.csv  
-INFO LOG: Processing DHCA.csv  
-INFO LOG: Processing XPAX.csv  
-INFO LOG: Processing JMSFF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing IPWR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GRC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing BPPPF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BUDFF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing TRBK.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CBAY.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BMAC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SFFYF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FDVA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NTCYF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HTSUF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ASGLF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MKC.csv  
-INFO LOG: Processing SKXJF.csv  
-INFO LOG: Processing PNM.csv  
-INFO LOG: Processing PRIM.csv  
-INFO LOG: Processing SNPTF.csv  
-INFO LOG: Processing CPB.csv  
-INFO LOG: Processing CYRX.csv  
-INFO LOG: Processing TOSBF.csv  
-INFO LOG: Processing GRPN.csv  
-INFO LOG: Processing BBY.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing EWBC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing LNW.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GTLB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing RVSB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing QNNTF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PBF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MANZF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing OSG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HY.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CTTOF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MRAAF.csv  
-INFO LOG: Processing SES.csv  
-INFO LOG: Processing AKTS.csv  
-INFO LOG: Processing LGST.csv  
-INFO LOG: Processing GEHDF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
 INFO LOG: Processing AMZN.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -478,82 +24,326 @@ INFO LOG: ===================================================
 
 
   
-INFO LOG: Processing BE.csv  
-INFO LOG: Processing SMSZF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing MSDA.csv  
-INFO LOG: Processing YNDX.csv  
+INFO LOG: Processing TSLA.csv  
+INFO LOG: Processing JBLU.csv  
+INFO LOG: Processing TGT.csv  
+INFO LOG: Processing ARKK.csv  
+INFO LOG: Processing QS.csv  
+INFO LOG: Processing GE.csv  
+INFO LOG: Processing SPY.csv  
+INFO LOG: Processing BA.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PSN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BYDGF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SEOJF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CPA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CHMP.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ASC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MNRO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GDEV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing RCRRF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing IGPPF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: Processing MRNA.csv  
+INFO LOG: Processing T.csv  
+INFO LOG: Processing LCID.csv  
+INFO LOG: Processing COIN.csv  
+INFO LOG: Processing BNGO.csv  
+INFO LOG: Processing PFE.csv  
+INFO LOG: Processing CRON.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $2.0899999141693115  
+INFO LOG: Weighted Average: $5.5014187467617885  
+INFO LOG: Current Price: $2.0999999046325684  
+INFO LOG: Slope is equal to -57.5918397722915  
+INFO LOG: Percentage Difference from average = -61.82803016278924%  
+INFO LOG: Percentage Difference from highest = -86.73404981204241%  
+INFO LOG: Percentage Difference from lowest = 0.47846846286744554%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing CCL.csv  
+INFO LOG: Processing UBER.csv  
+INFO LOG: Processing DIS.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing KAI.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PLTN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing IVCP.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FWRD.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing OVCHF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CNBZ.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AKAAF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FLXQF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing DLX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing REAZS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: Processing CHPT.csv  
+INFO LOG: Processing CGC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Canopy Growth Corporation(CGC)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $56.49700164794922  
+INFO LOG: Historic Low: $2.0899999141693115  
+INFO LOG: Weighted Average: $14.40989033202673  
+INFO LOG: Current Price: $2.3299999237060547  
+INFO LOG: Slope is equal to -14.537777187886366  
+INFO LOG: Percentage Difference from average = -83.83055061475723%  
+INFO LOG: Percentage Difference from highest = -95.87588747058645%  
+INFO LOG: Percentage Difference from lowest = 11.483254516406678%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing RIVN.csv  
+INFO LOG: Processing RITM.csv  
+INFO LOG: Processing GME.csv  
+INFO LOG: Processing AAPL.csv  
+INFO LOG: Processing JPM.csv  
+INFO LOG: Processing SNAP.csv  
+INFO LOG: Processing V.csv  
+INFO LOG: Processing XOM.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing REAMS.csv  
-INFO LOG: Processing AZYO.csv  
-INFO LOG: Processing AEO.csv  
-INFO LOG: Processing NTAI.csv  
-INFO LOG: Processing BIG.csv  
-INFO LOG: Processing ALPIB.csv  
-INFO LOG: Processing DEFG.csv  
-INFO LOG: Processing APNC.csv  
-INFO LOG: Processing NLST.csv  
-'currentTradingPeriod'
+INFO LOG: Processing O.csv  
+INFO LOG: Processing VTI.csv  
+INFO LOG: Processing TLRY.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Tilray Brands, Inc. - Class 2(TLRY)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $67.0  
+INFO LOG: Historic Low: $2.430000066757202  
+INFO LOG: Weighted Average: $9.192430649912344  
+INFO LOG: Current Price: $2.819999933242798  
+INFO LOG: Slope is equal to -11.890608388999159  
+INFO LOG: Percentage Difference from average = -69.3225868038538%  
+INFO LOG: Percentage Difference from highest = -95.79104487575701%  
+INFO LOG: Percentage Difference from lowest = 16.049376780719374%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SHOP.csv  
+INFO LOG: Processing HOOD.csv  
+INFO LOG: Processing PTON.csv  
+INFO LOG: Processing ABNB.csv  
+INFO LOG: Processing SPHD.csv  
+INFO LOG: Processing F.csv  
+INFO LOG: Processing SNDL.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing IVR.csv  
+INFO LOG: Processing MRO.csv  
+INFO LOG: Processing META.csv  
+INFO LOG: Processing LUV.csv  
+INFO LOG: Processing AMC.csv  
+INFO LOG: Processing BABA.csv  
+INFO LOG: Processing DKNG.csv  
+INFO LOG: Processing NCLH.csv  
+INFO LOG: Processing DWAC.csv  
+INFO LOG: Processing NKLA.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $2.009999990463257  
+INFO LOG: Weighted Average: $14.872014516253456  
+INFO LOG: Current Price: $2.2200000286102295  
+INFO LOG: Slope is equal to -10.670763249284876  
+INFO LOG: Percentage Difference from average = -85.07263406592284%  
+INFO LOG: Percentage Difference from highest = -97.63804651657942%  
+INFO LOG: Percentage Difference from lowest = 10.447763141460149%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RBLX.csv  
+INFO LOG: Processing BND.csv  
+INFO LOG: Processing DAL.csv  
+INFO LOG: Processing SPCE.csv  
+INFO LOG: Processing INTC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $48.11727871510591  
+INFO LOG: Current Price: $25.139999389648438  
+INFO LOG: Slope is equal to -15.72247296590223  
+INFO LOG: Percentage Difference from average = -47.752657546371175%  
+INFO LOG: Percentage Difference from highest = -63.293911266206614%  
+INFO LOG: Percentage Difference from lowest = 2.2366784613568376%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing VOO.csv  
+INFO LOG: Processing TSM.csv  
+INFO LOG: Processing PLUG.csv  
+INFO LOG: Processing CLOV.csv  
+INFO LOG: Processing WISH.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $32.849998474121094  
+INFO LOG: Historic Low: $0.4350000023841858  
+INFO LOG: Weighted Average: $6.4817531757908595  
+INFO LOG: Current Price: $0.5099999904632568  
+INFO LOG: Slope is equal to -17.880872666572113  
+INFO LOG: Percentage Difference from average = -92.13175854384443%  
+INFO LOG: Percentage Difference from highest = -98.44748854139208%  
+INFO LOG: Percentage Difference from lowest = 17.241376475403356%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SQ.csv  
+INFO LOG: Processing AMD.csv  
+INFO LOG: Processing ET.csv  
+INFO LOG: Processing FCEL.csv  
+INFO LOG: Processing NIO.csv  
+INFO LOG: Processing ZM.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $63.54999923706055  
+INFO LOG: Weighted Average: $227.53189058694377  
+INFO LOG: Current Price: $73.93000030517578  
+INFO LOG: Slope is equal to -1.006076551486867  
+INFO LOG: Percentage Difference from average = -67.50785126671029%  
+INFO LOG: Percentage Difference from highest = -87.4448072594559%  
+INFO LOG: Percentage Difference from lowest = 16.333597470858685%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SBUX.csv  
+INFO LOG: Processing RYCEY.csv  
+INFO LOG: Processing SOFI.csv  
+INFO LOG: Processing QQQ.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing JNJ.csv  
+INFO LOG: Processing UAL.csv  
+INFO LOG: Processing NVDA.csv  
+INFO LOG: Processing WMT.csv  
+INFO LOG: Processing MSFT.csv  
+INFO LOG: Processing PSEC.csv  
+INFO LOG: Processing PLTR.csv  
+INFO LOG: Processing BRK.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing BB.csv  
+INFO LOG: Processing VWO.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SIRI.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Sirius XM Holdings Inc.(SIRI)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $8.140000343322754  
+INFO LOG: Historic Low: $4.110000133514404  
+INFO LOG: Weighted Average: $6.073685607633002  
+INFO LOG: Current Price: $4.389999866485596  
+INFO LOG: Slope is equal to 103.97357487692736  
+INFO LOG: Percentage Difference from average = -27.720989361574173%  
+INFO LOG: Percentage Difference from highest = -46.06879998369146%  
+INFO LOG: Percentage Difference from lowest = 6.812645349764685%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing KO.csv  
+INFO LOG: Processing FUBO.csv  
+INFO LOG: Processing SONY.csv  
+INFO LOG: Processing CPRX.csv  
+INFO LOG: Processing NFLX.csv  
+INFO LOG: Processing PYPL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $169.24317308272214  
+INFO LOG: Current Price: $73.55000305175781  
+INFO LOG: Slope is equal to -1.3886978386046036  
+INFO LOG: Percentage Difference from average = -56.541819848882014%  
+INFO LOG: Percentage Difference from highest = -76.28643210493262%  
+INFO LOG: Percentage Difference from lowest = 10.793101882897963%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+INFO LOG: Processing CRM.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
