@@ -11,10 +11,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $188.6540069580078  
 INFO LOG: Historic Low: $81.30149841308594  
-INFO LOG: Weighted Average: $142.56262197924553  
+INFO LOG: Weighted Average: $142.49767810745757  
 INFO LOG: Current Price: $94.2300033569336  
-INFO LOG: Slope is equal to -2.738416175928391  
-INFO LOG: Percentage Difference from average = -33.9027284650729%  
+INFO LOG: Slope is equal to -2.7587365286693366  
+INFO LOG: Percentage Difference from average = -33.87260437613959%  
 INFO LOG: Percentage Difference from highest = -50.05141694238803%  
 INFO LOG: Percentage Difference from lowest = 15.901927020039693%  
 INFO LOG: ===================================================  
@@ -39,51 +39,69 @@ INFO LOG: Processing LCID.csv
 INFO LOG: Processing COIN.csv  
 INFO LOG: Processing BNGO.csv  
 INFO LOG: Processing PFE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing CRON.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $1.9700000286102295  
+INFO LOG: Weighted Average: $5.489753630303385  
+INFO LOG: Current Price: $2.1700000762939453  
+INFO LOG: Slope is equal to -57.678545124615695  
+INFO LOG: Percentage Difference from average = -60.4718130825477%  
+INFO LOG: Percentage Difference from highest = -86.29185036795684%  
+INFO LOG: Percentage Difference from lowest = 10.152286537011337%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing CCL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing UBER.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DIS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing CHPT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing CGC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Canopy Growth Corporation(CGC)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $56.49700164794922  
+INFO LOG: Historic Low: $2.0899999141693115  
+INFO LOG: Weighted Average: $14.352075473835916  
+INFO LOG: Current Price: $2.299999952316284  
+INFO LOG: Slope is equal to -14.523192884499233  
+INFO LOG: Percentage Difference from average = -83.97444358128394%  
+INFO LOG: Percentage Difference from highest = -95.92898758300782%  
+INFO LOG: Percentage Difference from lowest = 10.04784912780434%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing RIVN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing RITM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing GME.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing AAPL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing JPM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing SNAP.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing V.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing XOM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing O.csv  
 INFO LOG: Processing VTI.csv  
@@ -121,66 +139,98 @@ INFO LOG: Processing F.csv
 INFO LOG: Processing SNDL.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing IVR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing MRO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing META.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing LUV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing AMC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BABA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DKNG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NCLH.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DWAC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NKLA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $2.009999990463257  
+INFO LOG: Weighted Average: $14.862165548627761  
+INFO LOG: Current Price: $2.2200000286102295  
+INFO LOG: Slope is equal to -10.77205350353953  
+INFO LOG: Percentage Difference from average = -85.06274189083297%  
+INFO LOG: Percentage Difference from highest = -97.63804651657942%  
+INFO LOG: Percentage Difference from lowest = 10.447763141460149%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RBLX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BND.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DAL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing SPCE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing INTC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $48.001245013609726  
+INFO LOG: Current Price: $24.93000030517578  
+INFO LOG: Slope is equal to -15.634521200744347  
+INFO LOG: Percentage Difference from average = -48.063846472925%  
+INFO LOG: Percentage Difference from highest = -63.60052404328738%  
+INFO LOG: Percentage Difference from lowest = 1.3826764964542242%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing VOO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing TSM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing PLUG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing CLOV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing WISH.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $32.849998474121094  
+INFO LOG: Historic Low: $0.4350000023841858  
+INFO LOG: Weighted Average: $6.460141048616783  
+INFO LOG: Current Price: $0.4869999885559082  
+INFO LOG: Slope is equal to -17.94499902253546  
+INFO LOG: Percentage Difference from average = -92.46146508426186%  
+INFO LOG: Percentage Difference from highest = -98.51750377115067%  
+INFO LOG: Percentage Difference from lowest = 11.95401974407273%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SQ.csv  
 INFO LOG: Processing AMD.csv  
@@ -218,34 +268,16 @@ INFO LOG: Processing SOFI.csv
 INFO LOG: Processing QQQ.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing UAL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NVDA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing WMT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing MSFT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing PSEC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing PLTR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BRK.csv  
 ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing BB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing VWO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SIRI.csv  
 INFO LOG: ===================================================  
@@ -285,10 +317,10 @@ INFO LOG: Exchange= NYQ
 INFO LOG: ExchDisp= NYSE  
 INFO LOG: Historic High: $62.290000915527344  
 INFO LOG: Historic Low: $1.6100000143051147  
-INFO LOG: Weighted Average: $14.854513261299235  
+INFO LOG: Weighted Average: $14.837792051706877  
 INFO LOG: Current Price: $1.909999966621399  
-INFO LOG: Slope is equal to -7.323006284351532  
-INFO LOG: Percentage Difference from average = -87.14195522247397%  
+INFO LOG: Slope is equal to -7.355700295647761  
+INFO LOG: Percentage Difference from average = -87.1274650570286%  
 INFO LOG: Percentage Difference from highest = -96.93369732132194%  
 INFO LOG: Percentage Difference from lowest = 18.633537245387284%  
 INFO LOG: ===================================================  
@@ -331,29 +363,11 @@ INFO LOG: Processing CRM.csv
 INFO LOG: Processing NOK.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RCL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing OCGN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing AAL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing WKHS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing COST.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NKE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing GM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing RIOT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing GOOG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
