@@ -150,10 +150,10 @@ INFO LOG: Exchange= NYQ
 INFO LOG: ExchDisp= NYSE  
 INFO LOG: Historic High: $49.47999954223633  
 INFO LOG: Historic Low: $8.069999694824219  
-INFO LOG: Weighted Average: $18.283834631480886  
+INFO LOG: Weighted Average: $18.28429759494844  
 INFO LOG: Current Price: $9.670000076293945  
 INFO LOG: Slope is equal to -4.062585236348306  
-INFO LOG: Percentage Difference from average = -47.11175050968654%  
+INFO LOG: Percentage Difference from average = -47.11308965477811%  
 INFO LOG: Percentage Difference from highest = -80.45674986710621%  
 INFO LOG: Percentage Difference from lowest = 19.826523444553587%  
 INFO LOG: ===================================================  
