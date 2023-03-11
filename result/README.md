@@ -177,7 +177,7 @@ INFO LOG: Historic High: $56.49700164794922
 INFO LOG: Historic Low: $2.0199999809265137  
 INFO LOG: Weighted Average: $14.204718229001172  
 INFO LOG: Current Price: $2.049999952316284  
-INFO LOG: Slope is equal to -14.699346470878604  
+INFO LOG: Slope is equal to -14.69934527685287  
 INFO LOG: Percentage Difference from average = -85.56817587461266%  
 INFO LOG: Percentage Difference from highest = -96.37148894185485%  
 INFO LOG: Percentage Difference from lowest = 1.4851471125267248%  
@@ -303,7 +303,7 @@ INFO LOG: Historic High: $93.98999786376953
 INFO LOG: Historic Low: $1.6399999856948853  
 INFO LOG: Weighted Average: $14.746560833756885  
 INFO LOG: Current Price: $1.659999966621399  
-INFO LOG: Slope is equal to -10.97676959276231  
+INFO LOG: Slope is equal to -10.976768703900296  
 INFO LOG: Percentage Difference from average = -88.74313824534984%  
 INFO LOG: Percentage Difference from highest = -98.23385466076144%  
 INFO LOG: Percentage Difference from lowest = 1.219511042741837%  
@@ -360,11 +360,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.8600000143051147  
 INFO LOG: Weighted Average: $6.503691741768073  
-INFO LOG: Current Price: $0.9146000146865845  
+INFO LOG: Current Price: $0.9150000214576721  
 INFO LOG: Slope is equal to -38.82099390568115  
-INFO LOG: Percentage Difference from average = -85.93721764497491%  
-INFO LOG: Percentage Difference from highest = -96.82980934976338%  
-INFO LOG: Percentage Difference from lowest = 6.348837148053637%  
+INFO LOG: Percentage Difference from average = -85.93106718786578%  
+INFO LOG: Percentage Difference from highest = -96.8284228445093%  
+INFO LOG: Percentage Difference from lowest = 6.395349562522706%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -385,11 +385,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $32.849998474121094  
 INFO LOG: Historic Low: $0.3959999978542328  
 INFO LOG: Weighted Average: $6.3747967911914065  
-INFO LOG: Current Price: $0.41130000352859497  
-INFO LOG: Slope is equal to -18.202100357792503  
-INFO LOG: Percentage Difference from average = -93.54802957645767%  
-INFO LOG: Percentage Difference from highest = -98.7479451365801%  
-INFO LOG: Percentage Difference from lowest = 3.86363781749163%  
+INFO LOG: Current Price: $0.41100001335144043  
+INFO LOG: Slope is equal to -18.202100694284667  
+INFO LOG: Percentage Difference from average = -93.55273545473082%  
+INFO LOG: Percentage Difference from highest = -98.74885834872954%  
+INFO LOG: Percentage Difference from lowest = 3.7878827218400977%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -509,7 +509,7 @@ INFO LOG: Historic High: $62.290000915527344
 INFO LOG: Historic Low: $1.350000023841858  
 INFO LOG: Weighted Average: $14.759832009751982  
 INFO LOG: Current Price: $1.3700000047683716  
-INFO LOG: Slope is equal to -7.792944489442047  
+INFO LOG: Slope is equal to -7.7929163183415255  
 INFO LOG: Percentage Difference from average = -90.71805150720417%  
 INFO LOG: Percentage Difference from highest = -97.80061007443834%  
 INFO LOG: Percentage Difference from lowest = 1.4814800424667633%  
