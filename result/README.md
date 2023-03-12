@@ -551,4 +551,37 @@ INFO LOG: ===================================================
 INFO LOG: Processing BAC.csv  
 INFO LOG: Processing CRM.csv  
 INFO LOG: Processing NOK.csv  
-'currentTradingPeriod'
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Workhorse Group, Inc.(WKHS)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Auto Manufacturers  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $42.959999084472656  
+INFO LOG: Historic Low: $1.315000057220459  
+INFO LOG: Weighted Average: $9.265699739494032  
+INFO LOG: Current Price: $1.590000033378601  
+INFO LOG: Slope is equal to -13.746303000698017  
+INFO LOG: Percentage Difference from average = -82.83993569744766%  
+INFO LOG: Percentage Difference from highest = -96.29888252499221%  
+INFO LOG: Percentage Difference from lowest = 20.912544805466766%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
