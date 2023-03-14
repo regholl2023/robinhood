@@ -104,7 +104,7 @@ INFO LOG: Historic High: $203.02000427246094
 INFO LOG: Historic Low: $79.06999969482422  
 INFO LOG: Weighted Average: $137.02145228904493  
 INFO LOG: Current Price: $92.5999984741211  
-INFO LOG: Slope is equal to -2.177426505119497  
+INFO LOG: Slope is equal to -2.177425576909201  
 INFO LOG: Percentage Difference from average = -32.41934242618986%  
 INFO LOG: Percentage Difference from highest = -54.3887318858253%  
 INFO LOG: Percentage Difference from lowest = 17.111418782745393%  
@@ -170,7 +170,6 @@ INFO LOG: Processing RIVN.csv
 INFO LOG: Processing RITM.csv  
 INFO LOG: Processing GME.csv  
 INFO LOG: Processing AAPL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing JPM.csv  
 INFO LOG: Processing SNAP.csv  
 INFO LOG: Processing V.csv  
@@ -207,7 +206,6 @@ INFO LOG: Processing SHOP.csv
 INFO LOG: Processing HOOD.csv  
 INFO LOG: Processing PTON.csv  
 INFO LOG: Processing ABNB.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing SPHD.csv  
 INFO LOG: Processing F.csv  
 INFO LOG: Processing SNDL.csv  
@@ -465,7 +463,7 @@ INFO LOG: Historic High: $62.290000915527344
 INFO LOG: Historic Low: $1.2700999975204468  
 INFO LOG: Weighted Average: $14.769579575770095  
 INFO LOG: Current Price: $1.2999999523162842  
-INFO LOG: Slope is equal to -7.9082746483310356  
+INFO LOG: Slope is equal to -7.908271681232128  
 INFO LOG: Percentage Difference from average = -91.19812486437345%  
 INFO LOG: Percentage Difference from highest = -97.91298774569094%  
 INFO LOG: Percentage Difference from lowest = 2.3541417883796236%  
@@ -511,7 +509,6 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing RCL.csv  
 INFO LOG: Processing OCGN.csv  
 INFO LOG: Processing AAL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing WKHS.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
