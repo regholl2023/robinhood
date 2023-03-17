@@ -1,6 +1,29 @@
 INFO LOG: Processing GOOGL.csv  
 INFO LOG: Processing AMZN.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Amazon.com, Inc.(AMZN)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $188.6540069580078  
+INFO LOG: Historic Low: $81.43000030517578  
+INFO LOG: Weighted Average: $142.4508749643962  
+INFO LOG: Current Price: $100.04000091552734  
+INFO LOG: Slope is equal to -3.4780421277580573  
+INFO LOG: Percentage Difference from average = -29.772280485794788%  
+INFO LOG: Percentage Difference from highest = -46.97170628461919%  
+INFO LOG: Percentage Difference from lowest = 22.853985681698063%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing TSLA.csv  
 INFO LOG: Processing JBLU.csv  
 INFO LOG: ===================================================  
@@ -29,7 +52,6 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing TGT.csv  
 INFO LOG: Processing ARKK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing QS.csv  
 INFO LOG: Processing GE.csv  
 INFO LOG: Processing SPY.csv  
@@ -148,7 +170,6 @@ INFO LOG: Processing RIVN.csv
 INFO LOG: Processing RITM.csv  
 INFO LOG: Processing GME.csv  
 INFO LOG: Processing AAPL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing JPM.csv  
 INFO LOG: Processing SNAP.csv  
 INFO LOG: Processing V.csv  
@@ -185,7 +206,6 @@ INFO LOG: Processing SHOP.csv
 INFO LOG: Processing HOOD.csv  
 INFO LOG: Processing PTON.csv  
 INFO LOG: Processing ABNB.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing SPHD.csv  
 INFO LOG: Processing F.csv  
 INFO LOG: Processing SNDL.csv  
@@ -243,7 +263,6 @@ INFO LOG: Processing MRO.csv
 INFO LOG: Processing META.csv  
 INFO LOG: Processing LUV.csv  
 INFO LOG: Processing AMC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing BABA.csv  
 INFO LOG: Processing DKNG.csv  
 INFO LOG: Processing NCLH.csv  
@@ -359,7 +378,6 @@ INFO LOG: ===================================================
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SQ.csv  
 INFO LOG: Processing AMD.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing ET.csv  
 INFO LOG: Processing FCEL.csv  
 INFO LOG: Processing NIO.csv  
@@ -491,7 +509,6 @@ INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yah
 INFO LOG: Processing RCL.csv  
 INFO LOG: Processing OCGN.csv  
 INFO LOG: Processing AAL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing WKHS.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
