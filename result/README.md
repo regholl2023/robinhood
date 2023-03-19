@@ -11,10 +11,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $188.6540069580078  
 INFO LOG: Historic Low: $81.43000030517578  
-INFO LOG: Weighted Average: $142.66892161375648  
+INFO LOG: Weighted Average: $142.4654470574919  
 INFO LOG: Current Price: $98.94999694824219  
-INFO LOG: Slope is equal to -3.6202155269171707  
-INFO LOG: Percentage Difference from average = -30.643621729947114%  
+INFO LOG: Slope is equal to -3.543016965456222  
+INFO LOG: Percentage Difference from average = -30.544564319297056%  
 INFO LOG: Percentage Difference from highest = -47.54948567285543%  
 INFO LOG: Percentage Difference from lowest = 21.51540780720446%  
 INFO LOG: ===================================================  
@@ -37,10 +37,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $21.959999084472656  
 INFO LOG: Historic Low: $6.179999828338623  
-INFO LOG: Weighted Average: $12.567732112793475  
+INFO LOG: Weighted Average: $12.55626985824928  
 INFO LOG: Current Price: $6.920000076293945  
-INFO LOG: Slope is equal to -22.4659065532785  
-INFO LOG: Percentage Difference from average = -44.93835471517055%  
+INFO LOG: Slope is equal to -22.1314522651921  
+INFO LOG: Percentage Difference from average = -44.88809053631792%  
 INFO LOG: Percentage Difference from highest = -68.48815863026653%  
 INFO LOG: Percentage Difference from lowest = 11.974114377188542%  
 INFO LOG: ===================================================  
@@ -58,66 +58,122 @@ INFO LOG: Processing SPY.csv
 INFO LOG: Processing BA.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing MRNA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing T.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing LCID.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing COIN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BNGO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing PFE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing CRON.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $1.8899999856948853  
+INFO LOG: Weighted Average: $5.4327962840044925  
+INFO LOG: Current Price: $1.9500000476837158  
+INFO LOG: Slope is equal to -59.21879032634783  
+INFO LOG: Percentage Difference from average = -64.10688077104967%  
+INFO LOG: Percentage Difference from highest = -87.6816168219716%  
+INFO LOG: Percentage Difference from lowest = 3.1746064784635806%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing CCL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing UBER.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DIS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Walt Disney Company (The)(DIS)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $203.02000427246094  
+INFO LOG: Historic Low: $79.06999969482422  
+INFO LOG: Weighted Average: $136.9033465814338  
+INFO LOG: Current Price: $93.19999694824219  
+INFO LOG: Slope is equal to -2.283259013408036  
+INFO LOG: Percentage Difference from average = -31.922776706700652%  
+INFO LOG: Percentage Difference from highest = -54.0931952581559%  
+INFO LOG: Percentage Difference from lowest = 17.87023815347617%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing CHPT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ChargePoint Holdings, Inc.(CHPT)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Specialty Retail  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $49.47999954223633  
+INFO LOG: Historic Low: $8.069999694824219  
+INFO LOG: Weighted Average: $18.28224600812116  
+INFO LOG: Current Price: $9.34000015258789  
+INFO LOG: Slope is equal to -4.62335492841554  
+INFO LOG: Percentage Difference from average = -48.91218426642455%  
+INFO LOG: Percentage Difference from highest = -81.12368585489733%  
+INFO LOG: Percentage Difference from lowest = 15.737304904462393%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing CGC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Canopy Growth Corporation(CGC)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $56.49700164794922  
+INFO LOG: Historic Low: $1.9700000286102295  
+INFO LOG: Weighted Average: $14.142376959323892  
+INFO LOG: Current Price: $2.0  
+INFO LOG: Slope is equal to -14.913099204199444  
+INFO LOG: Percentage Difference from average = -85.85810570774368%  
+INFO LOG: Percentage Difference from highest = -96.45998912922383%  
+INFO LOG: Percentage Difference from lowest = 1.5228411651818354%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing RIVN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing RITM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing GME.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing AAPL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing JPM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing SNAP.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing V.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing XOM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing O.csv  
 INFO LOG: Processing VTI.csv  
@@ -179,297 +235,67 @@ INFO LOG: ===================================================
   
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing IVR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: INVESCO MORTGAGE CAPITAL INC(IVR)  
+INFO LOG: Sector = Real Estate  
+INFO LOG: Industry = REIT—Mortgage  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $84.0  
+INFO LOG: Historic Low: $9.600000381469727  
+INFO LOG: Weighted Average: $27.030780446592455  
+INFO LOG: Current Price: $10.760000228881836  
+INFO LOG: Slope is equal to -16.39602952594962  
+INFO LOG: Percentage Difference from average = -60.1935273376901%  
+INFO LOG: Percentage Difference from highest = -87.19047591799782%  
+INFO LOG: Percentage Difference from lowest = 12.083331263727693%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing MRO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing META.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing LUV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing AMC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BABA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DKNG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NCLH.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing DWAC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing NKLA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $1.5499999523162842  
+INFO LOG: Weighted Average: $14.683465595913944  
+INFO LOG: Current Price: $1.7000000476837158  
+INFO LOG: Slope is equal to -11.13186795981849  
+INFO LOG: Percentage Difference from average = -88.42235140894269%  
+INFO LOG: Percentage Difference from highest = -98.19129685464222%  
+INFO LOG: Percentage Difference from lowest = 9.67742580528954%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RBLX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing BND.csv  
 INFO LOG: Processing DAL.csv  
 INFO LOG: Processing SPCE.csv  
 INFO LOG: Processing INTC.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Semiconductors  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $68.48999786376953  
-INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $47.564588847780115  
-INFO LOG: Current Price: $29.809999465942383  
-INFO LOG: Slope is equal to -15.552096219956358  
-INFO LOG: Percentage Difference from average = -37.32732650892315%  
-INFO LOG: Percentage Difference from highest = -56.475397290512184%  
-INFO LOG: Percentage Difference from lowest = 21.228138596839866%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing VOO.csv  
-INFO LOG: Processing TSM.csv  
-INFO LOG: Processing PLUG.csv  
-INFO LOG: Processing CLOV.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Clover Health Investments, Corp(CLOV)  
-INFO LOG: Sector = Healthcare  
-INFO LOG: Industry = Healthcare Plans  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $28.850000381469727  
-INFO LOG: Historic Low: $0.8600000143051147  
-INFO LOG: Weighted Average: $6.463622117179558  
-INFO LOG: Current Price: $0.9350000023841858  
-INFO LOG: Slope is equal to -39.07033390111709  
-INFO LOG: Percentage Difference from average = -85.53442658878426%  
-INFO LOG: Percentage Difference from highest = -96.75909882141724%  
-INFO LOG: Percentage Difference from lowest = 8.720928701340952%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing WISH.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
-INFO LOG: Sector = Consumer Cyclical  
-INFO LOG: Industry = Internet Retail  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $32.849998474121094  
-INFO LOG: Historic Low: $0.375  
-INFO LOG: Weighted Average: $6.322114840729082  
-INFO LOG: Current Price: $0.39800000190734863  
-INFO LOG: Slope is equal to -18.363337742861198  
-INFO LOG: Percentage Difference from average = -93.70463821151577%  
-INFO LOG: Percentage Difference from highest = -98.78843220580089%  
-INFO LOG: Percentage Difference from lowest = 6.133333841959635%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SQ.csv  
-INFO LOG: Processing AMD.csv  
-INFO LOG: Processing ET.csv  
-INFO LOG: Processing FCEL.csv  
-INFO LOG: Processing NIO.csv  
-INFO LOG: Processing ZM.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Software—Application  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $588.8400268554688  
-INFO LOG: Historic Low: $63.54999923706055  
-INFO LOG: Weighted Average: $226.87666555939543  
-INFO LOG: Current Price: $69.19000244140625  
-INFO LOG: Slope is equal to -1.112135790103076  
-INFO LOG: Percentage Difference from average = -69.50325311295948%  
-INFO LOG: Percentage Difference from highest = -88.24977934823902%  
-INFO LOG: Percentage Difference from lowest = 8.87490680103205%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing SBUX.csv  
-INFO LOG: Processing RYCEY.csv  
-INFO LOG: Processing SOFI.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing QQQ.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing JNJ.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing UAL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NVDA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing WMT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing MSFT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PSEC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PLTR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing BRK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing VWO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SIRI.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Sirius XM Holdings Inc.(SIRI)  
-INFO LOG: Sector = Communication Services  
-INFO LOG: Industry = Entertainment  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $8.140000343322754  
-INFO LOG: Historic Low: $3.430000066757202  
-INFO LOG: Weighted Average: $6.02941799573798  
-INFO LOG: Current Price: $3.640000104904175  
-INFO LOG: Slope is equal to 18.39197033271221  
-INFO LOG: Percentage Difference from average = -39.6293289422431%  
-INFO LOG: Percentage Difference from highest = -55.282555879864695%  
-INFO LOG: Percentage Difference from lowest = 6.122449972588815%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing KO.csv  
-INFO LOG: Processing FUBO.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
-INFO LOG: Sector = Communication Services  
-INFO LOG: Industry = Broadcasting  
-INFO LOG: Exchange= NYQ  
-INFO LOG: ExchDisp= NYSE  
-INFO LOG: Historic High: $62.290000915527344  
-INFO LOG: Historic Low: $1.100000023841858  
-INFO LOG: Weighted Average: $14.732948278242457  
-INFO LOG: Current Price: $1.100000023841858  
-INFO LOG: Slope is equal to -8.148155689115251  
-INFO LOG: Percentage Difference from average = -92.53374135938336%  
-INFO LOG: Percentage Difference from highest = -98.23406645099654%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing SONY.csv  
-INFO LOG: Processing CPRX.csv  
-INFO LOG: Processing NFLX.csv  
-INFO LOG: Processing PYPL.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
-INFO LOG: Sector = Financial Services  
-INFO LOG: Industry = Credit Services  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $310.1600036621094  
-INFO LOG: Historic Low: $66.38500213623047  
-INFO LOG: Weighted Average: $168.91388995830846  
-INFO LOG: Current Price: $72.98999786376953  
-INFO LOG: Slope is equal to -1.589517853119509  
-INFO LOG: Percentage Difference from average = -56.788634799787616%  
-INFO LOG: Percentage Difference from highest = -76.46698574865721%  
-INFO LOG: Percentage Difference from lowest = 9.949530036897146%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing BAC.csv  
-INFO LOG: Processing CRM.csv  
-INFO LOG: Processing NOK.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing RCL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing OCGN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AAL.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing WKHS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing COST.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NKE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GM.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing RIOT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GOOG.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+'currentTradingPeriod'
