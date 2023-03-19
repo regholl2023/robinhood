@@ -298,4 +298,244 @@ INFO LOG: Processing BND.csv
 INFO LOG: Processing DAL.csv  
 INFO LOG: Processing SPCE.csv  
 INFO LOG: Processing INTC.csv  
-'currentTradingPeriod'
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $47.56382273870806  
+INFO LOG: Current Price: $29.809999465942383  
+INFO LOG: Slope is equal to -15.562601775581753  
+INFO LOG: Percentage Difference from average = -37.32631704204336%  
+INFO LOG: Percentage Difference from highest = -56.475397290512184%  
+INFO LOG: Percentage Difference from lowest = 21.228138596839866%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing VOO.csv  
+INFO LOG: Processing TSM.csv  
+INFO LOG: Processing PLUG.csv  
+INFO LOG: Processing CLOV.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Clover Health Investments, Corp(CLOV)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Healthcare Plans  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $28.850000381469727  
+INFO LOG: Historic Low: $0.8600000143051147  
+INFO LOG: Weighted Average: $6.463622117179558  
+INFO LOG: Current Price: $0.9350000023841858  
+INFO LOG: Slope is equal to -39.07033390111709  
+INFO LOG: Percentage Difference from average = -85.53442658878426%  
+INFO LOG: Percentage Difference from highest = -96.75909882141724%  
+INFO LOG: Percentage Difference from lowest = 8.720928701340952%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing WISH.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $32.849998474121094  
+INFO LOG: Historic Low: $0.375  
+INFO LOG: Weighted Average: $6.322114840729082  
+INFO LOG: Current Price: $0.39800000190734863  
+INFO LOG: Slope is equal to -18.363337742861198  
+INFO LOG: Percentage Difference from average = -93.70463821151577%  
+INFO LOG: Percentage Difference from highest = -98.78843220580089%  
+INFO LOG: Percentage Difference from lowest = 6.133333841959635%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SQ.csv  
+INFO LOG: Processing AMD.csv  
+INFO LOG: Processing ET.csv  
+INFO LOG: Processing FCEL.csv  
+INFO LOG: Processing NIO.csv  
+INFO LOG: Processing ZM.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $63.54999923706055  
+INFO LOG: Weighted Average: $226.87666555939543  
+INFO LOG: Current Price: $69.19000244140625  
+INFO LOG: Slope is equal to -1.112135790103076  
+INFO LOG: Percentage Difference from average = -69.50325311295948%  
+INFO LOG: Percentage Difference from highest = -88.24977934823902%  
+INFO LOG: Percentage Difference from lowest = 8.87490680103205%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SBUX.csv  
+INFO LOG: Processing RYCEY.csv  
+INFO LOG: Processing SOFI.csv  
+INFO LOG: Processing QQQ.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing JNJ.csv  
+INFO LOG: Processing UAL.csv  
+INFO LOG: Processing NVDA.csv  
+INFO LOG: Processing WMT.csv  
+INFO LOG: Processing MSFT.csv  
+INFO LOG: Processing PSEC.csv  
+INFO LOG: Processing PLTR.csv  
+INFO LOG: Processing BRK.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing BB.csv  
+INFO LOG: Processing VWO.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SIRI.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Sirius XM Holdings Inc.(SIRI)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $8.140000343322754  
+INFO LOG: Historic Low: $3.430000066757202  
+INFO LOG: Weighted Average: $6.02941799573798  
+INFO LOG: Current Price: $3.640000104904175  
+INFO LOG: Slope is equal to 18.39197033271221  
+INFO LOG: Percentage Difference from average = -39.6293289422431%  
+INFO LOG: Percentage Difference from highest = -55.282555879864695%  
+INFO LOG: Percentage Difference from lowest = 6.122449972588815%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing KO.csv  
+INFO LOG: Processing FUBO.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Broadcasting  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.290000915527344  
+INFO LOG: Historic Low: $1.100000023841858  
+INFO LOG: Weighted Average: $14.715533070148  
+INFO LOG: Current Price: $1.100000023841858  
+INFO LOG: Slope is equal to -8.093391575953017  
+INFO LOG: Percentage Difference from average = -92.52490535953928%  
+INFO LOG: Percentage Difference from highest = -98.23406645099654%  
+INFO LOG: Percentage Difference from lowest = 0.0%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SONY.csv  
+INFO LOG: Processing CPRX.csv  
+INFO LOG: Processing NFLX.csv  
+INFO LOG: Processing PYPL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $168.709640250635  
+INFO LOG: Current Price: $72.98999786376953  
+INFO LOG: Slope is equal to -1.5726191290706246  
+INFO LOG: Percentage Difference from average = -56.73632060661406%  
+INFO LOG: Percentage Difference from highest = -76.46698574865721%  
+INFO LOG: Percentage Difference from lowest = 9.949530036897146%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+INFO LOG: Processing CRM.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Workhorse Group, Inc.(WKHS)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Auto Manufacturers  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $42.959999084472656  
+INFO LOG: Historic Low: $1.399999976158142  
+INFO LOG: Weighted Average: $9.263464289840577  
+INFO LOG: Current Price: $1.4600000381469727  
+INFO LOG: Slope is equal to -14.242181698455619  
+INFO LOG: Percentage Difference from average = -84.2391572691851%  
+INFO LOG: Percentage Difference from highest = -96.60148959669166%  
+INFO LOG: Percentage Difference from lowest = 4.285718786473254%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
