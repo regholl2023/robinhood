@@ -39,7 +39,7 @@ INFO LOG: Historic High: $21.959999084472656
 INFO LOG: Historic Low: $6.179999828338623  
 INFO LOG: Weighted Average: $12.55103176232999  
 INFO LOG: Current Price: $6.730000019073486  
-INFO LOG: Slope is equal to -22.990025167963278  
+INFO LOG: Slope is equal to -22.989978736100337  
 INFO LOG: Percentage Difference from average = -46.378910144482646%  
 INFO LOG: Percentage Difference from highest = -69.35336839867132%  
 INFO LOG: Percentage Difference from lowest = 8.899679708934887%  
@@ -191,7 +191,7 @@ INFO LOG: Historic High: $67.0
 INFO LOG: Historic Low: $2.2799999713897705  
 INFO LOG: Weighted Average: $9.031005291396335  
 INFO LOG: Current Price: $2.569999933242798  
-INFO LOG: Slope is equal to -12.92796514515396  
+INFO LOG: Slope is equal to -12.927938086294667  
 INFO LOG: Percentage Difference from average = -71.54248225619813%  
 INFO LOG: Percentage Difference from highest = -96.16417920411523%  
 INFO LOG: Percentage Difference from lowest = 12.719296732107338%  
@@ -248,7 +248,7 @@ INFO LOG: Historic High: $84.0
 INFO LOG: Historic Low: $9.600000381469727  
 INFO LOG: Weighted Average: $26.827671975685803  
 INFO LOG: Current Price: $10.779999732971191  
-INFO LOG: Slope is equal to -16.9039124675751  
+INFO LOG: Slope is equal to -16.90391225426475  
 INFO LOG: Percentage Difference from average = -59.81761017973823%  
 INFO LOG: Percentage Difference from highest = -87.1666669845581%  
 INFO LOG: Percentage Difference from lowest = 12.29165942304693%  
@@ -281,7 +281,7 @@ INFO LOG: Historic High: $93.98999786376953
 INFO LOG: Historic Low: $1.5  
 INFO LOG: Weighted Average: $14.647804220044424  
 INFO LOG: Current Price: $1.5099999904632568  
-INFO LOG: Slope is equal to -11.227706969576394  
+INFO LOG: Slope is equal to -11.227704668589341  
 INFO LOG: Percentage Difference from average = -89.69128773309973%  
 INFO LOG: Percentage Difference from highest = -98.39344608492078%  
 INFO LOG: Percentage Difference from lowest = 0.6666660308837891%  
@@ -361,12 +361,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.8600000143051147  
-INFO LOG: Weighted Average: $6.439791550196284  
-INFO LOG: Current Price: $0.8810999989509583  
-INFO LOG: Slope is equal to -39.21979164122962  
-INFO LOG: Percentage Difference from average = -86.31788013504719%  
-INFO LOG: Percentage Difference from highest = -96.94592725372411%  
-INFO LOG: Percentage Difference from lowest = 2.453486545915051%  
+INFO LOG: Weighted Average: $6.439791120940516  
+INFO LOG: Current Price: $0.8809999823570251  
+INFO LOG: Slope is equal to -39.21979373199442  
+INFO LOG: Percentage Difference from average = -86.31943232611623%  
+INFO LOG: Percentage Difference from highest = -96.9462739316881%  
+INFO LOG: Percentage Difference from lowest = 2.4418567096046506%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -387,11 +387,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $32.849998474121094  
 INFO LOG: Historic Low: $0.375  
 INFO LOG: Weighted Average: $6.290901581463791  
-INFO LOG: Current Price: $0.3896999955177307  
-INFO LOG: Slope is equal to -18.460118658215936  
-INFO LOG: Percentage Difference from average = -93.80533949750564%  
-INFO LOG: Percentage Difference from highest = -98.81369858867806%  
-INFO LOG: Percentage Difference from lowest = 3.91999880472819%  
+INFO LOG: Current Price: $0.38999998569488525  
+INFO LOG: Slope is equal to -18.460119367136375  
+INFO LOG: Percentage Difference from average = -93.80057086182966%  
+INFO LOG: Percentage Difference from highest = -98.81278537652864%  
+INFO LOG: Percentage Difference from lowest = 3.9999961853027344%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
