@@ -39,7 +39,7 @@ INFO LOG: Historic High: $21.959999084472656
 INFO LOG: Historic Low: $6.179999828338623  
 INFO LOG: Weighted Average: $12.537880810996555  
 INFO LOG: Current Price: $6.920000076293945  
-INFO LOG: Slope is equal to -23.91928883517909  
+INFO LOG: Slope is equal to -23.91924818623286  
 INFO LOG: Percentage Difference from average = -44.80725905270494%  
 INFO LOG: Percentage Difference from highest = -68.48815863026653%  
 INFO LOG: Percentage Difference from lowest = 11.974114377188542%  
@@ -155,7 +155,7 @@ INFO LOG: Historic High: $56.49700164794922
 INFO LOG: Historic Low: $1.809999942779541  
 INFO LOG: Weighted Average: $14.048154943194596  
 INFO LOG: Current Price: $1.809999942779541  
-INFO LOG: Slope is equal to -15.160253909661062  
+INFO LOG: Slope is equal to -15.160254480243193  
 INFO LOG: Percentage Difference from average = -87.11574615955979%  
 INFO LOG: Percentage Difference from highest = -96.79629026322807%  
 INFO LOG: Percentage Difference from lowest = 0.0%  
@@ -333,10 +333,10 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
-INFO LOG: Weighted Average: $47.368920522020446  
+INFO LOG: Weighted Average: $47.36892714342543  
 INFO LOG: Current Price: $29.290000915527344  
 INFO LOG: Slope is equal to -15.58075677699575  
-INFO LOG: Percentage Difference from average = -38.166205620178175%  
+INFO LOG: Percentage Difference from average = -38.166214263536155%  
 INFO LOG: Percentage Difference from highest = -57.2346301225081%  
 INFO LOG: Percentage Difference from lowest = 19.113463740441734%  
 INFO LOG: ===================================================  
@@ -348,6 +348,7 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing VOO.csv  
 INFO LOG: Processing TSM.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing PLUG.csv  
 INFO LOG: Processing CLOV.csv  
 INFO LOG: ===================================================  
@@ -361,12 +362,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.824999988079071  
-INFO LOG: Weighted Average: $6.408149919757464  
-INFO LOG: Current Price: $0.833299994468689  
-INFO LOG: Slope is equal to -39.418567848742484  
-INFO LOG: Percentage Difference from average = -86.99624689023774%  
-INFO LOG: Percentage Difference from highest = -97.11161184245974%  
-INFO LOG: Percentage Difference from lowest = 1.0060613950969435%  
+INFO LOG: Weighted Average: $6.40814935075779  
+INFO LOG: Current Price: $0.8330000042915344  
+INFO LOG: Slope is equal to -39.418569993171744  
+INFO LOG: Percentage Difference from average = -87.00092712113477%  
+INFO LOG: Percentage Difference from highest = -97.11265166974982%  
+INFO LOG: Percentage Difference from lowest = 0.9696989488558183%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -387,11 +388,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $32.849998474121094  
 INFO LOG: Historic Low: $0.3610000014305115  
 INFO LOG: Weighted Average: $6.24970680600062  
-INFO LOG: Current Price: $0.3741999864578247  
+INFO LOG: Current Price: $0.37400001287460327  
 INFO LOG: Slope is equal to -18.589315482489052  
-INFO LOG: Percentage Difference from average = -94.01251933773055%  
-INFO LOG: Percentage Difference from highest = -98.86088278892123%  
-INFO LOG: Percentage Difference from lowest = 3.656505533242798%  
+INFO LOG: Percentage Difference from average = -94.01571906516463%  
+INFO LOG: Percentage Difference from highest = -98.86149153653922%  
+INFO LOG: Percentage Difference from lowest = 3.601111189079637%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
