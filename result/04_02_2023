@@ -134,7 +134,7 @@ INFO LOG: ===================================================
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Tilray Brands, Inc. - Class 2(TLRY)  
+INFO LOG: We recommend buying the following share: Tilray Brands, Inc.(TLRY)  
 INFO LOG: Sector = Healthcare  
 INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
 INFO LOG: Exchange= NMS  
