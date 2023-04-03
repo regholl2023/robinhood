@@ -13,12 +13,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $21.959999084472656  
 INFO LOG: Historic Low: $6.179999828338623  
-INFO LOG: Weighted Average: $12.52509260871423  
-INFO LOG: Current Price: $7.28000020980835  
-INFO LOG: Slope is equal to -24.507799729166415  
-INFO LOG: Percentage Difference from average = -41.87667558846352%  
-INFO LOG: Percentage Difference from highest = -66.84881369163695%  
-INFO LOG: Percentage Difference from lowest = 17.799359417869773%  
+INFO LOG: Weighted Average: $12.529602664669618  
+INFO LOG: Current Price: $7.085000038146973  
+INFO LOG: Slope is equal to -24.9766970732225  
+INFO LOG: Percentage Difference from average = -43.45391288324792%  
+INFO LOG: Percentage Difference from highest = -67.73679265243416%  
+INFO LOG: Percentage Difference from lowest = 14.64401674670664%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -51,10 +51,10 @@ INFO LOG: Exchange= NGM
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $1.850000023841858  
-INFO LOG: Weighted Average: $5.383473532067405  
+INFO LOG: Weighted Average: $5.379120517250714  
 INFO LOG: Current Price: $1.940000057220459  
-INFO LOG: Slope is equal to -60.043900149655485  
-INFO LOG: Percentage Difference from average = -63.963785729332926%  
+INFO LOG: Slope is equal to -60.13848595453731  
+INFO LOG: Percentage Difference from average = -63.93462368060124%  
 INFO LOG: Percentage Difference from highest = -87.74478795596687%  
 INFO LOG: Percentage Difference from lowest = 4.864866606417649%  
 INFO LOG: ===================================================  
@@ -78,12 +78,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: ExchDisp= NYSE  
 INFO LOG: Historic High: $203.02000427246094  
 INFO LOG: Historic Low: $84.06999969482422  
-INFO LOG: Weighted Average: $136.92129631647984  
-INFO LOG: Current Price: $100.12999725341797  
-INFO LOG: Slope is equal to -2.6489389731582484  
-INFO LOG: Percentage Difference from average = -26.87039931174948%  
-INFO LOG: Percentage Difference from highest = -50.679738377386926%  
-INFO LOG: Percentage Difference from lowest = 19.10312551075516%  
+INFO LOG: Weighted Average: $136.9850198909934  
+INFO LOG: Current Price: $99.94499969482422  
+INFO LOG: Slope is equal to -2.710009687713379  
+INFO LOG: Percentage Difference from average = -27.03946769190091%  
+INFO LOG: Percentage Difference from highest = -50.77086120011403%  
+INFO LOG: Percentage Difference from lowest = 18.883073697664525%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -104,13 +104,13 @@ INFO LOG: Industry = Drug Manufacturers—Specialty & Generic
 INFO LOG: Exchange= NMS  
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $56.49700164794922  
-INFO LOG: Historic Low: $1.75  
-INFO LOG: Weighted Average: $13.999546273202501  
-INFO LOG: Current Price: $1.75  
-INFO LOG: Slope is equal to -15.238467973700427  
-INFO LOG: Percentage Difference from average = -87.49959487365818%  
-INFO LOG: Percentage Difference from highest = -96.90249048807085%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
+INFO LOG: Historic Low: $1.7273000478744507  
+INFO LOG: Weighted Average: $13.983744347648102  
+INFO LOG: Current Price: $1.7450000047683716  
+INFO LOG: Slope is equal to -15.264913004194383  
+INFO LOG: Percentage Difference from average = -87.52122492097863%  
+INFO LOG: Percentage Difference from highest = -96.91134050680775%  
+INFO LOG: Percentage Difference from lowest = 1.0247181383281838%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -141,12 +141,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $67.0  
 INFO LOG: Historic Low: $2.2799999713897705  
-INFO LOG: Weighted Average: $8.999391533710327  
-INFO LOG: Current Price: $2.5299999713897705  
-INFO LOG: Slope is equal to -13.46819901486816  
-INFO LOG: Percentage Difference from average = -71.88698856014007%  
-INFO LOG: Percentage Difference from highest = -96.22388063971677%  
-INFO LOG: Percentage Difference from lowest = 10.964912418293272%  
+INFO LOG: Weighted Average: $8.998357615249818  
+INFO LOG: Current Price: $2.5401999950408936  
+INFO LOG: Slope is equal to -13.574956058948727  
+INFO LOG: Percentage Difference from average = -71.77040407089477%  
+INFO LOG: Percentage Difference from highest = -96.20865672381956%  
+INFO LOG: Percentage Difference from lowest = 11.412281882289609%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -172,12 +172,12 @@ INFO LOG: Exchange= NCM
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $39.599998474121094  
 INFO LOG: Historic Low: $1.3799999952316284  
-INFO LOG: Weighted Average: $5.69995370475703  
-INFO LOG: Current Price: $1.600000023841858  
-INFO LOG: Slope is equal to -27.171662572850128  
-INFO LOG: Percentage Difference from average = -71.9295961560786%  
-INFO LOG: Percentage Difference from highest = -95.95959574370319%  
-INFO LOG: Percentage Difference from lowest = 15.942031113797448%  
+INFO LOG: Weighted Average: $5.693953643887245  
+INFO LOG: Current Price: $1.6150000095367432  
+INFO LOG: Slope is equal to -27.26649989670339  
+INFO LOG: Percentage Difference from average = -71.63657959754327%  
+INFO LOG: Percentage Difference from highest = -95.92171699048887%  
+INFO LOG: Percentage Difference from lowest = 17.028986602689862%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -198,12 +198,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: ExchDisp= NYSE  
 INFO LOG: Historic High: $84.0  
 INFO LOG: Historic Low: $9.600000381469727  
-INFO LOG: Weighted Average: $26.538928590754345  
-INFO LOG: Current Price: $11.09000015258789  
-INFO LOG: Slope is equal to -17.064479629620315  
-INFO LOG: Percentage Difference from average = -58.212329052155354%  
-INFO LOG: Percentage Difference from highest = -86.7976188659668%  
-INFO LOG: Percentage Difference from lowest = 15.520830332405156%  
+INFO LOG: Weighted Average: $26.51034439036391  
+INFO LOG: Current Price: $11.020000457763672  
+INFO LOG: Slope is equal to -17.058071678551883  
+INFO LOG: Percentage Difference from average = -58.431319127754264%  
+INFO LOG: Percentage Difference from highest = -86.88095183599562%  
+INFO LOG: Percentage Difference from lowest = 14.791666873627229%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -231,12 +231,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $93.98999786376953  
 INFO LOG: Historic Low: $1.149999976158142  
-INFO LOG: Weighted Average: $14.560066124749564  
-INFO LOG: Current Price: $1.2100000381469727  
-INFO LOG: Slope is equal to -11.447394634198938  
-INFO LOG: Percentage Difference from average = -91.6895979195439%  
-INFO LOG: Percentage Difference from highest = -98.71262893323951%  
-INFO LOG: Percentage Difference from lowest = 5.217396802848253%  
+INFO LOG: Weighted Average: $14.55300660985987  
+INFO LOG: Current Price: $1.218500018119812  
+INFO LOG: Slope is equal to -11.491924725825628  
+INFO LOG: Percentage Difference from average = -91.62715959124034%  
+INFO LOG: Percentage Difference from highest = -98.70358543907413%  
+INFO LOG: Percentage Difference from lowest = 5.956525511462284%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -260,12 +260,12 @@ INFO LOG: Exchange= NYQ
 INFO LOG: ExchDisp= NYSE  
 INFO LOG: Historic High: $62.79999923706055  
 INFO LOG: Historic Low: $3.244999885559082  
-INFO LOG: Weighted Average: $17.129300257200924  
-INFO LOG: Current Price: $4.050000190734863  
-INFO LOG: Slope is equal to -10.995611672881644  
-INFO LOG: Percentage Difference from average = -76.35630101683634%  
-INFO LOG: Percentage Difference from highest = -93.55095503194718%  
-INFO LOG: Percentage Difference from lowest = 24.80740627320816%  
+INFO LOG: Weighted Average: $17.12165694678857  
+INFO LOG: Current Price: $3.9649999141693115  
+INFO LOG: Slope is equal to -11.051045952530291  
+INFO LOG: Percentage Difference from average = -76.8421950837357%  
+INFO LOG: Percentage Difference from highest = -93.68630579245387%  
+INFO LOG: Percentage Difference from lowest = 22.187983174186783%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -289,12 +289,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.8209999799728394  
-INFO LOG: Weighted Average: $6.384505656640174  
-INFO LOG: Current Price: $0.8450000286102295  
-INFO LOG: Slope is equal to -39.567268608172284  
-INFO LOG: Percentage Difference from average = -86.76483232916567%  
-INFO LOG: Percentage Difference from highest = -97.07105713193344%  
-INFO LOG: Percentage Difference from lowest = 2.9232703072884503%  
+INFO LOG: Weighted Average: $6.3766492129721115  
+INFO LOG: Current Price: $0.8446999788284302  
+INFO LOG: Slope is equal to -39.61684213730564  
+INFO LOG: Percentage Difference from average = -86.75323119374288%  
+INFO LOG: Percentage Difference from highest = -97.07209716582543%  
+INFO LOG: Percentage Difference from lowest = 2.8867234389426994%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -314,12 +314,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $32.849998474121094  
 INFO LOG: Historic Low: $0.3610000014305115  
-INFO LOG: Weighted Average: $6.219210069160909  
-INFO LOG: Current Price: $0.44600000977516174  
-INFO LOG: Slope is equal to -18.686086329580785  
-INFO LOG: Percentage Difference from average = -92.82867108820243%  
-INFO LOG: Percentage Difference from highest = -98.64231345360179%  
-INFO LOG: Percentage Difference from lowest = 23.545708589425544%  
+INFO LOG: Weighted Average: $6.209121316877971  
+INFO LOG: Current Price: $0.42309999465942383  
+INFO LOG: Slope is equal to -18.718304166145412  
+INFO LOG: Percentage Difference from average = -93.18583140726643%  
+INFO LOG: Percentage Difference from highest = -98.71202430955137%  
+INFO LOG: Percentage Difference from lowest = 17.20221412266834%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -345,12 +345,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $588.8400268554688  
 INFO LOG: Historic Low: $63.54999923706055  
-INFO LOG: Weighted Average: $225.960046556261  
-INFO LOG: Current Price: $73.83999633789062  
-INFO LOG: Slope is equal to -1.1648282415718043  
-INFO LOG: Percentage Difference from average = -67.32165820318794%  
-INFO LOG: Percentage Difference from highest = -87.46009222025684%  
-INFO LOG: Percentage Difference from lowest = 16.191970455334395%  
+INFO LOG: Weighted Average: $225.9979803931635  
+INFO LOG: Current Price: $72.70500183105469  
+INFO LOG: Slope is equal to -1.1735795537241767  
+INFO LOG: Percentage Difference from average = -67.82935772055508%  
+INFO LOG: Percentage Difference from highest = -87.65284312968416%  
+INFO LOG: Percentage Difference from lowest = 14.405983798431274%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -387,12 +387,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $8.140000343322754  
 INFO LOG: Historic Low: $3.430000066757202  
-INFO LOG: Weighted Average: $6.014828047424404  
-INFO LOG: Current Price: $3.9700000286102295  
-INFO LOG: Slope is equal to -37.9308094017567  
-INFO LOG: Percentage Difference from average = -33.996450151052706%  
-INFO LOG: Percentage Difference from highest = -51.228502934071464%  
-INFO LOG: Percentage Difference from lowest = 15.74343881466904%  
+INFO LOG: Weighted Average: $6.0156158987260016  
+INFO LOG: Current Price: $3.9749999046325684  
+INFO LOG: Slope is equal to -44.95256100604795  
+INFO LOG: Percentage Difference from average = -33.921979535388864%  
+INFO LOG: Percentage Difference from highest = -51.167079398304175%  
+INFO LOG: Percentage Difference from lowest = 15.88920779207509%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -402,6 +402,30 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing KO.csv  
 INFO LOG: Processing FUBO.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Broadcasting  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.290000915527344  
+INFO LOG: Historic Low: $0.9599999785423279  
+INFO LOG: Weighted Average: $14.62762649264556  
+INFO LOG: Current Price: $1.190000057220459  
+INFO LOG: Slope is equal to -8.756572478977919  
+INFO LOG: Percentage Difference from average = -91.86470848282349%  
+INFO LOG: Percentage Difference from highest = -98.08958092835118%  
+INFO LOG: Percentage Difference from lowest = 23.958342064482665%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
 INFO LOG: Processing SONY.csv  
 INFO LOG: Processing CPRX.csv  
 INFO LOG: Processing NFLX.csv  
@@ -417,12 +441,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $310.1600036621094  
 INFO LOG: Historic Low: $66.38500213623047  
-INFO LOG: Weighted Average: $168.44782808091915  
-INFO LOG: Current Price: $75.94000244140625  
-INFO LOG: Slope is equal to -1.704386697605875  
-INFO LOG: Percentage Difference from average = -54.9177906853592%  
-INFO LOG: Percentage Difference from highest = -75.51586228244443%  
-INFO LOG: Percentage Difference from lowest = 14.393311738647993%  
+INFO LOG: Weighted Average: $168.52615633326664  
+INFO LOG: Current Price: $75.70500183105469  
+INFO LOG: Slope is equal to -1.7265293931286363  
+INFO LOG: Percentage Difference from average = -55.078188764155236%  
+INFO LOG: Percentage Difference from highest = -75.59162982422187%  
+INFO LOG: Percentage Difference from lowest = 14.039315199084266%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -449,12 +473,12 @@ INFO LOG: Exchange= NCM
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $42.959999084472656  
 INFO LOG: Historic Low: $1.1799999475479126  
-INFO LOG: Weighted Average: $9.25813360220542  
-INFO LOG: Current Price: $1.3300000429153442  
-INFO LOG: Slope is equal to -15.248510759295517  
-INFO LOG: Percentage Difference from average = -85.6342530788439%  
-INFO LOG: Percentage Difference from highest = -96.90409666839109%  
-INFO LOG: Percentage Difference from lowest = 12.711873053819863%  
+INFO LOG: Weighted Average: $9.267680798934785  
+INFO LOG: Current Price: $1.3032000064849854  
+INFO LOG: Slope is equal to -15.416676677695783  
+INFO LOG: Percentage Difference from average = -85.93822947986325%  
+INFO LOG: Percentage Difference from highest = -96.96648036718416%  
+INFO LOG: Percentage Difference from lowest = 10.440683424866878%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
