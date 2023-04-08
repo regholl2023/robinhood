@@ -480,6 +480,7 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing BAC.csv  
 INFO LOG: Processing CRM.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing NOK.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing RCL.csv  
