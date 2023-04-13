@@ -1,280 +1,4 @@
-INFO LOG: Processing SCOR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CEREW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CSSE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing QRVO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GNAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing SAIIW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MRTX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing KRNT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing INMB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HOLUW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CBMB.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing ASRV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AGBA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AEIS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FFIN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ALYA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NMMCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NWSA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ACHC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CDK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KROS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AIRT.csv  
-INFO LOG: Processing KVSA.csv  
-INFO LOG: Processing ALIM.csv  
-INFO LOG: Processing CLLS.csv  
-INFO LOG: Processing LVTX.csv  
-INFO LOG: Processing GMBT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AVGO.csv  
-INFO LOG: Processing CONX.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SHSP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BAND.csv  
-INFO LOG: Processing NRIX.csv  
-INFO LOG: Processing NCNO.csv  
-INFO LOG: Processing TSCBP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KRBP.csv  
-INFO LOG: Processing MTSI.csv  
-INFO LOG: Processing FGFPP.csv  
-INFO LOG: Processing GLPG.csv  
-INFO LOG: Processing RILYM.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing INTG.csv  
-INFO LOG: Processing ANDAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing COMSW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: ComSovereign Holding Corp.(COMSW)  
-INFO LOG: Sector = Communication Services  
-INFO LOG: Industry = Telecom Services  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.021199999377131462  
-INFO LOG: Historic Low: $0.021199999377131462  
-INFO LOG: Weighted Average: $0.4787989854812622  
-INFO LOG: Current Price: $0.021199999377131462  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -95.57225474155456%  
-INFO LOG: Percentage Difference from highest = 0.0%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing SVC.csv  
-INFO LOG: Processing OEPWU.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing FLACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing PPBI.csv  
-INFO LOG: Processing CFB.csv  
-INFO LOG: Processing CTRM.csv  
-INFO LOG: Processing BNR.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SRAX.csv  
-INFO LOG: Processing OM.csv  
-INFO LOG: Processing KC.csv  
-INFO LOG: Processing UCTT.csv  
-INFO LOG: Processing MONCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BYFC.csv  
-INFO LOG: Processing VICR.csv  
-INFO LOG: Processing ITAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GECCL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing EYEN.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MBTCR.csv  
-INFO LOG: Processing BLSA.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing TGLS.csv  
-INFO LOG: Processing HCII.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LEGO.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing TWNK.csv  
-INFO LOG: Processing CUE.csv  
-INFO LOG: Processing ERESU.csv  
-INFO LOG: Processing IZEA.csv  
-INFO LOG: Processing PLSE.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CTG.csv  
-INFO LOG: Processing TW.csv  
-INFO LOG: Processing CETXP.csv  
-INFO LOG: Processing CHNR.csv  
-INFO LOG: Processing LACQ.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AMAOW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: (AMAOW)  
-INFO LOG: Sector = Financial Services  
-INFO LOG: Industry = Shell Companies  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.04969999939203262  
-INFO LOG: Historic Low: $0.03889999911189079  
-INFO LOG: Weighted Average: $0.6499999761581421  
-INFO LOG: Current Price: $0.039000000804662704  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -93.99999965612703%  
-INFO LOG: Percentage Difference from highest = -21.52917247134862%  
-INFO LOG: Percentage Difference from lowest = 0.2570737662082453%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing ASND.csv  
-INFO LOG: Processing FTNT.csv  
-INFO LOG: Processing COHU.csv  
-INFO LOG: Processing ISRG.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SAMG.csv  
-INFO LOG: Processing SCSC.csv  
-INFO LOG: Processing CVLT.csv  
-INFO LOG: Processing QELL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CFFVW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MIDD.csv  
-INFO LOG: Processing MDJH.csv  
-INFO LOG: Processing KINZ.csv  
-INFO LOG: Processing RVPHW.csv  
-INFO LOG: Processing BMEA.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PFIN.csv  
-INFO LOG: Processing TETCW.csv  
-INFO LOG: Processing SPSC.csv  
-INFO LOG: Processing APR.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GTH.csv  
-INFO LOG: Processing STRL.csv  
-INFO LOG: Processing TLMD.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing ITOS.csv  
-INFO LOG: Processing GAMC.csv  
-INFO LOG: Processing IIVIP.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AURCW.csv  
-INFO LOG: Processing JWEL.csv  
-INFO LOG: Processing NDACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing DJCO.csv  
-INFO LOG: Processing OMER.csv  
-INFO LOG: Processing IRTC.csv  
-INFO LOG: Processing CREG.csv  
-INFO LOG: Processing LJAQU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing STIM.csv  
-INFO LOG: Processing TLS.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing GOOGL.csv  
-INFO LOG: Processing SUMR.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing HUDI.csv  
-INFO LOG: Processing MCFT.csv  
-INFO LOG: Processing VSAT.csv  
-INFO LOG: Processing CHTR.csv  
-INFO LOG: Processing NYMTM.csv  
-INFO LOG: Processing FSRV.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CTAQ.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing MDWT.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing LQDA.csv  
-INFO LOG: Processing DHCA.csv  
-INFO LOG: Processing IPWR.csv  
-INFO LOG: Processing CBAY.csv  
-INFO LOG: Processing JAN.csv  
-INFO LOG: Processing TZPSU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing COOLW.csv  
-INFO LOG: Processing EVLO.csv  
-INFO LOG: Processing JMPNL.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing NBSTU.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PRIM.csv  
-INFO LOG: Processing CYRX.csv  
-INFO LOG: Processing GRPN.csv  
-INFO LOG: Processing EWBC.csv  
-INFO LOG: Processing RVSB.csv  
-INFO LOG: Processing ZWRK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing IPLDP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VCKA.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NGACW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VTGN.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AKTS.csv  
-INFO LOG: Processing VELOU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LAWS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing AMZN.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -300,199 +24,7 @@ INFO LOG: ===================================================
 
 
   
-INFO LOG: Processing BIDU.csv  
-INFO LOG: Processing YNDX.csv  
-INFO LOG: Processing TAOP.csv  
-INFO LOG: Processing MTCR.csv  
-INFO LOG: Processing CASI.csv  
-INFO LOG: Processing MNRO.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SSAAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AKUS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KINS.csv  
-INFO LOG: Processing FWRD.csv  
-INFO LOG: Processing UXIN.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Uxin Limited(UXIN)  
-INFO LOG: Sector = Consumer Cyclical  
-INFO LOG: Industry = Auto & Truck Dealerships  
-INFO LOG: Exchange= NMS  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $58.20000076293945  
-INFO LOG: Historic Low: $1.649999976158142  
-INFO LOG: Weighted Average: $13.764715240333244  
-INFO LOG: Current Price: $1.649999976158142  
-INFO LOG: Slope is equal to -8.216583608343488  
-INFO LOG: Percentage Difference from average = -88.0128288355481%  
-INFO LOG: Percentage Difference from highest = -97.16494853173812%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing GLSPT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BVS.csv  
-INFO LOG: Processing NVSAU.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing AZYO.csv  
-INFO LOG: Processing LMACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing DSKE.csv  
-INFO LOG: Processing VOSOW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing RMRM.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MYGN.csv  
-INFO LOG: Processing WORX.csv  
-INFO LOG: Processing HLIT.csv  
-INFO LOG: Processing RCKT.csv  
-INFO LOG: Processing TFSL.csv  
-INFO LOG: Processing SVFAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing HONE.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing TMTSW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VRDN.csv  
-INFO LOG: Processing OXLC.csv  
-INFO LOG: Processing CACC.csv  
-INFO LOG: Processing ARRWU.csv  
-INFO LOG: Processing BENEU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VLON.csv  
-INFO LOG: Processing CYBR.csv  
-INFO LOG: Processing SCOAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LFTR.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing GTBP.csv  
-INFO LOG: Processing PETQ.csv  
-INFO LOG: Processing BFST.csv  
-INFO LOG: Processing COLI.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing FARM.csv  
 INFO LOG: Processing TSLA.csv  
-INFO LOG: Processing TVTX.csv  
-INFO LOG: Processing FOREU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing FTIV.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CREXW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Creative Realities, Inc.(CREXW)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Software—Application  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.01889999955892563  
-INFO LOG: Historic Low: $0.010599999688565731  
-INFO LOG: Weighted Average: $0.26170000433921814  
-INFO LOG: Current Price: $0.010599999688565731  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -95.94956075169723%  
-INFO LOG: Percentage Difference from highest = -43.91534425428162%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ATOM.csv  
-INFO LOG: Processing TBCPU.csv  
-INFO LOG: Processing PRVB.csv  
-INFO LOG: Processing RACB.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing RADI.csv  
-INFO LOG: Processing FLIC.csv  
-INFO LOG: Processing CREE.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NH.csv  
-INFO LOG: Processing DNLI.csv  
-INFO LOG: Processing DGNS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ADILW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Adial Pharmaceuticals, Inc(ADILW)  
-INFO LOG: Sector = Healthcare  
-INFO LOG: Industry = Biotechnology  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.08179999887943268  
-INFO LOG: Historic Low: $0.05260000005364418  
-INFO LOG: Weighted Average: $0.6500999927520752  
-INFO LOG: Current Price: $0.05260000005364418  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -91.90893698814362%  
-INFO LOG: Percentage Difference from highest = -35.696820569432035%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing SASR.csv  
-INFO LOG: Processing RCMT.csv  
-INFO LOG: Processing GERN.csv  
-INFO LOG: Processing BCAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing HLAHU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing SAFT.csv  
-INFO LOG: Processing PRDO.csv  
-INFO LOG: Processing BBSI.csv  
-INFO LOG: Processing OCAX.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing URGN.csv  
-INFO LOG: Processing ITHXW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GHVI.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing XPER.csv  
-INFO LOG: Processing VTAQU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing EBMT.csv  
-INFO LOG: Processing IBKR.csv  
-INFO LOG: Processing EQOS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MYSZ.csv  
-INFO LOG: Processing CLMT.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing EVGN.csv  
-INFO LOG: Processing BROG.csv  
-INFO LOG: Processing ICAD.csv  
-INFO LOG: Processing OXSQL.csv  
-INFO LOG: Processing GTPBW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing DHIL.csv  
-INFO LOG: Processing LEGN.csv  
-INFO LOG: Processing TSIAW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NEBCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing JBLU.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -518,24 +50,506 @@ INFO LOG: ===================================================
 
 
   
+INFO LOG: Processing TGT.csv  
+INFO LOG: Processing ARKK.csv  
+INFO LOG: Processing QS.csv  
+INFO LOG: Processing GE.csv  
+INFO LOG: Processing SPY.csv  
+INFO LOG: Processing BA.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PHUNW.csv  
+INFO LOG: Processing MRNA.csv  
+INFO LOG: Processing T.csv  
+INFO LOG: Processing LCID.csv  
+INFO LOG: Processing COIN.csv  
+INFO LOG: Processing BNGO.csv  
+INFO LOG: Processing PFE.csv  
+INFO LOG: Processing CRON.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Phunware, Inc.(PHUNW)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Software—Application  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $1.8049999475479126  
+INFO LOG: Weighted Average: $5.348619035469794  
+INFO LOG: Current Price: $1.8200000524520874  
+INFO LOG: Slope is equal to -60.64456285193322  
+INFO LOG: Percentage Difference from average = -65.97252411542846%  
+INFO LOG: Percentage Difference from highest = -88.50284231696953%  
+INFO LOG: Percentage Difference from lowest = 0.8310307667627584%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing CCL.csv  
+INFO LOG: Processing UBER.csv  
+INFO LOG: Processing DIS.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Walt Disney Company (The)(DIS)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $203.02000427246094  
+INFO LOG: Historic Low: $84.06999969482422  
+INFO LOG: Weighted Average: $136.93026458901699  
+INFO LOG: Current Price: $97.94000244140625  
+INFO LOG: Slope is equal to -2.887404841708955  
+INFO LOG: Percentage Difference from average = -28.474539404883398%  
+INFO LOG: Percentage Difference from highest = -51.758447256277826%  
+INFO LOG: Percentage Difference from lowest = 16.498159625229476%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing CHPT.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ChargePoint Holdings, Inc.(CHPT)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Specialty Retail  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $49.47999954223633  
+INFO LOG: Historic Low: $8.069999694824219  
+INFO LOG: Weighted Average: $18.28580289038402  
+INFO LOG: Current Price: $8.779999732971191  
+INFO LOG: Slope is equal to -6.528734670078255  
+INFO LOG: Percentage Difference from average = -51.984609122149394%  
+INFO LOG: Percentage Difference from highest = -82.25545712570884%  
+INFO LOG: Percentage Difference from lowest = 8.798018153610823%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing CGC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Canopy Growth Corporation(CGC)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $56.49700164794922  
+INFO LOG: Historic Low: $1.5099999904632568  
+INFO LOG: Weighted Average: $13.881477489357913  
+INFO LOG: Current Price: $1.5199999809265137  
+INFO LOG: Slope is equal to -15.417618174434919  
+INFO LOG: Percentage Difference from average = -89.0501570737567%  
+INFO LOG: Percentage Difference from highest = -97.30959177197029%  
+INFO LOG: Percentage Difference from lowest = 0.6622510282393388%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing RIVN.csv  
+INFO LOG: Processing RITM.csv  
+INFO LOG: Processing GME.csv  
+INFO LOG: Processing AAPL.csv  
+INFO LOG: Processing JPM.csv  
+INFO LOG: Processing SNAP.csv  
+INFO LOG: Processing V.csv  
+INFO LOG: Processing XOM.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing O.csv  
+INFO LOG: Processing VTI.csv  
+INFO LOG: Processing TLRY.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Tilray Brands, Inc.(TLRY)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $67.0  
+INFO LOG: Historic Low: $2.2799999713897705  
+INFO LOG: Weighted Average: $8.963121692970306  
+INFO LOG: Current Price: $2.4600000381469727  
+INFO LOG: Slope is equal to -14.014538487260861  
+INFO LOG: Percentage Difference from average = -72.55420463524078%  
+INFO LOG: Percentage Difference from highest = -96.32835815201945%  
+INFO LOG: Percentage Difference from lowest = 7.894739869118656%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SHOP.csv  
+INFO LOG: Processing HOOD.csv  
+INFO LOG: Processing PTON.csv  
+INFO LOG: Processing ABNB.csv  
+INFO LOG: Processing SPHD.csv  
+INFO LOG: Processing F.csv  
+INFO LOG: Processing SNDL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: SNDL Inc.(SNDL)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
 INFO LOG: Exchange= NCM  
 INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.23999999463558197  
-INFO LOG: Historic Low: $0.21870000660419464  
-INFO LOG: Weighted Average: $2.6600000858306885  
-INFO LOG: Current Price: $0.21870000660419464  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -91.77819550573822%  
-INFO LOG: Percentage Difference from highest = -8.874995211449656%  
+INFO LOG: Historic High: $39.599998474121094  
+INFO LOG: Historic Low: $1.3799999952316284  
+INFO LOG: Weighted Average: $5.663333335093087  
+INFO LOG: Current Price: $1.5099999904632568  
+INFO LOG: Slope is equal to -27.958266609229124  
+INFO LOG: Percentage Difference from average = -73.33725738680297%  
+INFO LOG: Percentage Difference from highest = -96.18686856402266%  
+INFO LOG: Percentage Difference from lowest = 9.42028954208861%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing IVR.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: INVESCO MORTGAGE CAPITAL INC(IVR)  
+INFO LOG: Sector = Real Estate  
+INFO LOG: Industry = REIT—Mortgage  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $84.0  
+INFO LOG: Historic Low: $9.600000381469727  
+INFO LOG: Weighted Average: $26.350132293802076  
+INFO LOG: Current Price: $10.390000343322754  
+INFO LOG: Slope is equal to -17.177914681791858  
+INFO LOG: Percentage Difference from average = -60.56945662558731%  
+INFO LOG: Percentage Difference from highest = -87.63095197223481%  
+INFO LOG: Percentage Difference from lowest = 8.229165942304693%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing MRO.csv  
+INFO LOG: Processing META.csv  
+INFO LOG: Processing LUV.csv  
+INFO LOG: Processing AMC.csv  
+INFO LOG: Processing BABA.csv  
+INFO LOG: Processing DKNG.csv  
+INFO LOG: Processing NCLH.csv  
+INFO LOG: Processing DWAC.csv  
+INFO LOG: Processing NKLA.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $0.9700000286102295  
+INFO LOG: Weighted Average: $14.470006601047265  
+INFO LOG: Current Price: $0.9929999709129333  
+INFO LOG: Slope is equal to -11.66383042132196  
+INFO LOG: Percentage Difference from average = -93.13752924728406%  
+INFO LOG: Percentage Difference from highest = -98.9435046350866%  
+INFO LOG: Percentage Difference from lowest = 2.3711280025070818%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RBLX.csv  
+INFO LOG: Processing BND.csv  
+INFO LOG: Processing DAL.csv  
+INFO LOG: Processing SPCE.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Virgin Galactic Holdings, Inc.(SPCE)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Aerospace & Defense  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.79999923706055  
+INFO LOG: Historic Low: $2.9800000190734863  
+INFO LOG: Weighted Average: $17.030040999253586  
+INFO LOG: Current Price: $3.2699999809265137  
+INFO LOG: Slope is equal to -11.263207709170326  
+INFO LOG: Percentage Difference from average = -80.79863706100393%  
+INFO LOG: Percentage Difference from highest = -94.79299359768659%  
+INFO LOG: Percentage Difference from lowest = 9.731542281774596%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing INTC.csv  
+INFO LOG: Processing VOO.csv  
+INFO LOG: Processing TSM.csv  
+INFO LOG: Processing PLUG.csv  
+INFO LOG: Processing CLOV.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Clover Health Investments, Corp(CLOV)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Healthcare Plans  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $28.850000381469727  
+INFO LOG: Historic Low: $0.7850000262260437  
+INFO LOG: Weighted Average: $6.329987368276055  
+INFO LOG: Current Price: $0.8059999942779541  
+INFO LOG: Slope is equal to -39.91448413692509  
+INFO LOG: Percentage Difference from average = -87.26695730362152%  
+INFO LOG: Percentage Difference from highest = -97.20623922488527%  
+INFO LOG: Percentage Difference from lowest = 2.6751550764742755%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing WISH.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $985.5  
+INFO LOG: Historic Low: $7.860000133514404  
+INFO LOG: Weighted Average: $184.47830191689116  
+INFO LOG: Current Price: $7.949999809265137  
+INFO LOG: Slope is equal to -0.6304042656304615  
+INFO LOG: Percentage Difference from average = -95.69055020202502%  
+INFO LOG: Percentage Difference from highest = -99.19330291128715%  
+INFO LOG: Percentage Difference from lowest = 1.145034023179988%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SQ.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Block, Inc.(SQ)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Infrastructure  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $289.2300109863281  
+INFO LOG: Historic Low: $51.34000015258789  
+INFO LOG: Weighted Average: $148.17000128226286  
+INFO LOG: Current Price: $62.7400016784668  
+INFO LOG: Slope is equal to -1.3968172544543016  
+INFO LOG: Percentage Difference from average = -57.656744863660016%  
+INFO LOG: Percentage Difference from highest = -78.30792127535047%  
+INFO LOG: Percentage Difference from lowest = 22.204911359557656%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing AMD.csv  
+INFO LOG: Processing ET.csv  
+INFO LOG: Processing FCEL.csv  
+INFO LOG: Processing NIO.csv  
+INFO LOG: Processing ZM.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $63.54999923706055  
+INFO LOG: Weighted Average: $225.48876348626692  
+INFO LOG: Current Price: $67.48999786376953  
+INFO LOG: Slope is equal to -1.2060919240717818  
+INFO LOG: Percentage Difference from average = -70.06946296555486%  
+INFO LOG: Percentage Difference from highest = -88.53848332556798%  
+INFO LOG: Percentage Difference from lowest = 6.199840557057457%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SBUX.csv  
+INFO LOG: Processing RYCEY.csv  
+INFO LOG: Processing SOFI.csv  
+INFO LOG: Processing QQQ.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing JNJ.csv  
+INFO LOG: Processing UAL.csv  
+INFO LOG: Processing NVDA.csv  
+INFO LOG: Processing WMT.csv  
+INFO LOG: Processing MSFT.csv  
+INFO LOG: Processing PSEC.csv  
+INFO LOG: Processing PLTR.csv  
+INFO LOG: Processing BRK.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing BB.csv  
+INFO LOG: Processing VWO.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SIRI.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Sirius XM Holdings Inc.(SIRI)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $8.140000343322754  
+INFO LOG: Historic Low: $3.430000066757202  
+INFO LOG: Weighted Average: $6.006640216976253  
+INFO LOG: Current Price: $3.9800000190734863  
+INFO LOG: Slope is equal to -67.27159057540432  
+INFO LOG: Percentage Difference from average = -33.73999648214287%  
+INFO LOG: Percentage Difference from highest = -51.10565293356183%  
+INFO LOG: Percentage Difference from lowest = 16.03498372045999%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing KO.csv  
+INFO LOG: Processing FUBO.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Broadcasting  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.290000915527344  
+INFO LOG: Historic Low: $0.9599999785423279  
+INFO LOG: Weighted Average: $14.564607145136646  
+INFO LOG: Current Price: $1.149999976158142  
+INFO LOG: Slope is equal to -9.069109763128994  
+INFO LOG: Percentage Difference from average = -92.10414695914304%  
+INFO LOG: Percentage Difference from highest = -98.15379682251462%  
+INFO LOG: Percentage Difference from lowest = 19.79166686069221%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SONY.csv  
+INFO LOG: Processing CPRX.csv  
+INFO LOG: Processing NFLX.csv  
+INFO LOG: Processing PYPL.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $168.23220638497173  
+INFO LOG: Current Price: $73.5  
+INFO LOG: Slope is equal to -1.791507235104902  
+INFO LOG: Percentage Difference from average = -56.31038694707045%  
+INFO LOG: Percentage Difference from highest = -76.30255380056306%  
+INFO LOG: Percentage Difference from lowest = 10.717779068785221%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+INFO LOG: Processing CRM.csv  
+INFO LOG: Processing NOK.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Workhorse Group, Inc.(WKHS)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Auto Manufacturers  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $42.959999084472656  
+INFO LOG: Historic Low: $1.0399999618530273  
+INFO LOG: Weighted Average: $9.253186512245714  
+INFO LOG: Current Price: $1.0399999618530273  
+INFO LOG: Slope is equal to -15.958324956900517  
+INFO LOG: Percentage Difference from average = -88.76062899546349%  
+INFO LOG: Percentage Difference from highest = -97.57914342640449%  
 INFO LOG: Percentage Difference from lowest = 0.0%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -544,99 +558,8 @@ INFO LOG: ===================================================
 
 
   
-INFO LOG: Processing ERIE.csv  
-INFO LOG: Processing AGNCO.csv  
-INFO LOG: Processing PTPI.csv  
-INFO LOG: Processing SPKEP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing SDGR.csv  
-INFO LOG: Processing CRMD.csv  
-INFO LOG: Processing FORE.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AKICW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AYRO.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing TERN.csv  
-INFO LOG: Processing FREEW.csv  
-INFO LOG: Processing PEBK.csv  
-INFO LOG: Processing SPTN.csv  
-INFO LOG: Processing IMNM.csv  
-INFO LOG: Processing MIME.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing SVFD.csv  
-INFO LOG: Processing OBCI.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing OBLG.csv  
-INFO LOG: Processing FIII.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SRSA.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MBIN.csv  
-INFO LOG: Processing NAKD.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing UPC.csv  
-INFO LOG: Processing PBHC.csv  
-INFO LOG: Processing FMBIP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GLAQW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing HBT.csv  
-INFO LOG: Processing NEOG.csv  
-INFO LOG: Processing HOFT.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AMBA.csv  
-INFO LOG: Processing RAVE.csv  
-INFO LOG: Processing ASAXW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing IIIIW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LGACW.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing DKDCU.csv  
-INFO LOG: Processing MACK.csv  
-INFO LOG: Processing PRTS.csv  
-INFO LOG: Processing XPDIW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AMHCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ELTK.csv  
-INFO LOG: Processing KBNTW.csv  
-INFO LOG: Processing ARKO.csv  
-INFO LOG: Processing BLCT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing EDTK.csv  
-INFO LOG: Processing TRVN.csv  
-INFO LOG: Processing VLYPO.csv  
-INFO LOG: Processing OSIS.csv  
-INFO LOG: Processing PTNR.csv  
-INFO LOG: Processing PLBY.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing FLAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing FORA.csv  
-INFO LOG: Processing REG.csv  
-INFO LOG: Processing HTOO.csv  
-INFO LOG: Processing EPIX.csv  
-INFO LOG: Processing MDRRP.csv  
-INFO LOG: Processing HTLD.csv  
-INFO LOG: Processing LX.csv  
-INFO LOG: Processing NTRS.csv  
-INFO LOG: Processing WWD.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ITHX.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MBCN.csv  
-INFO LOG: Processing TEAM.csv  
-INFO LOG: Processing INNV.csv  
-INFO LOG: Processing LMNR.csv  
-INFO LOG: Processing KURI.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing EYE.csv  
-INFO LOG: Processing TRMT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GLAD.csv  
-'currentTradingPeriod'
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+INFO LOG: Processing GM.csv  
+INFO LOG: Processing RIOT.csv  
+INFO LOG: Processing GOOG.csv  
