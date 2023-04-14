@@ -80,7 +80,7 @@ INFO LOG: Historic High: $203.02000427246094
 INFO LOG: Historic Low: $84.06999969482422  
 INFO LOG: Weighted Average: $136.92206353485264  
 INFO LOG: Current Price: $100.83999633789062  
-INFO LOG: Slope is equal to -2.9187470835018163  
+INFO LOG: Slope is equal to -2.9187466044027883  
 INFO LOG: Percentage Difference from average = -26.35226658541964%  
 INFO LOG: Percentage Difference from highest = -50.33001959621707%  
 INFO LOG: Percentage Difference from lowest = 19.947658741455726%  
@@ -106,7 +106,7 @@ INFO LOG: Historic High: $49.47999954223633
 INFO LOG: Historic Low: $8.069999694824219  
 INFO LOG: Weighted Average: $18.284652096884606  
 INFO LOG: Current Price: $8.550000190734863  
-INFO LOG: Slope is equal to -6.644586617452577  
+INFO LOG: Slope is equal to -6.644582600161687  
 INFO LOG: Percentage Difference from average = -53.239470210146145%  
 INFO LOG: Percentage Difference from highest = -82.7202904813357%  
 INFO LOG: Percentage Difference from lowest = 5.947961760376497%  
@@ -224,7 +224,7 @@ INFO LOG: Historic High: $84.0
 INFO LOG: Historic Low: $9.600000381469727  
 INFO LOG: Weighted Average: $26.30301589183705  
 INFO LOG: Current Price: $10.369999885559082  
-INFO LOG: Slope is equal to -17.185158451465657  
+INFO LOG: Slope is equal to -17.18523932698718  
 INFO LOG: Percentage Difference from average = -60.57486362703626%  
 INFO LOG: Percentage Difference from highest = -87.65476204100109%  
 INFO LOG: Percentage Difference from lowest = 8.02082784887839%  
@@ -256,11 +256,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $93.98999786376953  
 INFO LOG: Historic Low: $0.9610000252723694  
 INFO LOG: Weighted Average: $14.456461627489677  
-INFO LOG: Current Price: $0.9697999954223633  
+INFO LOG: Current Price: $0.9700000286102295  
 INFO LOG: Slope is equal to -11.691487539178569  
-INFO LOG: Percentage Difference from average = -93.2915811599552%  
-INFO LOG: Percentage Difference from highest = -98.9681880865366%  
-INFO LOG: Percentage Difference from lowest = 0.9157096689461359%  
+INFO LOG: Percentage Difference from average = -93.29019746598486%  
+INFO LOG: Percentage Difference from highest = -98.96797526262723%  
+INFO LOG: Percentage Difference from lowest = 0.9365247763973055%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -314,11 +314,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.7850000262260437  
 INFO LOG: Weighted Average: $6.322270299122789  
-INFO LOG: Current Price: $0.83160001039505  
-INFO LOG: Slope is equal to -39.96425297595237  
-INFO LOG: Percentage Difference from average = -86.84649704852964%  
-INFO LOG: Percentage Difference from highest = -97.11750433483812%  
-INFO LOG: Percentage Difference from lowest = 5.936303517471184%  
+INFO LOG: Current Price: $0.8320000171661377  
+INFO LOG: Slope is equal to -39.96425362836215  
+INFO LOG: Percentage Difference from average = -86.84017010026324%  
+INFO LOG: Percentage Difference from highest = -97.11611782958406%  
+INFO LOG: Percentage Difference from lowest = 5.987259792340462%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -413,7 +413,7 @@ INFO LOG: Historic High: $8.140000343322754
 INFO LOG: Historic Low: $3.430000066757202  
 INFO LOG: Weighted Average: $6.005000005638795  
 INFO LOG: Current Price: $4.050000190734863  
-INFO LOG: Slope is equal to -70.60796109507793  
+INFO LOG: Slope is equal to -70.60614740135844  
 INFO LOG: Percentage Difference from average = -32.556200051093334%  
 INFO LOG: Percentage Difference from highest = -50.24570000101928%  
 INFO LOG: Percentage Difference from lowest = 18.075805011975493%  
@@ -490,4 +490,4 @@ INFO LOG: Processing COST.csv
 INFO LOG: Processing NKE.csv  
 INFO LOG: Processing GM.csv  
 INFO LOG: Processing RIOT.csv  
-INFO LOG: Processing GOOG.csv  
+<urlopen error [Errno 110] Connection timed out>
