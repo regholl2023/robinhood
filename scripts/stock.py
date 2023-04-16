@@ -13,6 +13,7 @@ import json
 import yfinance as yf
 import stock_constants
 import sim_logging
+import requests
 from scipy.stats import linregress
 from urllib.error import HTTPError
 
@@ -111,6 +112,7 @@ class STOCK:
         self.current_stock_value = 0
         self.weighted_average = 0
         self.process_misc_data()
+        self.get_misc_data()
 
         # Make predictions/suggestions
         self.recommend_buying()
@@ -171,6 +173,9 @@ class STOCK:
                         "Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
+                    self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalues")
+
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -192,6 +197,8 @@ class STOCK:
                         file_object.write("lowest_stock_value = " + str(self.lowest_stock_value) + '\n')
                         file_object.write("highest_stock_value = " + str(self.highest_stock_value) + '\n')
                         file_object.write("weighted_average = " + str(self.weighted_average) + '\n')
+                        file_object.write("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalues\n")
                         file_object.write("\n\n")
                         file_object.close()
 
@@ -239,6 +246,8 @@ class STOCK:
                         "Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
+                    self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalues")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -246,6 +255,28 @@ class STOCK:
         except Exception as e:
             print(e)
             raise Exception
+
+
+    def get_misc_data(self):
+        api_key = '4HXSW88OCUXENZYN'
+
+        i_response_overview = requests.get(
+            f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={self.name}&apikey={api_key}')
+        self.PERatio = i_response_overview.json()['PERatio']
+        self.PriceToBookRatio = i_response_overview.json()['PriceToBookRatio']
+        self.DividendYield = i_response_overview.json()['DividendYield']
+        #self.DebtToEquityRatio = i_response_overview.json()['DebtToEquityRatio']
+        self.MarketCapitalization = i_response_overview.json()['MarketCapitalization']
+        #self.EarningsGrowth = i_response_overview.json()['EarningsGrowth']  # Doesn't exist
+
+
+
+
+    @staticmethod
+    def get_data_from_alphavantage(i_symbol):
+        api_key = '4HXSW88OCUXENZYN'
+        response = requests.get(f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={i_symbol}&apikey={api_key}')
+        return response
 
     def process_misc_data(self):
         self.highest_stock_value = max(self.HIGH, key=lambda x: float(x))
