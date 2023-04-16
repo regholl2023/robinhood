@@ -32,3 +32,43 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing TGT.csv  
 INFO LOG: Processing ARKK.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing QS.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing GE.csv  
+INFO LOG: Processing SPY.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing BA.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing MRNA.csv  
+INFO LOG: Processing T.csv  
+INFO LOG: Processing LCID.csv  
+INFO LOG: Processing COIN.csv  
+INFO LOG: Processing BNGO.csv  
+INFO LOG: Processing PFE.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing CRON.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $1.8049999475479126  
+INFO LOG: Weighted Average: $5.338248665212956  
+INFO LOG: Current Price: $1.8600000143051147  
+INFO LOG: Slope is equal to -60.80416397960723  
+INFO LOG: Percentage Difference from average = -65.15711179912009%  
+INFO LOG: Percentage Difference from highest = -88.25015778098843%  
+INFO LOG: Percentage Difference from lowest = 3.0470951997488744%  
+'STOCK' object has no attribute 'PERatio'
