@@ -174,8 +174,12 @@ class STOCK:
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
                     self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalues")
-
+                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
+                    self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                     "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
+                    self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                     "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
+                    self.simlog.info("Divident yeild = " + str(self.DividendYield))
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -198,7 +202,12 @@ class STOCK:
                         file_object.write("highest_stock_value = " + str(self.highest_stock_value) + '\n')
                         file_object.write("weighted_average = " + str(self.weighted_average) + '\n')
                         file_object.write("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalues\n")
+                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalued\n")
+                        file_object.write("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                         "; 1 = fairly valued; < 1 undervalued; > 1 overvalued\n")
+                        file_object.write("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                         "; if < 1 stock is considered undervalued, while > 3 is considered overvalued\n")
+                        file_object.write("Divident yeild = " + str(self.DividendYield) + "/n")
                         file_object.write("\n\n")
                         file_object.close()
 
@@ -247,7 +256,12 @@ class STOCK:
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
                     self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalues")
+                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
+                    self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                     "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
+                    self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                     "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
+                    self.simlog.info("Divident yeild = " +str(self.DividendYield))
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -263,6 +277,7 @@ class STOCK:
         i_response_overview = requests.get(
             f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={self.name}&apikey={api_key}')
         self.PERatio = i_response_overview.json()['PERatio']
+        self.PEGRatio = i_response_overview.json()['PEGRatio']
         self.PriceToBookRatio = i_response_overview.json()['PriceToBookRatio']
         self.DividendYield = i_response_overview.json()['DividendYield']
         #self.DebtToEquityRatio = i_response_overview.json()['DebtToEquityRatio']
