@@ -274,16 +274,19 @@ class STOCK:
     def get_misc_data(self):
         api_key = '4HXSW88OCUXENZYN'
 
-        i_response_overview = requests.get(
-            f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={self.name}&apikey={api_key}')
-        self.PERatio = i_response_overview.json()['PERatio']
-        self.PEGRatio = i_response_overview.json()['PEGRatio']
-        self.PriceToBookRatio = i_response_overview.json()['PriceToBookRatio']
-        self.DividendYield = i_response_overview.json()['DividendYield']
-        #self.DebtToEquityRatio = i_response_overview.json()['DebtToEquityRatio']
-        self.MarketCapitalization = i_response_overview.json()['MarketCapitalization']
-        #self.EarningsGrowth = i_response_overview.json()['EarningsGrowth']  # Doesn't exist
-
+        try:
+            i_response_overview = requests.get(
+                f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={self.name}&apikey={api_key}')
+            self.PERatio = i_response_overview.json()['PERatio']
+            self.PEGRatio = i_response_overview.json()['PEGRatio']
+            self.PriceToBookRatio = i_response_overview.json()['PriceToBookRatio']
+            self.DividendYield = i_response_overview.json()['DividendYield']
+            #self.DebtToEquityRatio = i_response_overview.json()['DebtToEquityRatio']
+            self.MarketCapitalization = i_response_overview.json()['MarketCapitalization']
+            #self.EarningsGrowth = i_response_overview.json()['EarningsGrowth']  # Doesn't exist
+        except Exception as e:
+            self.simlog.warning("Failed to get misc data for stock")
+            self.simlog.warning(str(e))
 
 
 
