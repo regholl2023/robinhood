@@ -173,13 +173,17 @@ class STOCK:
                         "Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
-                    self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
-                    self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
-                                     "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
-                    self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
-                                     "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
-                    self.simlog.info("Divident yeild = " + str(self.DividendYield))
+
+                    if self.misc_data:
+                        self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
+                        self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                         "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
+                        self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                         "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
+                        self.simlog.info("Divident yeild = " + str(self.DividendYield))
+
+                        
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -201,13 +205,16 @@ class STOCK:
                         file_object.write("lowest_stock_value = " + str(self.lowest_stock_value) + '\n')
                         file_object.write("highest_stock_value = " + str(self.highest_stock_value) + '\n')
                         file_object.write("weighted_average = " + str(self.weighted_average) + '\n')
-                        file_object.write("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalued\n")
-                        file_object.write("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
-                                         "; 1 = fairly valued; < 1 undervalued; > 1 overvalued\n")
-                        file_object.write("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
-                                         "; if < 1 stock is considered undervalued, while > 3 is considered overvalued\n")
-                        file_object.write("Divident yeild = " + str(self.DividendYield) + "/n")
+
+                        if self.misc_data:
+                            file_object.write("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                             "; if < 15 stock is considered undervalued, while > 25 is considered overvalued\n")
+                            file_object.write("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                             "; 1 = fairly valued; < 1 undervalued; > 1 overvalued\n")
+                            file_object.write("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                             "; if < 1 stock is considered undervalued, while > 3 is considered overvalued\n")
+                            file_object.write("Divident yeild = " + str(self.DividendYield) + "/n")
+
                         file_object.write("\n\n")
                         file_object.close()
 
@@ -255,13 +262,15 @@ class STOCK:
                         "Percentage Difference from highest = " + str(i_percentage_difference_from_highest) + "%")
                     self.simlog.info(
                         "Percentage Difference from lowest = " + str(i_percentage_difference_from_lowest) + "%")
-                    self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
-                                     "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
-                    self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
-                                     "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
-                    self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
-                                     "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
-                    self.simlog.info("Divident yeild = " +str(self.DividendYield))
+
+                    if self.misc_data:
+                        self.simlog.info("Price to Earnings (P/E) ratio = " + str(self.PERatio) +
+                                         "; if < 15 stock is considered undervalued, while > 25 is considered overvalued")
+                        self.simlog.info("Price/Earnings to Growth (PEG) ratio = " + str(self.PEGRatio) +
+                                         "; 1 = fairly valued; < 1 undervalued; > 1 overvalued")
+                        self.simlog.info("Price to Book (P/B) ratio = " + str(self.PriceToBookRatio) +
+                                         "; if < 1 stock is considered undervalued, while > 3 is considered overvalued")
+                        self.simlog.info("Divident yeild = " +str(self.DividendYield))
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
                     self.simlog.info("===================================================")
@@ -273,7 +282,7 @@ class STOCK:
 
     def get_misc_data(self):
         api_key = '4HXSW88OCUXENZYN'
-
+        self.misc_data = False
         try:
             i_response_overview = requests.get(
                 f'https://www.alphavantage.co/query?function=OVERVIEW&symbol={self.name}&apikey={api_key}')
@@ -284,6 +293,7 @@ class STOCK:
             #self.DebtToEquityRatio = i_response_overview.json()['DebtToEquityRatio']
             self.MarketCapitalization = i_response_overview.json()['MarketCapitalization']
             #self.EarningsGrowth = i_response_overview.json()['EarningsGrowth']  # Doesn't exist
+            self.misc_data = True
         except Exception as e:
             self.simlog.warning("Failed to get misc data for stock")
             self.simlog.warning(str(e))
