@@ -44,8 +44,6 @@ INFO LOG: Processing SPY.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing BA.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing MRNA.csv  
 INFO LOG: Processing T.csv  
@@ -71,7 +69,7 @@ INFO LOG: Historic High: $15.829999923706055
 INFO LOG: Historic Low: $1.8049999475479126  
 INFO LOG: Weighted Average: $5.322574062006814  
 INFO LOG: Current Price: $1.940000057220459  
-INFO LOG: Slope is equal to -61.01291571316278  
+INFO LOG: Slope is equal to -61.01294041831944  
 INFO LOG: Percentage Difference from average = -63.551468995642225%  
 INFO LOG: Percentage Difference from highest = -87.74478795596687%  
 INFO LOG: Percentage Difference from lowest = 7.479230670114072%  
@@ -156,13 +154,13 @@ INFO LOG: Industry = Drug Manufacturers—Specialty & Generic
 INFO LOG: Exchange= NMS  
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $56.49700164794922  
-INFO LOG: Historic Low: $1.412600040435791  
+INFO LOG: Historic Low: $1.409999966621399  
 INFO LOG: Weighted Average: $13.792853151206623  
 INFO LOG: Current Price: $1.4299999475479126  
-INFO LOG: Slope is equal to -15.53162282716558  
+INFO LOG: Slope is equal to -15.531623048387875  
 INFO LOG: Percentage Difference from average = -89.63231224264275%  
 INFO LOG: Percentage Difference from highest = -97.46889232023551%  
-INFO LOG: Percentage Difference from lowest = 1.23176459111198%  
+INFO LOG: Percentage Difference from lowest = 1.4184383971608912%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 1.167; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -176,12 +174,16 @@ INFO LOG: ===================================================
   
 INFO LOG: Processing RIVN.csv  
 INFO LOG: Processing RITM.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing GME.csv  
 INFO LOG: Processing AAPL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing JPM.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing SNAP.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing V.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
@@ -207,7 +209,7 @@ INFO LOG: Historic High: $67.0
 INFO LOG: Historic Low: $2.2799999713897705  
 INFO LOG: Weighted Average: $8.935039682678434  
 INFO LOG: Current Price: $2.4100000858306885  
-INFO LOG: Slope is equal to -14.397170284488858  
+INFO LOG: Slope is equal to -14.397146872148463  
 INFO LOG: Percentage Difference from average = -73.02753908857572%  
 INFO LOG: Percentage Difference from highest = -96.40298494652136%  
 INFO LOG: Percentage Difference from lowest = 5.7017594768510715%  
@@ -225,12 +227,20 @@ INFO LOG: ===================================================
 INFO LOG: Processing SHOP.csv  
 INFO LOG: Processing HOOD.csv  
 INFO LOG: Processing PTON.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing ABNB.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing SPHD.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing F.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing SNDL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -248,10 +258,6 @@ INFO LOG: Slope is equal to -28.47158588008896
 INFO LOG: Percentage Difference from average = -73.02300938748245%  
 INFO LOG: Percentage Difference from highest = -96.16161606187978%  
 INFO LOG: Percentage Difference from lowest = 10.144926534683554%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 0.529; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -274,7 +280,7 @@ INFO LOG: Historic High: $84.0
 INFO LOG: Historic Low: $9.600000381469727  
 INFO LOG: Weighted Average: $26.154761926206948  
 INFO LOG: Current Price: $10.489999771118164  
-INFO LOG: Slope is equal to -17.171523323796574  
+INFO LOG: Slope is equal to -17.171534235785938  
 INFO LOG: Percentage Difference from average = -59.8925816999801%  
 INFO LOG: Percentage Difference from highest = -87.51190503438315%  
 INFO LOG: Percentage Difference from lowest = 9.270826607115005%  
@@ -297,9 +303,17 @@ INFO LOG: Processing BABA.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing DKNG.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing NCLH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing DWAC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing NKLA.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -311,16 +325,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $93.98999786376953  
 INFO LOG: Historic Low: $0.8109999895095825  
-INFO LOG: Weighted Average: $14.397184511341118  
+INFO LOG: Weighted Average: $14.397185172747687  
 INFO LOG: Current Price: $0.9100000262260437  
-INFO LOG: Slope is equal to -11.799258369365505  
-INFO LOG: Percentage Difference from average = -93.67931955370018%  
+INFO LOG: Slope is equal to -11.799258311366017  
+INFO LOG: Percentage Difference from average = -93.6793198440722%  
 INFO LOG: Percentage Difference from highest = -99.03181184497417%  
 INFO LOG: Percentage Difference from lowest = 12.207156349820327%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 1.791; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -374,6 +384,8 @@ INFO LOG: Processing PLUG.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing CLOV.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -387,14 +399,10 @@ INFO LOG: Historic High: $28.850000381469727
 INFO LOG: Historic Low: $0.7850000262260437  
 INFO LOG: Weighted Average: $6.291827289008823  
 INFO LOG: Current Price: $0.8100000023841858  
-INFO LOG: Slope is equal to -40.16397586028238  
+INFO LOG: Slope is equal to -40.16397839573966  
 INFO LOG: Percentage Difference from average = -87.1261564379052%  
 INFO LOG: Percentage Difference from highest = -97.19237437894647%  
 INFO LOG: Percentage Difference from lowest = 3.1847102322189293%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 1.329; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -403,6 +411,8 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing WISH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -420,10 +430,6 @@ INFO LOG: Slope is equal to -0.6358309646360009
 INFO LOG: Percentage Difference from average = -96.02130872614799%  
 INFO LOG: Percentage Difference from highest = -99.26128866465669%  
 INFO LOG: Percentage Difference from lowest = 6.122449972588815%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 0.753; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -577,7 +583,7 @@ INFO LOG: Historic High: $310.1600036621094
 INFO LOG: Historic Low: $66.38500213623047  
 INFO LOG: Weighted Average: $168.01745108952605  
 INFO LOG: Current Price: $75.31999969482422  
-INFO LOG: Slope is equal to -1.846632886259657  
+INFO LOG: Slope is equal to -1.8466328545460886  
 INFO LOG: Percentage Difference from average = -55.171323450984346%  
 INFO LOG: Percentage Difference from highest = -75.71575999306526%  
 INFO LOG: Percentage Difference from lowest = 13.459361709830178%  
@@ -615,7 +621,7 @@ INFO LOG: Historic High: $42.959999084472656
 INFO LOG: Historic Low: $1.0399999618530273  
 INFO LOG: Weighted Average: $9.246718258769434  
 INFO LOG: Current Price: $1.0499999523162842  
-INFO LOG: Slope is equal to -16.445861666299994  
+INFO LOG: Slope is equal to -16.445853827451067  
 INFO LOG: Percentage Difference from average = -88.6446204703979%  
 INFO LOG: Percentage Difference from highest = -97.555865980696%  
 INFO LOG: Percentage Difference from lowest = 0.9615375798129149%  
