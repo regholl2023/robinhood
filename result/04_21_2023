@@ -14,11 +14,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $21.959999084472656  
 INFO LOG: Historic Low: $6.179999828338623  
 INFO LOG: Weighted Average: $12.484623527904793  
-INFO LOG: Current Price: $6.869999885559082  
+INFO LOG: Current Price: $6.880000114440918  
 INFO LOG: Slope is equal to -27.838694714677132  
-INFO LOG: Percentage Difference from average = -44.97231037681097%  
-INFO LOG: Percentage Difference from highest = -68.71584621141137%  
-INFO LOG: Percentage Difference from lowest = 11.16504977971743%  
+INFO LOG: Percentage Difference from average = -44.89221001287541%  
+INFO LOG: Percentage Difference from highest = -68.67030782662653%  
+INFO LOG: Percentage Difference from lowest = 11.326865785536388%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 6.8; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 0.69; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -70,11 +70,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $15.829999923706055  
 INFO LOG: Historic Low: $1.7999999523162842  
 INFO LOG: Weighted Average: $5.3125838720026834  
-INFO LOG: Current Price: $1.8075000047683716  
+INFO LOG: Current Price: $1.7999999523162842  
 INFO LOG: Slope is equal to -61.16959422212744  
-INFO LOG: Percentage Difference from average = -65.97700764229066%  
-INFO LOG: Percentage Difference from highest = -88.5818066109933%  
-INFO LOG: Percentage Difference from lowest = 0.416669591709497%  
+INFO LOG: Percentage Difference from average = -66.11818287138422%  
+INFO LOG: Percentage Difference from highest = -88.62918533801941%  
+INFO LOG: Percentage Difference from lowest = 0.0%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -103,11 +103,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $203.02000427246094  
 INFO LOG: Historic Low: $84.06999969482422  
 INFO LOG: Weighted Average: $136.83783360107086  
-INFO LOG: Current Price: $98.91500091552734  
-INFO LOG: Slope is equal to -3.0855141082441078  
-INFO LOG: Percentage Difference from average = -27.713704380983955%  
-INFO LOG: Percentage Difference from highest = -51.27819976657104%  
-INFO LOG: Percentage Difference from lowest = 17.657905643619337%  
+INFO LOG: Current Price: $99.34500122070312  
+INFO LOG: Slope is equal to -3.0854495138594773  
+INFO LOG: Percentage Difference from average = -27.39946357940171%  
+INFO LOG: Percentage Difference from highest = -51.066397827783426%  
+INFO LOG: Percentage Difference from lowest = 18.169384538274613%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -129,11 +129,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $49.47999954223633  
 INFO LOG: Historic Low: $8.069999694824219  
 INFO LOG: Weighted Average: $18.266132081358112  
-INFO LOG: Current Price: $8.944999694824219  
+INFO LOG: Current Price: $8.930000305175781  
 INFO LOG: Slope is equal to -7.269681285508613  
-INFO LOG: Percentage Difference from average = -51.0295904191275%  
-INFO LOG: Percentage Difference from highest = -81.92198913181329%  
-INFO LOG: Percentage Difference from lowest = 10.842627423656419%  
+INFO LOG: Percentage Difference from average = -51.11170626927919%  
+INFO LOG: Percentage Difference from highest = -81.95230317746245%  
+INFO LOG: Percentage Difference from lowest = 10.656761373896124%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 10.75; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -210,11 +210,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $67.0  
 INFO LOG: Historic Low: $2.2799999713897705  
 INFO LOG: Weighted Average: $8.921070013210038  
-INFO LOG: Current Price: $2.309999942779541  
+INFO LOG: Current Price: $2.319999933242798  
 INFO LOG: Slope is equal to -14.517483319725478  
-INFO LOG: Percentage Difference from average = -74.10624578263632%  
-INFO LOG: Percentage Difference from highest = -96.55223889137382%  
-INFO LOG: Percentage Difference from lowest = 1.31578823536055%  
+INFO LOG: Percentage Difference from average = -73.99415171265986%  
+INFO LOG: Percentage Difference from highest = -96.53731353247343%  
+INFO LOG: Percentage Difference from lowest = 1.754384313814067%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 0.458; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -281,11 +281,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $84.0  
 INFO LOG: Historic Low: $9.600000381469727  
 INFO LOG: Weighted Average: $26.11253634973121  
-INFO LOG: Current Price: $10.5600004196167  
+INFO LOG: Current Price: $10.579299926757812  
 INFO LOG: Slope is equal to -17.19748283058612  
-INFO LOG: Percentage Difference from average = -59.55965258148736%  
-INFO LOG: Percentage Difference from highest = -87.42857092902774%  
-INFO LOG: Percentage Difference from lowest = 10.0%  
+INFO LOG: Percentage Difference from average = -59.48574360963327%  
+INFO LOG: Percentage Difference from highest = -87.40559532528832%  
+INFO LOG: Percentage Difference from lowest = 10.201036524731457%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = -6.09; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 0.999; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -328,11 +328,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $93.98999786376953  
 INFO LOG: Historic Low: $0.8109999895095825  
 INFO LOG: Weighted Average: $14.36484410890342  
-INFO LOG: Current Price: $0.8859000205993652  
+INFO LOG: Current Price: $0.8788999915122986  
 INFO LOG: Slope is equal to -11.844418365115926  
-INFO LOG: Percentage Difference from average = -93.83286018363208%  
-INFO LOG: Percentage Difference from highest = -99.05745287718443%  
-INFO LOG: Percentage Difference from lowest = 9.235515666908368%  
+INFO LOG: Percentage Difference from average = -93.88159046593795%  
+INFO LOG: Percentage Difference from highest = -99.0649005091093%  
+INFO LOG: Percentage Difference from lowest = 8.37238013329392%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -359,11 +359,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $62.79999923706055  
 INFO LOG: Historic Low: $2.9800000190734863  
 INFO LOG: Weighted Average: $16.897385725099497  
-INFO LOG: Current Price: $3.515000104904175  
+INFO LOG: Current Price: $3.505000114440918  
 INFO LOG: Slope is equal to -11.418010348575486  
-INFO LOG: Percentage Difference from average = -79.19796492730252%  
-INFO LOG: Percentage Difference from highest = -94.40286600699535%  
-INFO LOG: Percentage Difference from lowest = 17.953022899544333%  
+INFO LOG: Percentage Difference from average = -79.25714562321575%  
+INFO LOG: Percentage Difference from highest = -94.41878955888188%  
+INFO LOG: Percentage Difference from lowest = 17.61745275191843%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 2.05; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -388,11 +388,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $68.48999786376953  
 INFO LOG: Historic Low: $24.59000015258789  
 INFO LOG: Weighted Average: $46.82854687175472  
-INFO LOG: Current Price: $30.360000610351562  
+INFO LOG: Current Price: $30.447500228881836  
 INFO LOG: Slope is equal to -15.61990244393139  
-INFO LOG: Percentage Difference from average = -35.16774993361236%  
-INFO LOG: Percentage Difference from highest = -55.67235865485159%  
-INFO LOG: Percentage Difference from lowest = 23.464824814799474%  
+INFO LOG: Percentage Difference from average = -34.9808989113718%  
+INFO LOG: Percentage Difference from highest = -55.54460333106795%  
+INFO LOG: Percentage Difference from lowest = 23.820658966842227%  
 INFO LOG: Price to Earnings (P/E) ratio = 15.91; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 12.69; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 1.168; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -428,11 +428,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $28.850000381469727  
 INFO LOG: Historic Low: $0.7850000262260437  
 INFO LOG: Weighted Average: $6.276579157676958  
-INFO LOG: Current Price: $0.7943999767303467  
+INFO LOG: Current Price: $0.7936000227928162  
 INFO LOG: Slope is equal to -40.26320265284204  
-INFO LOG: Percentage Difference from average = -87.34342455063748%  
-INFO LOG: Percentage Difference from highest = -97.24644725744757%  
-INFO LOG: Percentage Difference from lowest = 1.197445884109592%  
+INFO LOG: Percentage Difference from average = -87.35616961315378%  
+INFO LOG: Percentage Difference from highest = -97.24922006135381%  
+INFO LOG: Percentage Difference from lowest = 1.0955409273191616%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -457,11 +457,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $289.2300109863281  
 INFO LOG: Historic Low: $51.34000015258789  
 INFO LOG: Weighted Average: $148.08824436384268  
-INFO LOG: Current Price: $62.5  
+INFO LOG: Current Price: $62.81999969482422  
 INFO LOG: Slope is equal to -1.4986473081943932  
-INFO LOG: Percentage Difference from average = -57.79543456100284%  
-INFO LOG: Percentage Difference from highest = -78.39090079661396%  
-INFO LOG: Percentage Difference from lowest = 21.737436334716428%  
+INFO LOG: Percentage Difference from average = -57.579347392032155%  
+INFO LOG: Percentage Difference from highest = -78.2802623142058%  
+INFO LOG: Percentage Difference from lowest = 22.3607314143291%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 1.931; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 2.583; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -492,11 +492,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $588.8400268554688  
 INFO LOG: Historic Low: $63.54999923706055  
 INFO LOG: Weighted Average: $224.67762903493175  
-INFO LOG: Current Price: $64.47000122070312  
+INFO LOG: Current Price: $64.19999694824219  
 INFO LOG: Slope is equal to -1.2374451850195838  
-INFO LOG: Percentage Difference from average = -71.30555387395528%  
-INFO LOG: Percentage Difference from highest = -89.0513554988803%  
-INFO LOG: Percentage Difference from lowest = 1.4476821316876731%  
+INFO LOG: Percentage Difference from average = -71.42572795342224%  
+INFO LOG: Percentage Difference from highest = -89.09720908561806%  
+INFO LOG: Percentage Difference from lowest = 1.0228130904564676%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -550,11 +550,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $8.140000343322754  
 INFO LOG: Historic Low: $3.430000066757202  
 INFO LOG: Weighted Average: $5.993289305322868  
-INFO LOG: Current Price: $3.815000057220459  
+INFO LOG: Current Price: $3.8350000381469727  
 INFO LOG: Slope is equal to -86.12933695531419  
-INFO LOG: Percentage Difference from average = -36.345471361907855%  
-INFO LOG: Percentage Difference from highest = -53.132679406458436%  
-INFO LOG: Percentage Difference from lowest = 11.224489299419877%  
+INFO LOG: Percentage Difference from average = -36.01176511300792%  
+INFO LOG: Percentage Difference from highest = -52.88697940543915%  
+INFO LOG: Percentage Difference from lowest = 11.80757911100178%  
 INFO LOG: Price to Earnings (P/E) ratio = 12.26; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 1.585; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = -; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -580,11 +580,11 @@ INFO LOG: ExchDisp= NYSE
 INFO LOG: Historic High: $62.290000915527344  
 INFO LOG: Historic Low: $0.9599999785423279  
 INFO LOG: Weighted Average: $14.495010570144393  
-INFO LOG: Current Price: $1.1299999952316284  
+INFO LOG: Current Price: $1.1549999713897705  
 INFO LOG: Slope is equal to -9.431947684930298  
-INFO LOG: Percentage Difference from average = -92.20421406549984%  
-INFO LOG: Percentage Difference from highest = -98.18590467390739%  
-INFO LOG: Percentage Difference from lowest = 17.70833546761428%  
+INFO LOG: Percentage Difference from average = -92.03174108911143%  
+INFO LOG: Percentage Difference from highest = -98.14576985966642%  
+INFO LOG: Percentage Difference from lowest = 20.31249970896169%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 6.36; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
@@ -615,12 +615,12 @@ INFO LOG: Exchange= NMS
 INFO LOG: ExchDisp= NASDAQ  
 INFO LOG: Historic High: $310.1600036621094  
 INFO LOG: Historic Low: $66.38500213623047  
-INFO LOG: Weighted Average: $167.8455654229955  
-INFO LOG: Current Price: $73.51010131835938  
+INFO LOG: Weighted Average: $167.8442444190325  
+INFO LOG: Current Price: $73.9000015258789  
 INFO LOG: Slope is equal to -1.8612225461760215  
-INFO LOG: Percentage Difference from average = -56.20372743652589%  
-INFO LOG: Percentage Difference from highest = -76.29929699174177%  
-INFO LOG: Percentage Difference from lowest = 10.732995334559599%  
+INFO LOG: Percentage Difference from average = -55.9710839167154%  
+INFO LOG: Percentage Difference from highest = -76.17358761499561%  
+INFO LOG: Percentage Difference from lowest = 11.320327103743558%  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -654,11 +654,11 @@ INFO LOG: ExchDisp= NASDAQ
 INFO LOG: Historic High: $42.959999084472656  
 INFO LOG: Historic Low: $0.9599999785423279  
 INFO LOG: Weighted Average: $9.234186266341027  
-INFO LOG: Current Price: $0.980400025844574  
+INFO LOG: Current Price: $0.9891999959945679  
 INFO LOG: Slope is equal to -16.575116014508684  
-INFO LOG: Percentage Difference from average = -89.38292993484255%  
-INFO LOG: Percentage Difference from highest = -97.71787698617777%  
-INFO LOG: Percentage Difference from lowest = 2.125004974814864%  
+INFO LOG: Percentage Difference from average = -89.28763220208974%  
+INFO LOG: Percentage Difference from highest = -97.69739288390231%  
+INFO LOG: Percentage Difference from lowest = 3.0416685525949223%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 0; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 2.375; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
