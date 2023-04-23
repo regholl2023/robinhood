@@ -484,7 +484,7 @@ INFO LOG: Slope is equal to -1.5097951593464927
 INFO LOG: Percentage Difference from average = -57.16736886912659%  
 INFO LOG: Percentage Difference from highest = -78.05207027937463%  
 INFO LOG: Percentage Difference from lowest = 23.646278444813166%  
-INFO LOG: Price to Earnings (P/E) ratio = 755.98; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
 INFO LOG: Price/Earnings to Growth (PEG) ratio = 1.931; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
 INFO LOG: Price to Book (P/B) ratio = 2.583; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
 INFO LOG: Divident yeild = 0  
