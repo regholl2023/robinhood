@@ -1,402 +1,27 @@
-INFO LOG: Processing SCOR.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing CEREW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CSSE.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing QRVO.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing GNAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing SAIIW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MRTX.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing KRNT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing INMB.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing HOLUW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CBMB.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing ASRV.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AGBA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AEIS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing FFIN.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing PT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ALYA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing NMMCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NWSA.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing ACHC.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CDK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KROS.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing AIRT.csv  
-INFO LOG: Processing KVSA.csv  
-INFO LOG: Processing ALIM.csv  
-INFO LOG: Processing CLLS.csv  
-INFO LOG: Processing LVTX.csv  
-INFO LOG: Processing GMBT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AVGO.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CONX.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SHSP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BAND.csv  
-INFO LOG: Processing NRIX.csv  
-INFO LOG: Processing NCNO.csv  
-INFO LOG: Processing TSCBP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KRBP.csv  
-INFO LOG: Processing MTSI.csv  
-INFO LOG: Processing FGFPP.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GLPG.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing RILYM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing INTG.csv  
-INFO LOG: Processing ANDAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing COMSW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: ComSovereign Holding Corp.(COMSW)  
-INFO LOG: Sector = Communication Services  
-INFO LOG: Industry = Telecom Services  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.020899999886751175  
-INFO LOG: Historic Low: $0.01720000058412552  
-INFO LOG: Weighted Average: $0.4787989854812622  
-INFO LOG: Current Price: $0.01730000041425228  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -96.38679259170459%  
-INFO LOG: Percentage Difference from highest = -17.224877952181174%  
-INFO LOG: Percentage Difference from lowest = 0.5813943414574981%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = -; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing SVC.csv  
-INFO LOG: Processing OEPWU.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing FLACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing PPBI.csv  
-INFO LOG: Processing CFB.csv  
-INFO LOG: Processing CTRM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BNR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SRAX.csv  
-INFO LOG: Processing OM.csv  
-INFO LOG: Processing KC.csv  
-INFO LOG: Processing UCTT.csv  
-INFO LOG: Processing MONCU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BYFC.csv  
-INFO LOG: Processing VICR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing ITAC.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GECCL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing EYEN.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MBTCR.csv  
-INFO LOG: Processing BLSA.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing TGLS.csv  
-INFO LOG: Processing HCII.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LEGO.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing TWNK.csv  
-INFO LOG: Processing CUE.csv  
-INFO LOG: Processing ERESU.csv  
-INFO LOG: Processing IZEA.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing PLSE.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CTG.csv  
-INFO LOG: Processing TW.csv  
-INFO LOG: Processing CETXP.csv  
-INFO LOG: Processing CHNR.csv  
-INFO LOG: Processing LACQ.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AMAOW.csv  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: (AMAOW)  
-INFO LOG: Sector = Financial Services  
-INFO LOG: Industry = Shell Companies  
-INFO LOG: Exchange= NCM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $0.03240000084042549  
-INFO LOG: Historic Low: $0.030899999663233757  
-INFO LOG: Weighted Average: $0.6320000290870667  
-INFO LOG: Current Price: $0.030899999663233757  
-INFO LOG: Slope is equal to nan  
-INFO LOG: Percentage Difference from average = -95.1107597719783%  
-INFO LOG: Percentage Difference from highest = -4.629633142849127%  
-INFO LOG: Percentage Difference from lowest = 0.0%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = -; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Processing ASND.csv  
-INFO LOG: Processing FTNT.csv  
-INFO LOG: Processing COHU.csv  
-INFO LOG: Processing ISRG.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SAMG.csv  
-INFO LOG: Processing SCSC.csv  
-INFO LOG: Processing CVLT.csv  
-INFO LOG: Processing QELL.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CFFVW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MIDD.csv  
-INFO LOG: Processing MDJH.csv  
-INFO LOG: Processing KINZ.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing RVPHW.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BMEA.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PFIN.csv  
-INFO LOG: Processing TETCW.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing SPSC.csv  
-INFO LOG: Processing APR.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing GTH.csv  
-INFO LOG: Processing STRL.csv  
-INFO LOG: Processing TLMD.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing ITOS.csv  
-INFO LOG: Processing GAMC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing IIVIP.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AURCW.csv  
-INFO LOG: Processing JWEL.csv  
-INFO LOG: Processing NDACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing DJCO.csv  
-INFO LOG: Processing OMER.csv  
-INFO LOG: Processing IRTC.csv  
-INFO LOG: Processing CREG.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing LJAQU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing STIM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TLS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Telos Corporation(TLS)  
-INFO LOG: Sector = Technology  
-INFO LOG: Industry = Software—Infrastructure  
-INFO LOG: Exchange= NGM  
-INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $41.84000015258789  
-INFO LOG: Historic Low: $1.9299999475479126  
-INFO LOG: Weighted Average: $17.718625586999863  
-INFO LOG: Current Price: $1.940000057220459  
-INFO LOG: Slope is equal to -13.114540876199586  
-INFO LOG: Percentage Difference from average = -89.05106918313216%  
-INFO LOG: Percentage Difference from highest = -95.36328859907887%  
-INFO LOG: Percentage Difference from lowest = 0.5181404116228937%  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================  
-INFO LOG: ===================================================
-
-
-  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing GOOGL.csv  
-INFO LOG: Processing SUMR.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing HUDI.csv  
-INFO LOG: Processing MCFT.csv  
-INFO LOG: Processing VSAT.csv  
-INFO LOG: Processing CHTR.csv  
-INFO LOG: Processing NYMTM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing FSRV.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CTAQ.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MDWT.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing LQDA.csv  
-INFO LOG: Processing DHCA.csv  
-INFO LOG: Processing IPWR.csv  
-INFO LOG: Processing CBAY.csv  
-INFO LOG: Processing JAN.csv  
-INFO LOG: Processing TZPSU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing COOLW.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing EVLO.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing JMPNL.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing NBSTU.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PRIM.csv  
-INFO LOG: Processing CYRX.csv  
-INFO LOG: Processing GRPN.csv  
-INFO LOG: Processing EWBC.csv  
-INFO LOG: Processing RVSB.csv  
-INFO LOG: Processing ZWRK.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing IPLDP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VCKA.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing NGACW.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing VTGN.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AKTS.csv  
-INFO LOG: Processing VELOU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing LAWS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing AMZN.csv  
-INFO LOG: Processing BIDU.csv  
-INFO LOG: Processing YNDX.csv  
-INFO LOG: Processing TAOP.csv  
-INFO LOG: Processing MTCR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CASI.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing MNRO.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SSAAU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing AKUS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing KINS.csv  
-INFO LOG: Processing FWRD.csv  
-INFO LOG: Processing UXIN.csv  
+INFO LOG: Processing TSLA.csv  
+INFO LOG: Processing JBLU.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: Uxin Limited(UXIN)  
-INFO LOG: Sector = Consumer Cyclical  
-INFO LOG: Industry = Auto & Truck Dealerships  
+INFO LOG: We recommend buying the following share: JetBlue Airways Corporation(JBLU)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Airlines  
 INFO LOG: Exchange= NMS  
 INFO LOG: ExchDisp= NASDAQ  
-INFO LOG: Historic High: $58.20000076293945  
-INFO LOG: Historic Low: $0.9100000262260437  
-INFO LOG: Weighted Average: $13.608395233473674  
-INFO LOG: Current Price: $0.9110000133514404  
-INFO LOG: Slope is equal to -8.462907233673873  
-INFO LOG: Percentage Difference from average = -93.30560291847947%  
-INFO LOG: Percentage Difference from highest = -98.43470790135875%  
-INFO LOG: Percentage Difference from lowest = 0.10988869193156837%  
+INFO LOG: Historic High: $21.959999084472656  
+INFO LOG: Historic Low: $6.179999828338623  
+INFO LOG: Weighted Average: $12.499628661482049  
+INFO LOG: Current Price: $6.820000171661377  
+INFO LOG: Slope is equal to -28.6324052278434  
+INFO LOG: Percentage Difference from average = -45.43837776015382%  
+INFO LOG: Percentage Difference from highest = -68.9435316211665%  
+INFO LOG: Percentage Difference from lowest = 10.355992898058155%  
 INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 6.4; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 6.8; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 0.69; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
 INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -405,23 +30,650 @@ INFO LOG: ===================================================
 
 
   
-INFO LOG: Processing GLSPT.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing BVS.csv  
-INFO LOG: Processing NVSAU.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing AZYO.csv  
-INFO LOG: Processing LMACU.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing TGT.csv  
+INFO LOG: Processing ARKK.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing QS.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing GE.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing SPY.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing BA.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing DSKE.csv  
-INFO LOG: Processing VOSOW.csv  
+INFO LOG: Processing MRNA.csv  
+INFO LOG: Processing T.csv  
+INFO LOG: Processing LCID.csv  
+INFO LOG: Processing COIN.csv  
+INFO LOG: Processing BNGO.csv  
+INFO LOG: Processing PFE.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing CRON.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Cronos Group Inc. Common Share(CRON)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NGM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $15.829999923706055  
+INFO LOG: Historic Low: $1.7699999809265137  
+INFO LOG: Weighted Average: $5.304371340521453  
+INFO LOG: Current Price: $1.7999999523162842  
+INFO LOG: Slope is equal to -61.10060775879374  
+INFO LOG: Percentage Difference from average = -66.06572510175481%  
+INFO LOG: Percentage Difference from highest = -88.62918533801941%  
+INFO LOG: Percentage Difference from lowest = 1.6949136561044988%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing CCL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing UBER.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing DIS.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Walt Disney Company (The)(DIS)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $203.02000427246094  
+INFO LOG: Historic Low: $84.06999969482422  
+INFO LOG: Weighted Average: $136.97897882233872  
+INFO LOG: Current Price: $99.68000030517578  
+INFO LOG: Slope is equal to -3.1828430999275783  
+INFO LOG: Percentage Difference from average = -27.229709870694528%  
+INFO LOG: Percentage Difference from highest = -50.90138990865095%  
+INFO LOG: Percentage Difference from lowest = 18.56786090997523%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing CHPT.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ChargePoint Holdings, Inc.(CHPT)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Specialty Retail  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $49.47999954223633  
+INFO LOG: Historic Low: $8.069999694824219  
+INFO LOG: Weighted Average: $18.298596797002098  
+INFO LOG: Current Price: $8.84000015258789  
+INFO LOG: Slope is equal to -7.582617378115321  
+INFO LOG: Percentage Difference from average = -51.69028395643884%  
+INFO LOG: Percentage Difference from highest = -82.13419516093158%  
+INFO LOG: Percentage Difference from lowest = 9.541517805230153%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 10.75; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing CGC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Canopy Growth Corporation(CGC)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $56.49700164794922  
+INFO LOG: Historic Low: $1.2599999904632568  
+INFO LOG: Weighted Average: $13.7349960000825  
+INFO LOG: Current Price: $1.3200000524520874  
+INFO LOG: Slope is equal to -15.581755748618487  
+INFO LOG: Percentage Difference from average = -90.38951265479686%  
+INFO LOG: Percentage Difference from highest = -97.66359273244724%  
+INFO LOG: Percentage Difference from lowest = 4.76190971769537%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 1.167; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing RIVN.csv  
+INFO LOG: Processing RITM.csv  
+INFO LOG: Processing GME.csv  
+INFO LOG: Processing AAPL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing JPM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing SNAP.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing V.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing XOM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing O.csv  
+INFO LOG: Processing VTI.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing TLRY.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Tilray Brands, Inc.(TLRY)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $67.0  
+INFO LOG: Historic Low: $2.2799999713897705  
+INFO LOG: Weighted Average: $8.923315649323506  
+INFO LOG: Current Price: $2.3499999046325684  
+INFO LOG: Slope is equal to -14.649584966325305  
+INFO LOG: Percentage Difference from average = -73.66449874704671%  
+INFO LOG: Percentage Difference from highest = -96.4925374557723%  
+INFO LOG: Percentage Difference from lowest = 3.070172549174617%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 0.458; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SHOP.csv  
+INFO LOG: Processing HOOD.csv  
+INFO LOG: Processing PTON.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing ABNB.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing SPHD.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing F.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing SNDL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: SNDL Inc.(SNDL)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Drug Manufacturers—Specialty & Generic  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $39.599998474121094  
+INFO LOG: Historic Low: $1.2899999618530273  
+INFO LOG: Weighted Average: $5.619668436303375  
+INFO LOG: Current Price: $1.4199999570846558  
+INFO LOG: Slope is equal to -28.82692919412669  
+INFO LOG: Percentage Difference from average = -74.73160608708912%  
+INFO LOG: Percentage Difference from highest = -96.41414138434213%  
+INFO LOG: Percentage Difference from lowest = 10.077519308209066%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing IVR.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: INVESCO MORTGAGE CAPITAL INC(IVR)  
+INFO LOG: Sector = Real Estate  
+INFO LOG: Industry = REIT—Mortgage  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $84.0  
+INFO LOG: Historic Low: $9.600000381469727  
+INFO LOG: Weighted Average: $26.077506654774794  
+INFO LOG: Current Price: $10.510000228881836  
+INFO LOG: Slope is equal to -17.171903293740844  
+INFO LOG: Percentage Difference from average = -59.69706625707081%  
+INFO LOG: Percentage Difference from highest = -87.48809496561685%  
+INFO LOG: Percentage Difference from lowest = 9.47916470054131%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = -6.09; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 0.999; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0.151  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing MRO.csv  
+INFO LOG: Processing META.csv  
+INFO LOG: Processing LUV.csv  
+INFO LOG: Processing AMC.csv  
+INFO LOG: Processing BABA.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing DKNG.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing NCLH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing DWAC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing NKLA.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Nikola Corporation(NKLA)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Farm & Heavy Construction Machinery  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $93.98999786376953  
+INFO LOG: Historic Low: $0.8109999895095825  
+INFO LOG: Weighted Average: $14.35848539949097  
+INFO LOG: Current Price: $0.8199999928474426  
+INFO LOG: Slope is equal to -11.888851214450616  
+INFO LOG: Percentage Difference from average = -94.28909129317698%  
+INFO LOG: Percentage Difference from highest = -99.12756675020255%  
+INFO LOG: Percentage Difference from lowest = 1.1097414863473023%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RBLX.csv  
+INFO LOG: Processing BND.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing DAL.csv  
+INFO LOG: Processing SPCE.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Virgin Galactic Holdings, Inc.(SPCE)  
+INFO LOG: Sector = Industrials  
+INFO LOG: Industry = Aerospace & Defense  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.79999923706055  
+INFO LOG: Historic Low: $2.9800000190734863  
+INFO LOG: Weighted Average: $16.876698931901508  
+INFO LOG: Current Price: $3.440000057220459  
+INFO LOG: Slope is equal to -11.440484031196023  
+INFO LOG: Percentage Difference from average = -79.61686659754335%  
+INFO LOG: Percentage Difference from highest = -94.52229283596807%  
+INFO LOG: Percentage Difference from lowest = 15.436242792038355%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 2.05; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing INTC.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Intel Corporation(INTC)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Semiconductors  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $68.48999786376953  
+INFO LOG: Historic Low: $24.59000015258789  
+INFO LOG: Weighted Average: $46.746803688433815  
+INFO LOG: Current Price: $29.65999984741211  
+INFO LOG: Slope is equal to -15.549557665682407  
+INFO LOG: Percentage Difference from average = -36.55181208731359%  
+INFO LOG: Percentage Difference from highest = -56.694406814835176%  
+INFO LOG: Percentage Difference from lowest = 20.61813608525189%  
+INFO LOG: Price to Earnings (P/E) ratio = 15.29; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 12.69; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 1.168; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0.0165  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing VOO.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing TSM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing PLUG.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing CLOV.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Clover Health Investments, Corp(CLOV)  
+INFO LOG: Sector = Healthcare  
+INFO LOG: Industry = Healthcare Plans  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $28.850000381469727  
+INFO LOG: Historic Low: $0.7319999933242798  
+INFO LOG: Weighted Average: $6.268955608181415  
+INFO LOG: Current Price: $0.7699999809265137  
+INFO LOG: Slope is equal to -40.31266917463838  
+INFO LOG: Percentage Difference from average = -87.71725261666215%  
+INFO LOG: Percentage Difference from highest = -97.3310226317325%  
+INFO LOG: Percentage Difference from lowest = 5.191255184260595%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing WISH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: ContextLogic Inc.(WISH)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Internet Retail  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $985.5  
+INFO LOG: Historic Low: $6.860000133514404  
+INFO LOG: Weighted Average: $182.08695434515462  
+INFO LOG: Current Price: $8.279999732971191  
+INFO LOG: Slope is equal to -0.6390818043468471  
+INFO LOG: Percentage Difference from average = -95.45272215533022%  
+INFO LOG: Percentage Difference from highest = -99.15981737869394%  
+INFO LOG: Percentage Difference from lowest = 20.699702213115202%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SQ.csv  
+INFO LOG: Processing AMD.csv  
+INFO LOG: Processing ET.csv  
+INFO LOG: Processing FCEL.csv  
+INFO LOG: Processing NIO.csv  
+INFO LOG: Processing ZM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Zoom Video Communications, Inc.(ZM)  
+INFO LOG: Sector = Technology  
+INFO LOG: Industry = Software—Application  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $588.8400268554688  
+INFO LOG: Historic Low: $62.61000061035156  
+INFO LOG: Weighted Average: $224.8212137753513  
+INFO LOG: Current Price: $65.80000305175781  
+INFO LOG: Slope is equal to -1.2481339930535607  
+INFO LOG: Percentage Difference from average = -70.73229792384836%  
+INFO LOG: Percentage Difference from highest = -88.82548739032843%  
+INFO LOG: Percentage Difference from lowest = 5.095036592091702%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SBUX.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing RYCEY.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing SOFI.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing QQQ.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing JNJ.csv  
+INFO LOG: Processing UAL.csv  
+INFO LOG: Processing NVDA.csv  
+INFO LOG: Processing WMT.csv  
+INFO LOG: Processing MSFT.csv  
+INFO LOG: Processing PSEC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing PLTR.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing BRK.csv  
 ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing RMRM.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing MYGN.csv  
-INFO LOG: Processing WORX.csv  
-INFO LOG: Processing HLIT.csv  
-INFO LOG: Processing RCKT.csv  
-<urlopen error [Errno 110] Connection timed out>
+INFO LOG: Processing BB.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing VWO.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SIRI.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Sirius XM Holdings Inc.(SIRI)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Entertainment  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $8.140000343322754  
+INFO LOG: Historic Low: $3.430000066757202  
+INFO LOG: Weighted Average: $5.994575601673884  
+INFO LOG: Current Price: $3.7799999713897705  
+INFO LOG: Slope is equal to -92.06478732430028  
+INFO LOG: Percentage Difference from average = -36.94299275607986%  
+INFO LOG: Percentage Difference from highest = -53.56265587272971%  
+INFO LOG: Percentage Difference from lowest = 10.204078653662126%  
+INFO LOG: Price to Earnings (P/E) ratio = 11.81; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 1.585; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = -; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0.0255  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing KO.csv  
+INFO LOG: Processing FUBO.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: fuboTV Inc.(FUBO)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Broadcasting  
+INFO LOG: Exchange= NYQ  
+INFO LOG: ExchDisp= NYSE  
+INFO LOG: Historic High: $62.290000915527344  
+INFO LOG: Historic Low: $0.9599999785423279  
+INFO LOG: Weighted Average: $14.516993371181838  
+INFO LOG: Current Price: $1.1399999856948853  
+INFO LOG: Slope is equal to -9.580956642589882  
+INFO LOG: Percentage Difference from average = -92.14713435112579%  
+INFO LOG: Percentage Difference from highest = -98.16985074821099%  
+INFO LOG: Percentage Difference from lowest = 18.750001164153243%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 6.36; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing SONY.csv  
+INFO LOG: Processing CPRX.csv  
+INFO LOG: Processing NFLX.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing PYPL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: PayPal Holdings, Inc.(PYPL)  
+INFO LOG: Sector = Financial Services  
+INFO LOG: Industry = Credit Services  
+INFO LOG: Exchange= NMS  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $310.1600036621094  
+INFO LOG: Historic Low: $66.38500213623047  
+INFO LOG: Weighted Average: $168.01018968374734  
+INFO LOG: Current Price: $74.29000091552734  
+INFO LOG: Slope is equal to -1.888183632022886  
+INFO LOG: Percentage Difference from average = -55.78244328194227%  
+INFO LOG: Percentage Difference from highest = -76.04784626051932%  
+INFO LOG: Percentage Difference from lowest = 11.907808277349773%  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing BAC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing CRM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing NOK.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing RCL.csv  
+INFO LOG: Processing OCGN.csv  
+INFO LOG: Processing AAL.csv  
+INFO LOG: Processing WKHS.csv  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: We recommend buying the following share: Workhorse Group, Inc.(WKHS)  
+INFO LOG: Sector = Consumer Cyclical  
+INFO LOG: Industry = Auto Manufacturers  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $42.959999084472656  
+INFO LOG: Historic Low: $0.9409999847412109  
+INFO LOG: Weighted Average: $9.259442975492634  
+INFO LOG: Current Price: $0.949999988079071  
+INFO LOG: Slope is equal to -16.84703616152593  
+INFO LOG: Percentage Difference from average = -89.74020369698829%  
+INFO LOG: Percentage Difference from highest = -97.78864057652544%  
+INFO LOG: Percentage Difference from lowest = 0.9564297007226034%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 0; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 2.375; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================  
+INFO LOG: ===================================================
+
+
+  
+INFO LOG: Processing COST.csv  
+INFO LOG: Processing NKE.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing GM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing RIOT.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing GOOG.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
