@@ -33,7 +33,7 @@ class STOCK_PREDICTION:
         self.master_list.insert(-1, ['RNN', self.RNN()])
         self.master_list.insert(-1, ['ANN', self.ANN()])
 
-        self.simlog.info("AI model result = ")
+        self.simlog.info("AI model result for stock:  " + str(self.stock))
         self.simlog.info(str(self.master_list))
 
         for i in range(len(self.master_list)):
