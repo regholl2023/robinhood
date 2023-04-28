@@ -88,7 +88,7 @@ class STOCK_PREDICTION:
 
         # Train the RNN model
         model.compile(optimizer='adam', loss='mean_squared_error')
-        model.fit(x_train, y_train, batch_size=32, epochs=100)
+        model.fit(x_train, y_train, batch_size=32, epochs=100, verbose=0)
 
         # Test the RNN model
         test_data = scaled_data[training_data_len - seq_len:, :]
@@ -155,7 +155,7 @@ class STOCK_PREDICTION:
         model.compile(optimizer='adam', loss='mean_squared_error')
 
         # Train the model
-        model.fit(X_train, y_train, epochs=100, batch_size=32)
+        model.fit(X_train, y_train, epochs=100, batch_size=32, verbose=0)
 
         # Test the model
         X_test = []
