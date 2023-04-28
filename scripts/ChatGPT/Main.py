@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# This file will either take input a CSV file, or use the existing files located under robinhoold/logs folder.
+# Based on the CSV files, it will generate AI models and then calculate the sharpe ratio and RMSE value.
+# Using those parameters, we will decide on whether to buy/sell stocks using alpaca API.
 
 import sys
 import logging
@@ -12,6 +15,8 @@ import subprocess
 import os
 import csv
 
+import pandas as pd
+
 
 # ---------Set sys.path for MAIN execution---------------------------------------
 full_path = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
@@ -23,10 +28,42 @@ for root, dirs, files in os.walk(full_path):
         sys.path.append(os.path.join(root, dir))
 
 
+import stock_constants
+from stock_prediction import STOCK_PREDICTION
+from alpaca import ALPACA
+
+def usage():
+    print("Usage: Provide a path to the csv file. Default is to use all csv files within /logs folder")
+    print("Example: python scripts/ChatGPT/Main.py")
+    print("Example: python scripts/ChatGPT/Main.py -i /home/saqib/robinhood/logs/AAPL.csv")
 
 def main(argv):
-    x = 1
+    i_stock_list = []
 
+    # Step-0 Get the list of CSV files that needs to be processed
+    # No input provided. Look inside /logs folder
+    if len(sys.argv) == 1:
+        for i_file in os.listdir(full_path + '/logs'):
+            if i_file.endswith(".csv"):
+                i_stock_list.append(full_path + '/logs/' + i_file)
+    # Perhaps the used supplied a csv file. Check
+    for i in range(len(argv)):
+        # Perhaps the used supplied a csv file. Check
+        if len(sys.argv) == 3:
+            if argv[i] == '-i':
+                i_stock_list.append([argv[i+1]])
+
+    # Loop through each stock csv file
+    for i in range(len(i_stock_list)):
+        i_stock = (i_stock_list[i].split('/')[-1]).split('.csv')[0]
+        df = pd.read_csv(i_stock_list[i])
+
+        # Step-1 Get data from each csv file and create a dataFrame.
+        # Then pass on that dataFrame for stock prediction processing using AI models
+        i_stock_object = STOCK_PREDICTION(i_stock, df)
+
+        # Based on the suggestion from AI models, either BUY/SELL/No Nothing
+        ALPACA(i_stock, i_stock_object.action)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
