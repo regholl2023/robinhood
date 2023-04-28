@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import sim_logging
 import stock_constants
 import math
 import pandas as pd
@@ -15,7 +16,8 @@ from keras.layers import Dense, Dropout, LSTM
 
 
 class STOCK_PREDICTION:
-    def __init__(self, i_stock, i_df):
+    def __init__(self, i_simlog, i_stock, i_df):
+        self.simlog = i_simlog
         self.stock = i_stock
         self.df = i_df
         self.master_list = []

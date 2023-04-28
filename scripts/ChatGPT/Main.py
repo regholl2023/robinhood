@@ -17,6 +17,8 @@ import csv
 
 import pandas as pd
 
+import warnings
+warnings.filterwarnings("ignore")
 
 # ---------Set sys.path for MAIN execution---------------------------------------
 full_path = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
@@ -27,7 +29,7 @@ for root, dirs, files in os.walk(full_path):
     for dir in dirs:
         sys.path.append(os.path.join(root, dir))
 
-
+import sim_logging
 import stock_constants
 from stock_prediction import STOCK_PREDICTION
 from alpaca import ALPACA
@@ -39,6 +41,9 @@ def usage():
 
 def main(argv):
     i_stock_list = []
+
+    i_log_directory = "/tmp/"
+    simlog = sim_logging.SIMLOG(log_dir=i_log_directory)
 
     # Step-0 Get the list of CSV files that needs to be processed
     # No input provided. Look inside /logs folder
@@ -56,14 +61,21 @@ def main(argv):
     # Loop through each stock csv file
     for i in range(len(i_stock_list)):
         i_stock = (i_stock_list[i].split('/')[-1]).split('.csv')[0]
+        simlog.info("==================================================================================")
+        simlog.info("Starting to process stock: " + str(i_stock))
+
         df = pd.read_csv(i_stock_list[i])
 
         # Step-1 Get data from each csv file and create a dataFrame.
         # Then pass on that dataFrame for stock prediction processing using AI models
-        i_stock_object = STOCK_PREDICTION(i_stock, df)
+        i_stock_object = STOCK_PREDICTION(simlog, i_stock, df)
 
         # Based on the suggestion from AI models, either BUY/SELL/No Nothing
-        ALPACA(i_stock, i_stock_object.action)
+        ALPACA(simlog, i_stock, i_stock_object.action)
+
+        simlog.info("Pause for 1 second")
+        time.sleep(1)
+        simlog.info("==================================================================================")
     return 0
 
 if __name__ == "__main__":

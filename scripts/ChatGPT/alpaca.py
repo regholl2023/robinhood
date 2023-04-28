@@ -1,11 +1,13 @@
 #!/usr/bin/python
 
+import sim_logging
 import alpaca_trade_api as tradeapi
 from alpaca_trade_api.rest import REST, TimeFrame
 import stock_constants
 
 class ALPACA:
-    def __init__(self, i_stock, i_action):
+    def __init__(self, i_simlog, i_stock, i_action):
+        self.simlog = i_simlog
         self.api = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
                                   base_url='https://paper-api.alpaca.markets')
         self.account = self.api.get_account()
