@@ -71,7 +71,8 @@ def main(argv):
         i_stock_object = STOCK_PREDICTION(simlog, i_stock, df)
 
         # Based on the suggestion from AI models, either BUY/SELL/No Nothing
-        ALPACA(simlog, i_stock, i_stock_object.action)
+        if not i_stock_object.action == stock_constants.STOCK_LEAVE:
+            ALPACA(simlog, i_stock, i_stock_object.action)
 
         simlog.info("Pause for 1 second")
         time.sleep(1)

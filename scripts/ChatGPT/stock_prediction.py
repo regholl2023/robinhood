@@ -33,6 +33,9 @@ class STOCK_PREDICTION:
         self.master_list.insert(-1, ['RNN', self.RNN()])
         self.master_list.insert(-1, ['ANN', self.ANN()])
 
+        self.simlog.info("AI model result = ")
+        self.simlog.info(str(self.master_list))
+
         for i in range(len(self.master_list)):
             i_rmse = self.master_list[i][1][0]
             i_sharpe_ratio = self.master_list[i][1][1]
@@ -64,7 +67,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(data)
 
         # Split the data into training and testing sets
-        training_data_len = math.ceil(len(scaled_data) * .8)
+        training_data_len = math.ceil(len(scaled_data) * .9)
         train_data = scaled_data[0:training_data_len, :]
         x_train = []
         y_train = []
@@ -125,7 +128,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(self.df['Close'].values.reshape(-1, 1))
 
         # Split the data into training and testing sets
-        training_data_len = int(len(scaled_data) * 0.8)
+        training_data_len = int(len(scaled_data) * 0.9)
         train_data = scaled_data[0:training_data_len, :]
         test_data = scaled_data[training_data_len:, :]
 
