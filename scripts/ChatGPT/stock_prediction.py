@@ -67,7 +67,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(data)
 
         # Split the data into training and testing sets
-        training_data_len = math.ceil(len(scaled_data) * .9)
+        training_data_len = math.ceil(len(scaled_data) * .8)
         train_data = scaled_data[0:training_data_len, :]
         x_train = []
         y_train = []
@@ -88,7 +88,7 @@ class STOCK_PREDICTION:
 
         # Train the RNN model
         model.compile(optimizer='adam', loss='mean_squared_error')
-        model.fit(x_train, y_train, batch_size=32, epochs=10)
+        model.fit(x_train, y_train, batch_size=32, epochs=100)
 
         # Test the RNN model
         test_data = scaled_data[training_data_len - seq_len:, :]
@@ -128,7 +128,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(self.df['Close'].values.reshape(-1, 1))
 
         # Split the data into training and testing sets
-        training_data_len = int(len(scaled_data) * 0.9)
+        training_data_len = int(len(scaled_data) * 0.8)
         train_data = scaled_data[0:training_data_len, :]
         test_data = scaled_data[training_data_len:, :]
 
@@ -155,7 +155,7 @@ class STOCK_PREDICTION:
         model.compile(optimizer='adam', loss='mean_squared_error')
 
         # Train the model
-        model.fit(X_train, y_train, epochs=10, batch_size=32)
+        model.fit(X_train, y_train, epochs=100, batch_size=32)
 
         # Test the model
         X_test = []
