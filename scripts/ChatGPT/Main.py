@@ -64,6 +64,7 @@ def main(argv):
 
         # Based on the suggestion from AI models, either BUY/SELL/No Nothing
         ALPACA(i_stock, i_stock_object.action)
+    return 0
 
 if __name__ == "__main__":
     main(sys.argv[1:])
