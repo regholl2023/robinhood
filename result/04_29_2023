@@ -1,5 +1,9 @@
 INFO LOG: Processing GOOGL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing AMZN.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing TSLA.csv  
 INFO LOG: Processing JBLU.csv  
 INFO LOG: ===================================================  
@@ -57,8 +61,6 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing QS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing GE.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
@@ -71,8 +73,14 @@ WARNING LOG: 'PERatio'
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing MRNA.csv  
 INFO LOG: Processing T.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing LCID.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing COIN.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing BNGO.csv  
 INFO LOG: Processing PFE.csv  
 INFO LOG: Processing CRON.csv  
@@ -105,14 +113,8 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing CCL.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing UBER.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing DIS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -130,6 +132,10 @@ INFO LOG: Slope is equal to -3.263914243406712
 INFO LOG: Percentage Difference from average = -25.10516593474182%  
 INFO LOG: Percentage Difference from highest = -49.51236437644789%  
 INFO LOG: Percentage Difference from lowest = 21.92220812665285%  
+INFO LOG: Price to Earnings (P/E) ratio = 41.23; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 0.756; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 1.807; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -197,9 +203,17 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing RIVN.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing RITM.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing GME.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing AAPL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing JPM.csv  
 INFO LOG: Processing SNAP.csv  
 INFO LOG: ===================================================  
@@ -231,11 +245,7 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing V.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing XOM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing O.csv  
 INFO LOG: Processing VTI.csv  
@@ -273,14 +283,16 @@ INFO LOG: ===================================================
 INFO LOG: Processing SHOP.csv  
 INFO LOG: Processing HOOD.csv  
 INFO LOG: Processing PTON.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing ABNB.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing SPHD.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing F.csv  
 INFO LOG: Processing SNDL.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -298,6 +310,10 @@ INFO LOG: Slope is equal to -29.273726426652953
 INFO LOG: Percentage Difference from average = -73.38619346780307%  
 INFO LOG: Percentage Difference from highest = -96.23737356830841%  
 INFO LOG: Percentage Difference from lowest = 15.503880123874165%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 0.529; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -343,11 +359,15 @@ INFO LOG: Processing BABA.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing DKNG.csv  
-INFO LOG: Processing NCLH.csv  
-INFO LOG: Processing DWAC.csv  
-INFO LOG: Processing NKLA.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
+INFO LOG: Processing NCLH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing DWAC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
+INFO LOG: Processing NKLA.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -365,6 +385,10 @@ INFO LOG: Slope is equal to -11.964762478065
 INFO LOG: Percentage Difference from average = -93.79903594242046%  
 INFO LOG: Percentage Difference from highest = -99.05734652864571%  
 INFO LOG: Percentage Difference from lowest = 12.722641544345702%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 1.791; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -378,7 +402,11 @@ INFO LOG: Processing BND.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing DAL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: ('Connection aborted.', TimeoutError(110, 'Connection timed out'))  
 INFO LOG: Processing SPCE.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -396,10 +424,6 @@ INFO LOG: Slope is equal to -11.53858636495339
 INFO LOG: Percentage Difference from average = -78.33666045637518%  
 INFO LOG: Percentage Difference from highest = -94.20382141858995%  
 INFO LOG: Percentage Difference from lowest = 22.147653745179824%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 2.05; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -408,6 +432,8 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing INTC.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing VOO.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
@@ -415,7 +441,11 @@ INFO LOG: Processing TSM.csv
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Processing PLUG.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing CLOV.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -433,10 +463,6 @@ INFO LOG: Slope is equal to -40.510196663893794
 INFO LOG: Percentage Difference from average = -88.1541784772913%  
 INFO LOG: Percentage Difference from highest = -97.43847482620484%  
 INFO LOG: Percentage Difference from lowest = 4.378533606201375%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 1.329; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -445,6 +471,8 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing WISH.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -462,10 +490,6 @@ INFO LOG: Slope is equal to -0.6434250207365216
 INFO LOG: Percentage Difference from average = -96.01466988124047%  
 INFO LOG: Percentage Difference from highest = -99.26839167547976%  
 INFO LOG: Percentage Difference from lowest = 5.102039326831063%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 0.753; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -475,6 +499,8 @@ INFO LOG: ===================================================
   
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing SQ.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -492,10 +518,6 @@ INFO LOG: Slope is equal to -1.5892557438605261
 INFO LOG: Percentage Difference from average = -58.98212046080287%  
 INFO LOG: Percentage Difference from highest = -78.98212543427906%  
 INFO LOG: Percentage Difference from lowest = 18.406701859861812%  
-INFO LOG: Price to Earnings (P/E) ratio = 755.98; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = 1.931; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 2.583; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -504,8 +526,14 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing AMD.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing ET.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing FCEL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -523,10 +551,6 @@ INFO LOG: Slope is equal to -12.291727851876932
 INFO LOG: Percentage Difference from average = -68.7339411879136%  
 INFO LOG: Percentage Difference from highest = -93.61413056682267%  
 INFO LOG: Percentage Difference from lowest = 18.98733823846852%  
-INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
-INFO LOG: Price/Earnings to Growth (PEG) ratio = -0.12; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
-INFO LOG: Price to Book (P/B) ratio = 2.187; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
-INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -578,8 +602,14 @@ WARNING LOG: Failed to get misc data for stock
 WARNING LOG: 'PERatio'  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing JNJ.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing UAL.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing NVDA.csv  
+WARNING LOG: Failed to get misc data for stock  
+WARNING LOG: 'PERatio'  
 INFO LOG: Processing WMT.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
@@ -652,8 +682,6 @@ INFO LOG: ===================================================
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing KO.csv  
 INFO LOG: Processing FUBO.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -671,6 +699,10 @@ INFO LOG: Slope is equal to -9.73471618133777
 INFO LOG: Percentage Difference from average = -92.1186447493582%  
 INFO LOG: Percentage Difference from highest = -98.16985074821099%  
 INFO LOG: Percentage Difference from lowest = 18.750001164153243%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 6.36; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -679,8 +711,6 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing SONY.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing CPRX.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
@@ -729,11 +759,7 @@ WARNING LOG: 'PERatio'
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing OCGN.csv  
 INFO LOG: Processing AAL.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing WKHS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -751,6 +777,10 @@ INFO LOG: Slope is equal to -17.095978080838968
 INFO LOG: Percentage Difference from average = -89.79776993649403%  
 INFO LOG: Percentage Difference from highest = -97.80726258859004%  
 INFO LOG: Percentage Difference from lowest = 6.92394900467345%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = 0; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = 2.375; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -759,11 +789,7 @@ INFO LOG: ===================================================
 
   
 INFO LOG: Processing COST.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing NKE.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing GM.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
