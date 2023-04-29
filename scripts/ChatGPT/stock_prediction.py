@@ -11,6 +11,8 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from sklearn.svm import SVR
 from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 
@@ -30,6 +32,7 @@ class STOCK_PREDICTION:
         i_score_sell = 0
         i_score_buy = 0
 
+        self.master_list.insert(-1, ['Random Forrest', self.RandomForest()])
         self.master_list.insert(-1, ['RNN', self.RNN()])
         self.master_list.insert(-1, ['ANN', self.ANN()])
 
@@ -191,3 +194,35 @@ class STOCK_PREDICTION:
         #plt.legend(['Actual', 'Predicted'])
         #plt.show()
         return [rmse, sharpe_ratio_predicted]
+
+    def RandomForest(self):
+        # Create a copy of df to prevent overwrite
+        df = self.df.copy(deep=True)
+
+        # Split into training and testing sets
+        X = df.drop('Close', axis=1); X = X.drop('Date', axis=1)
+        y = df['Close']
+        test_size = math.ceil(len(df) * .8)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
+
+        # Train Random Forest model
+        rf = RandomForestRegressor(n_estimators=100, random_state=42)
+        rf.fit(X_train, y_train)
+
+        # Make predictions on testing set
+        y_pred = rf.predict(X_test)
+
+        # Calculate root mean squared error
+        rmse = mean_squared_error(y_test, y_pred)
+
+        # Calculate the Sharpe ratio based on the Actual prediction
+        mean_return = df['Close'][test_size:].pct_change().mean()
+        volatility = df['Close'][test_size:].pct_change().std()
+        sharpe_ratio_actual = (mean_return / volatility)
+
+        df_predicted = pd.DataFrame(y_pred)
+        mean_return = df_predicted.pct_change().mean()[0]
+        volatility = df_predicted.pct_change().std()[0]
+        sharpe_ratio_predicted = (mean_return / volatility)
+
+        return rmse, sharpe_ratio_predicted
