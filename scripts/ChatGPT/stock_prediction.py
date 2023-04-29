@@ -265,7 +265,7 @@ class STOCK_PREDICTION:
         model.compile(loss='mean_squared_error', optimizer='adam')
 
         # Train the model
-        model.fit(trainX, trainY, epochs=10, batch_size=1, verbose=0)
+        model.fit(trainX, trainY, epochs=100, batch_size=32, verbose=0)
 
         # Make predictions on testing set
         testPredict = model.predict(testX)
