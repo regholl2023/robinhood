@@ -46,10 +46,13 @@ class STOCK_PREDICTION:
                     i_score_buy += 1
 
         if i_score_sell >= 2:
+            self.simlog.info("The current action is to SELL")
             return stock_constants.STOCK_SELL
         elif i_score_buy >= 2:
+            self.simlog.info("The current action is to BUY")
             return stock_constants.STOCK_BUY
         else:
+            self.simlog.info("The current action is to do nothing")
             return stock_constants.STOCK_LEAVE
 
     # Recurrent Neural Networks (RNNs)
