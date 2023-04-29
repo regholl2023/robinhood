@@ -32,6 +32,7 @@ class STOCK_PREDICTION:
         i_score_sell = 0
         i_score_buy = 0
 
+        self.master_list.insert(-1, ['LSTM', self.LSTM()])
         self.master_list.insert(-1, ['Random Forrest', self.RandomForest()])
         self.master_list.insert(-1, ['RNN', self.RNN()])
         self.master_list.insert(-1, ['ANN', self.ANN()])
@@ -117,9 +118,14 @@ class STOCK_PREDICTION:
         # Calculate the Sharpe ratio
         mean_return = self.df['Close'].pct_change().mean()
         volatility = self.df['Close'].pct_change().std()
-        sharpe_ratio = (mean_return/volatility)
+        sharpe_ratio_actual = (mean_return/volatility)
 
-        return [rmse, sharpe_ratio]
+        df_predicted = pd.DataFrame(predictions)
+        mean_return = df_predicted.pct_change().mean()[0]
+        volatility = df_predicted.pct_change().std()[0]
+        sharpe_ratio_predicted = (mean_return / volatility)
+
+        return [rmse, sharpe_ratio_predicted]
 
     # Artifical Neural Network
     def ANN(self):
@@ -226,3 +232,61 @@ class STOCK_PREDICTION:
         sharpe_ratio_predicted = (mean_return / volatility)
 
         return rmse, sharpe_ratio_predicted
+
+    def LSTM(self):
+
+        # `look_back` is the number of previous time steps to use as input to the LSTM network
+        # (e.g. 1 for using only the previous day's price)
+        look_back = 30
+
+        # Create a copy of df to prevent overwrite
+        dataset = self.df.copy(deep=True)
+
+        # Normalize the data
+        dataset = dataset.filter(['Close']).values
+        scaler = MinMaxScaler(feature_range=(0, 1))
+        dataset = scaler.fit_transform(dataset)
+
+        # Split into training and testing sets
+        train_size = int(len(dataset) * 0.8)
+        train, test = dataset[0:train_size, :], dataset[train_size:len(dataset), :]
+
+        trainX, trainY = create_dataset_LSTM(train, look_back)
+        testX, testY = create_dataset_LSTM(test, look_back)
+
+        # Reshape data for LSTM input (samples, time steps, features)
+        trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+        testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+
+        # Create LSTM model
+        model = Sequential()
+        model.add(LSTM(4, input_shape=(1, look_back)))
+        model.add(Dense(1))
+        model.compile(loss='mean_squared_error', optimizer='adam')
+
+        # Train the model
+        model.fit(trainX, trainY, epochs=10, batch_size=1, verbose=0)
+
+        # Make predictions on testing set
+        testPredict = model.predict(testX)
+        testPredict = scaler.inverse_transform(testPredict)
+        testY = scaler.inverse_transform([testY])
+
+        # Calculate root mean squared error
+        rmse = np.sqrt(mean_squared_error(testY[0], testPredict[:, 0]))
+
+        df_predicted = pd.DataFrame(testPredict)
+        mean_return = df_predicted.pct_change().mean()[0]
+        volatility = df_predicted.pct_change().std()[0]
+        sharpe_ratio_predicted = (mean_return / volatility)
+
+        return rmse, sharpe_ratio_predicted
+
+# Reshape data for LSTM input
+def create_dataset_LSTM(dataset, look_back=1):
+    X, Y = [], []
+    for i in range(len(dataset) - look_back):
+        a = dataset[i:(i + look_back), 0]
+        X.append(a)
+        Y.append(dataset[i + look_back, 0])
+    return np.array(X), np.array(Y)
