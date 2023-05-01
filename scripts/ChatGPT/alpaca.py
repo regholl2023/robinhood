@@ -33,7 +33,7 @@ class ALPACA:
 
         elif self.action == stock_constants.STOCK_BUY:
             if i_current_invested < 1000:
-                i_qty = float(10/float(self.list_positions[i].current_price))
+                i_qty = float(10/float(i_current_price))
                 l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
                                     side='buy', type='market', time_in_force='day')
 
