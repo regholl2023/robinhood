@@ -54,9 +54,13 @@ class STOCK_PREDICTION:
         self.master_list.insert(-1, STOCK('ANN', self.ANN(), i_currentPrice))
 
         self.simlog.info("AI model result for stock:  " + str(self.stock))
-        self.simlog.info(str(self.master_list))
-
+        self.simlog.info("Current Price = $" + str(i_currentPrice))
         for i in range(len(self.master_list)):
+            self.simlog.info("\nmodel_name = " + str(self.master_list[i].model_name))
+            self.simlog.info("RMSE= " + str(self.master_list[i].rmse))
+            self.simlog.info("sharpe_ratio= " + str(self.master_list[i].sharpe_ratio))
+            self.simlog.info("Next Day price = $" + str(self.master_list[i].next_day_price))
+            self.simlog.info("Percentage Change = " + str(self.master_list[i].percentage_change))
             if self.master_list[i].rmse < 5:
                 if self.master_list[i].percentage_change:
                     if self.master_list[i].percentage_change >= 10:
