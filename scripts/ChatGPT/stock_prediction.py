@@ -63,10 +63,12 @@ class STOCK_PREDICTION:
             self.simlog.info("Percentage Change = " + str(self.master_list[i].percentage_change))
             if self.master_list[i].rmse < 5:
                 if self.master_list[i].percentage_change:
-                    if self.master_list[i].percentage_change >= 2:
+                    if self.master_list[i].percentage_change >= 3:
                         i_score_buy += 1
-                    else:
+                    elif self.master_list[i].percentage_change <= 2:
                         i_score_sell += 1
+                    else:
+                        continue
 
         if i_score_sell >= 2:
             self.simlog.info("The current action is to SELL")
@@ -323,6 +325,26 @@ class STOCK_PREDICTION:
 
         return [rmse, sharpe_ratio_predicted, next_day]
 
+
+    # Convolutional Neural Networks (CNNs): CNNs are a type of neural network that are
+    # commonly used for image recognition tasks. They have also been applied to stock 
+    # price prediction by treating historical stock prices as a type of image. 
+    # The CNN can then learn patterns and trends in the stock prices over time to make predictions.
+    def CNN(self):
+        x = 1
+
+    # Deep Belief Networks (DBNs): DBNs are a type of neural network that are composed of
+    # multiple layers of restricted Boltzmann machines (RBMs). They can be used for
+    # unsupervised learning of features in data, and have been applied to stock price prediction.
+    def DBN(self):
+        x = 1
+
+    # Reinforcement Learning (RL): RL is a type of machine learning that focuses on
+    # decision-making in dynamic environments. RL has been applied to stock price prediction
+    # by training an agent to make decisions about buying and selling stocks based on historical
+    # stock prices and other market indicators.
+    def RL(self):
+        x = 1
 
 # Reshape data for LSTM input
 def create_dataset_LSTM(dataset, look_back=1):
