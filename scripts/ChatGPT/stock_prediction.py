@@ -5,6 +5,7 @@ import stock_constants
 import math
 import pandas as pd
 import numpy as np
+import yfinance as yf
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
@@ -17,6 +18,19 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, LSTM
 
 
+class STOCK:
+    def __init__(self, i_AI_model_name, i_values_list, i_currentPrice):
+        self.model_name = i_AI_model_name
+        self.rmse = i_values_list[0]
+        self.sharpe_ratio = i_values_list[1]
+        self.next_day_price = i_values_list[2]
+
+        if self.next_day_price:
+            self.percentage_change = (((self.next_day_price-i_currentPrice)/i_currentPrice) * 100)
+        else:
+            self.percentage_change = None
+
+
 class STOCK_PREDICTION:
     def __init__(self, i_simlog, i_stock, i_df):
         self.simlog = i_simlog
@@ -27,27 +41,28 @@ class STOCK_PREDICTION:
 
 
     def stock_prediction(self):
-
         # This will be used to determine if the AI models are worth depending on
         i_score_sell = 0
         i_score_buy = 0
 
-        self.master_list.insert(-1, ['LSTM', self.LSTM()])
-        self.master_list.insert(-1, ['Random Forrest', self.RandomForest()])
-        self.master_list.insert(-1, ['RNN', self.RNN()])
-        self.master_list.insert(-1, ['ANN', self.ANN()])
+        # Get data on the ticker
+        tickerData = yf.Ticker(self.stock); i_currentPrice = tickerData.history(period='1d')['Close'][0]
+
+        self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
+        self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
+        self.master_list.insert(-1, STOCK('RNN', self.RNN(), i_currentPrice))
+        self.master_list.insert(-1, STOCK('ANN', self.ANN(), i_currentPrice))
 
         self.simlog.info("AI model result for stock:  " + str(self.stock))
         self.simlog.info(str(self.master_list))
 
         for i in range(len(self.master_list)):
-            i_rmse = self.master_list[i][1][0]
-            i_sharpe_ratio = self.master_list[i][1][1]
-            if i_rmse < 5:
-                if i_sharpe_ratio < 0.4:
-                    i_score_sell += 1
-                else: #i_sharpe_ratio >= 0.4
-                    i_score_buy += 1
+            if self.master_list[i].rmse < 5:
+                if self.master_list[i].percentage_change:
+                    if self.master_list[i].percentage_change >= 10:
+                        i_score_buy += 1
+                    else:
+                        i_score_sell += 1
 
         if i_score_sell >= 2:
             self.simlog.info("The current action is to SELL")
@@ -125,7 +140,12 @@ class STOCK_PREDICTION:
         volatility = df_predicted.pct_change().std()[0]
         sharpe_ratio_predicted = (mean_return / volatility)
 
-        return [rmse, sharpe_ratio_predicted]
+        # Predict the stock price for next day
+        last_days = scaler.fit_transform(df.tail(seq_len)['Close'].values.reshape(-1, 1))
+        next_day = model.predict(np.array([last_days]))
+        next_day = scaler.inverse_transform(next_day)[0][0]
+
+        return [rmse, sharpe_ratio_predicted, next_day]
 
     # Artifical Neural Network
     def ANN(self):
@@ -194,12 +214,17 @@ class STOCK_PREDICTION:
         volatility = df_predicted.pct_change().std()[0]
         sharpe_ratio_predicted = (mean_return / volatility)
 
+        # Predict the stock price for next day
+        last_days = scaler.fit_transform(df.tail(seq_len)['Close'].values.reshape(-1, 1))
+        next_day = model.predict(np.array([last_days]))
+        next_day = scaler.inverse_transform(next_day)[0][0]
+
         # Visualize the results
         #plt.plot(df['Close'][training_data_len:])
         #plt.plot(df['Close'][training_data_len + seq_len:].index, predicted_stock_price)
         #plt.legend(['Actual', 'Predicted'])
         #plt.show()
-        return [rmse, sharpe_ratio_predicted]
+        return [rmse, sharpe_ratio_predicted, next_day]
 
     def RandomForest(self):
         # Create a copy of df to prevent overwrite
@@ -231,7 +256,10 @@ class STOCK_PREDICTION:
         volatility = df_predicted.pct_change().std()[0]
         sharpe_ratio_predicted = (mean_return / volatility)
 
-        return rmse, sharpe_ratio_predicted
+        # Predict the stock price for next day
+        next_day = None
+
+        return [rmse, sharpe_ratio_predicted, next_day]
 
     def LSTM(self):
 
@@ -280,7 +308,17 @@ class STOCK_PREDICTION:
         volatility = df_predicted.pct_change().std()[0]
         sharpe_ratio_predicted = (mean_return / volatility)
 
-        return rmse, sharpe_ratio_predicted
+        # Predict the next days price
+        # Create a copy of df to prevent overwrite
+        df = self.df.copy(deep=True)
+        last_days = df.tail(look_back)
+        last_days = scaler.fit_transform(last_days.filter(['Close']).values)
+        last_days = np.reshape(last_days, (1, 1, last_days.shape[0]))
+        next_day = model.predict(last_days)
+        next_day = scaler.inverse_transform(next_day)[0][0]
+
+        return [rmse, sharpe_ratio_predicted, next_day]
+
 
 # Reshape data for LSTM input
 def create_dataset_LSTM(dataset, look_back=1):
