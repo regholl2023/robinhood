@@ -15,7 +15,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM
+from keras.layers import Dense, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten
 
 
 class STOCK:
@@ -48,6 +48,7 @@ class STOCK_PREDICTION:
         # Get data on the ticker
         tickerData = yf.Ticker(self.stock); i_currentPrice = tickerData.history(period='1d')['Close'][0]
 
+        self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
         self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
         self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
         self.master_list.insert(-1, STOCK('RNN', self.RNN(), i_currentPrice))
@@ -331,7 +332,60 @@ class STOCK_PREDICTION:
     # price prediction by treating historical stock prices as a type of image. 
     # The CNN can then learn patterns and trends in the stock prices over time to make predictions.
     def CNN(self):
-        x = 1
+
+        seq_len = 30
+
+        # Create a copy of df to prevent overwrite
+        data = self.df.copy(deep=True)
+        data = data.drop(['Date'], axis=1); data = data.drop(['Volume'], axis=1)
+
+        # Use last seq_len days of data to predict next day's closing price
+        X = []
+        y = []
+        for i in range(seq_len, len(data)):
+            X.append(data.iloc[i - seq_len:i, 1:].values)
+            y.append(data.iloc[i, -1])
+        X = np.array(X)
+        y = np.array(y)
+
+        # Split data into training and testing sets
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+        # Define CNN model
+        model = Sequential()
+        model.add(
+            Conv1D(filters=64, kernel_size=3, activation='relu', input_shape=(X_train.shape[1], X_train.shape[2])))
+        model.add(MaxPooling1D(pool_size=2))
+        model.add(Flatten())
+        model.add(Dense(50, activation='relu'))
+        model.add(Dropout(0.5))
+        model.add(Dense(1))
+
+        # Compile model
+        model.compile(loss='mse', optimizer='adam')
+
+        # Train model
+        model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=(X_test, y_test), verbose=0)
+
+        predictions = model.predict(X_test)
+
+        # Calculate the RMSE. Both formulae generates the same result
+        rmse = math.sqrt(mean_squared_error(y_test, predictions))
+
+        # Calculate the Sharpe ratio
+        df_predicted = pd.DataFrame(predictions)
+        mean_return = df_predicted.pct_change().mean()[0]
+        volatility = df_predicted.pct_change().std()[0]
+        sharpe_ratio_predicted = (mean_return / volatility)
+
+
+        # Use last 30 days of data to make prediction
+        last_days = data.iloc[-seq_len:, 1:].values
+        last_days = np.reshape(last_days, (1, seq_len, last_days.shape[1]))
+        next_day = model.predict(last_days)[0][0]
+
+        return rmse, sharpe_ratio_predicted, next_day
+
 
     # Deep Belief Networks (DBNs): DBNs are a type of neural network that are composed of
     # multiple layers of restricted Boltzmann machines (RBMs). They can be used for
