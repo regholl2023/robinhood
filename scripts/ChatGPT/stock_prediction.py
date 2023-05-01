@@ -241,7 +241,7 @@ class STOCK_PREDICTION:
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
 
         # Train Random Forest model
-        rf = RandomForestRegressor(n_estimators=100, random_state=42)
+        rf = RandomForestRegressor(n_estimators=100, random_state=42, verbose=0)
         rf.fit(X_train, y_train)
 
         # Make predictions on testing set
