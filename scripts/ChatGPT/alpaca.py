@@ -3,6 +3,7 @@
 import sim_logging
 import alpaca_trade_api as tradeapi
 from alpaca_trade_api.rest import REST, TimeFrame
+import yfinance as yf
 import stock_constants
 
 class ALPACA:
@@ -18,7 +19,14 @@ class ALPACA:
 
 
     def process_data(self):
-        i_current_price = float(self.api.get_bars(self.stock_name, TimeFrame.Hour, limit=1)[0].c)
+        # It is possible that there was an issue with pulling stock data from alpaca.
+        # So retry with yahoo finance
+        try:
+            i_current_price = float(self.api.get_bars(self.stock_name, TimeFrame.Hour, limit=1)[0].c)
+        except:
+            tickerData = yf.Ticker(self.stock_name); 
+            i_current_price = tickerData.history(period='1d')['Close'][0]
+
         i_current_quantity = int(0) #Number of stocks for this particular symbol
         i_current_invested = float(0) #Calculated by multiplying quantity with market_value
 
