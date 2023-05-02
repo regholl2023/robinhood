@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-import ReinforcedLearning
 import sim_logging
 import stock_constants
 import math
@@ -56,7 +55,6 @@ class STOCK_PREDICTION:
             self.simlog.error(str(e))
             return stock_constants.STOCK_LEAVE
 
-        #self.master_list.insert(-1, STOCK('RL', ReinforcedLearning.ReinforcedLearning(self.df), i_currentPrice))
         self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
         self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
         self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
@@ -73,14 +71,14 @@ class STOCK_PREDICTION:
             self.simlog.info("Percentage Change = " + str(self.master_list[i].percentage_change))
             if self.master_list[i].rmse < 5:
                 if self.master_list[i].percentage_change:
-                    if self.master_list[i].percentage_change >= 3:
+                    if self.master_list[i].percentage_change >= 4:
                         i_score_buy += 1
                     elif self.master_list[i].percentage_change <= 1:
                         i_score_sell += 1
                     else:
                         continue
 
-        if i_score_sell >= 2:
+        if i_score_sell >= 3:
             self.simlog.info("The current action is to SELL")
             return stock_constants.STOCK_SELL
         elif i_score_buy >= 3:
@@ -374,7 +372,7 @@ class STOCK_PREDICTION:
         model.compile(loss='mse', optimizer='adam')
 
         # Train model
-        model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=(X_test, y_test), verbose=0)
+        model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test), verbose=0)
 
         predictions = model.predict(X_test)
 

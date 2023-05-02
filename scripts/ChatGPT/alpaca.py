@@ -14,9 +14,15 @@ class ALPACA:
         self.account = self.api.get_account()
         self.stock_name = i_stock
         self.action = i_action
+        self.clear_unprocessed_orders()
         self.list_positions = self.api.list_positions()
         self.process_data()
 
+    def clear_unprocessed_orders(self):
+        open_orders = self.api.list_orders(status='open')
+        for order in open_orders:
+            if order.filled_qty == '0':
+                self.api.cancel_order(order.id)
 
     def process_data(self):
         # It is possible that there was an issue with pulling stock data from alpaca.
