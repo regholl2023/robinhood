@@ -70,7 +70,7 @@ class STOCK_PREDICTION:
                 if self.master_list[i].percentage_change:
                     if self.master_list[i].percentage_change >= 3:
                         i_score_buy += 1
-                    elif self.master_list[i].percentage_change <= 2:
+                    elif self.master_list[i].percentage_change <= 1:
                         i_score_sell += 1
                     else:
                         continue
