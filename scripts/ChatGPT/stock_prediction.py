@@ -46,10 +46,15 @@ class STOCK_PREDICTION:
     def stock_prediction(self):
         # This will be used to determine if the AI models are worth depending on
         i_score_sell = 0
-        i_score_buy = 0
+        i_score_buy  = 0
 
         # Get data on the ticker
-        tickerData = yf.Ticker(self.stock); i_currentPrice = tickerData.history(period='1d')['Close'][0]
+        try:
+            tickerData = yf.Ticker(self.stock); i_currentPrice = tickerData.history(period='1d')['Close'][0]
+        except IndexError as e:
+            self.simlog.error("Error found while trying to get current stock price for " + str(self.stock))
+            self.simlog.error(str(e))
+            return stock_constants.STOCK_LEAVE
 
         #self.master_list.insert(-1, STOCK('RL', ReinforcedLearning.ReinforcedLearning(self.df), i_currentPrice))
         self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
