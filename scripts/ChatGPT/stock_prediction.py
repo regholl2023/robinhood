@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import ReinforcedLearning
 import sim_logging
 import stock_constants
 import math
@@ -14,8 +15,10 @@ from sklearn.svm import SVR
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
+from keras import backend as K
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten
+from keras.layers import Dense, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten, GaussianNoise, Activation
+from tensorflow.keras import regularizers
 
 
 class STOCK:
@@ -48,6 +51,7 @@ class STOCK_PREDICTION:
         # Get data on the ticker
         tickerData = yf.Ticker(self.stock); i_currentPrice = tickerData.history(period='1d')['Close'][0]
 
+        #self.master_list.insert(-1, STOCK('RL', ReinforcedLearning.ReinforcedLearning(self.df), i_currentPrice))
         self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
         self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
         self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
@@ -386,19 +390,21 @@ class STOCK_PREDICTION:
 
         return rmse, sharpe_ratio_predicted, next_day
 
-
-    # Deep Belief Networks (DBNs): DBNs are a type of neural network that are composed of
-    # multiple layers of restricted Boltzmann machines (RBMs). They can be used for
-    # unsupervised learning of features in data, and have been applied to stock price prediction.
-    def DBN(self):
-        x = 1
-
     # Reinforcement Learning (RL): RL is a type of machine learning that focuses on
     # decision-making in dynamic environments. RL has been applied to stock price prediction
     # by training an agent to make decisions about buying and selling stocks based on historical
     # stock prices and other market indicators.
     def RL(self):
+
+        seq_len = 30
+
+        # Create a copy of df to prevent overwrite
+        data = self.df.copy(deep=True)
+
         x = 1
+
+
+
 
 # Reshape data for LSTM input
 def create_dataset_LSTM(dataset, look_back=1):
