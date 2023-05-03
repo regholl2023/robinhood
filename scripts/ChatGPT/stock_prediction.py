@@ -56,11 +56,11 @@ class STOCK_PREDICTION:
             self.simlog.error(str(e))
             return stock_constants.STOCK_LEAVE
 
-        self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
         self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
-        self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
         self.master_list.insert(-1, STOCK('RNN', self.RNN(), i_currentPrice))
         self.master_list.insert(-1, STOCK('ANN', self.ANN(), i_currentPrice))
+        self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
+        self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
 
         self.simlog.info("AI model result for stock:  " + str(self.stock))
         self.simlog.info("Current Price = $" + str(i_currentPrice))
