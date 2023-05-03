@@ -138,7 +138,7 @@ class STOCK_PREDICTION:
         x_test = np.array(x_test)
         x_test = np.reshape(x_test, (x_test.shape[0], x_test.shape[1], 1))
 
-        predictions_scaled = model.predict(x_test)
+        predictions_scaled = model.predict(x_test, verbose=0)
         predictions = scaler.inverse_transform(predictions_scaled)
 
         # Calculate the RMSE. Both formulae generates the same result
@@ -157,7 +157,7 @@ class STOCK_PREDICTION:
 
         # Predict the stock price for next day
         last_days = scaler.fit_transform(df.tail(seq_len)['Close'].values.reshape(-1, 1))
-        next_day = model.predict(np.array([last_days]))
+        next_day = model.predict(np.array([last_days]), verbose=0)
         next_day = scaler.inverse_transform(next_day)[0][0]
 
         return [rmse, sharpe_ratio_predicted, next_day]
@@ -212,7 +212,7 @@ class STOCK_PREDICTION:
             y_test.append(test_data[i, 0])
         X_test, y_test = np.array(X_test), np.array(y_test)
         X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
-        predicted_stock_price_scaled = model.predict(X_test)
+        predicted_stock_price_scaled = model.predict(X_test, verbose=0)
         predicted_stock_price = scaler.inverse_transform(predicted_stock_price_scaled)
 
         # Calculate the root mean squared error
@@ -311,7 +311,7 @@ class STOCK_PREDICTION:
         model.fit(trainX, trainY, epochs=100, batch_size=32, verbose=0)
 
         # Make predictions on testing set
-        testPredict = model.predict(testX)
+        testPredict = model.predict(testX, verbose=0)
         testPredict = scaler.inverse_transform(testPredict)
         testY = scaler.inverse_transform([testY])
 
@@ -329,7 +329,7 @@ class STOCK_PREDICTION:
         last_days = df.tail(look_back)
         last_days = scaler.fit_transform(last_days.filter(['Close']).values)
         last_days = np.reshape(last_days, (1, 1, last_days.shape[0]))
-        next_day = model.predict(last_days)
+        next_day = model.predict(last_days, verbose=0)
         next_day = scaler.inverse_transform(next_day)[0][0]
 
         return [rmse, sharpe_ratio_predicted, next_day]
@@ -375,7 +375,7 @@ class STOCK_PREDICTION:
         # Train model
         model.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test), verbose=0)
 
-        predictions = model.predict(X_test)
+        predictions = model.predict(X_test, verbose=0)
 
         # Calculate the RMSE. Both formulae generates the same result
         rmse = math.sqrt(mean_squared_error(y_test, predictions))
@@ -390,7 +390,7 @@ class STOCK_PREDICTION:
         # Use last 30 days of data to make prediction
         last_days = data.iloc[-seq_len:, 1:].values
         last_days = np.reshape(last_days, (1, seq_len, last_days.shape[1]))
-        next_day = model.predict(last_days)[0][0]
+        next_day = model.predict(last_days, verbose=0)[0][0]
 
         return rmse, sharpe_ratio_predicted, next_day
 
