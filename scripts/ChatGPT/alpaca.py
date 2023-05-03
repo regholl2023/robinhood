@@ -33,10 +33,15 @@ class ALPACA:
         # It is possible that there was an issue with pulling stock data from alpaca.
         # So retry with yahoo finance
         try:
-            i_current_price = float(self.api.get_bars(self.stock_name, TimeFrame.Hour, limit=1)[0].c)
-        except:
-            tickerData = yf.Ticker(self.stock_name); 
-            i_current_price = tickerData.history(period='1d')['Close'][0]
+            try:
+                i_current_price = float(self.api.get_bars(self.stock_name, TimeFrame.Hour, limit=1)[0].c)
+            except:
+                tickerData = yf.Ticker(self.stock_name); 
+                i_current_price = tickerData.history(period='1d')['Close'][0]
+            except IndexError as e:
+                self.simlog.error("Failed to get current stock price for " + str(self.stock_name))
+                self.simlog.error(str(e))
+                return
 
         i_current_quantity = int(0) #Number of stocks for this particular symbol
         i_current_invested = float(0) #Calculated by multiplying quantity with market_value
