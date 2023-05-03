@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import time
 import sim_logging
 import alpaca_trade_api as tradeapi
 from alpaca_trade_api.rest import REST, TimeFrame

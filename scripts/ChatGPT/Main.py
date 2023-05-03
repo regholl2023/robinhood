@@ -66,6 +66,8 @@ def main(argv):
         simlog.info("Starting to process stock: " + str(i_stock))
 
         df = pd.read_csv(i_stock_list[i])
+        # Remove the last line from df as it is the stock price of today
+        df.drop(df.tail(1).index, inplace=True)
 
         # Step-1 Get data from each csv file and create a dataFrame.
         # Then pass on that dataFrame for stock prediction processing using AI models

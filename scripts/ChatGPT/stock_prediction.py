@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import time
 import sim_logging
 import stock_constants
 import math
