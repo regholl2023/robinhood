@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+import csv
+import os
+import sys
 import time
 import sim_logging
 import stock_constants
@@ -9,6 +12,7 @@ import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import datetime
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from sklearn.svm import SVR
@@ -22,16 +26,17 @@ from tensorflow.keras import regularizers
 
 
 class STOCK:
-    def __init__(self, i_AI_model_name, i_values_list, i_currentPrice):
+    def __init__(self, i_AI_model_name, i_values_list):
         self.model_name = i_AI_model_name
         self.rmse = i_values_list[0]
         self.sharpe_ratio = i_values_list[1]
         self.next_day_price = i_values_list[2]
+        self.percentage_change = None
 
-        if self.next_day_price:
-            self.percentage_change = (((self.next_day_price-i_currentPrice)/i_currentPrice) * 100)
-        else:
-            self.percentage_change = None
+        #if self.next_day_price:
+        #    self.percentage_change = (((self.next_day_price-i_currentPrice)/i_currentPrice) * 100)
+        #else:
+        #    self.percentage_change = None
 
 
 class STOCK_PREDICTION:
@@ -41,6 +46,42 @@ class STOCK_PREDICTION:
         self.df = i_df
         self.master_list = []
         self.action = self.stock_prediction()
+
+    def get_AI_data(self):
+        i_master_list = []
+        log_master_filename = "MasterList_AI_model.csv"
+        date = str(datetime.date.today())
+        log_master_filename = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0] + \
+                       "robinhood/logs//" + date + "/" + log_master_filename
+
+        # Create a new file if the file doesn't already exists
+        if not os.path.isfile(log_master_filename):
+            # Create directories in the path if they don't exist
+            os.makedirs(os.path.dirname(log_master_filename), exist_ok=True)
+            # If the file doesn't exist, create it and append to it
+            with open(log_master_filename, 'a') as file:
+                file.write("tickerName,modelName,RMSE,sharpeRatio,expectedValue\n")
+
+        #Now check if the tickerName exists in that file or not
+        if len(getTicker(log_master_filename, self.stock)) == 0:
+            self.master_list.insert(-1, STOCK('LSTM', self.LSTM()))
+            self.master_list.insert(-1, STOCK('RNN', self.RNN()))
+            self.master_list.insert(-1, STOCK('ANN', self.ANN()))
+            self.master_list.insert(-1, STOCK('CNN', self.CNN()))
+            self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest()))
+
+            with open(log_master_filename, 'a') as file:
+                for i in range(len(self.master_list)):
+                    file.write(str(self.stock) + ",")
+                    file.write(self.master_list[i].model_name + ",")
+                    file.write(str(self.master_list[i].rmse) + ",")
+                    file.write(str(self.master_list[i].sharpe_ratio) + ",")
+                    file.write(str(self.master_list[i].next_day_price) + "\n")
+
+        # Now read the csv file to get stock model data
+        i_master_list = getTicker(log_master_filename, self.stock)
+
+        return i_master_list
 
 
     def stock_prediction(self):
@@ -56,25 +97,29 @@ class STOCK_PREDICTION:
             self.simlog.error(str(e))
             return stock_constants.STOCK_LEAVE
 
-        self.master_list.insert(-1, STOCK('LSTM', self.LSTM(), i_currentPrice))
-        self.master_list.insert(-1, STOCK('RNN', self.RNN(), i_currentPrice))
-        self.master_list.insert(-1, STOCK('ANN', self.ANN(), i_currentPrice))
-        self.master_list.insert(-1, STOCK('CNN', self.CNN(), i_currentPrice))
-        self.master_list.insert(-1, STOCK('Random Forrest', self.RandomForest(), i_currentPrice))
+        # We either need to pull the data from a csv file or recalculate the AI model data
+        self.master_list = self.get_AI_data()
 
         self.simlog.info("AI model result for stock:  " + str(self.stock))
         self.simlog.info("Current Price = $" + str(i_currentPrice))
         for i in range(len(self.master_list)):
-            self.simlog.info("\nmodel_name = " + str(self.master_list[i].model_name))
-            self.simlog.info("RMSE= " + str(self.master_list[i].rmse))
-            self.simlog.info("sharpe_ratio= " + str(self.master_list[i].sharpe_ratio))
-            self.simlog.info("Next Day price = $" + str(self.master_list[i].next_day_price))
-            self.simlog.info("Percentage Change = " + str(self.master_list[i].percentage_change))
-            if self.master_list[i].rmse < 5:
-                if self.master_list[i].percentage_change:
-                    if self.master_list[i].percentage_change > 4:
+
+            # Calculate the percentage change in price
+            i_percentage_change = None
+            x = self.master_list[i]['expectedValue']
+            if not self.master_list[i]['expectedValue'] == 'None':
+                i_percentage_change = (((float(self.master_list[i]['expectedValue']) - i_currentPrice) / i_currentPrice) * 100)
+
+            self.simlog.info("\nmodel_name = " + str(self.master_list[i]['modelName']))
+            self.simlog.info("RMSE= " + str(self.master_list[i]['RMSE']))
+            self.simlog.info("sharpeRatio= " + str(self.master_list[i]['sharpeRatio']))
+            self.simlog.info("Next Day expectedValue = $" + str(self.master_list[i]['expectedValue']))
+            self.simlog.info("Percentage Change = " + str(i_percentage_change))
+            if float(self.master_list[i]['RMSE']) < 5:
+                if i_percentage_change:
+                    if i_percentage_change > 5:
                         i_score_buy += 1
-                    elif self.master_list[i].percentage_change < 2:
+                    elif i_percentage_change < 2:
                         i_score_sell += 1
                     else:
                         continue
@@ -418,3 +463,13 @@ def create_dataset_LSTM(dataset, look_back=1):
         X.append(a)
         Y.append(dataset[i + look_back, 0])
     return np.array(X), np.array(Y)
+
+def getTicker(i_file, i_stockName):
+    i_list = []
+    # Open the CSV file
+    with open(i_file, newline='') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=',')
+        for row in reader:
+            if row['tickerName'] == i_stockName:
+                i_list.append(row)
+    return i_list
