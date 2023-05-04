@@ -119,7 +119,7 @@ class STOCK_PREDICTION:
                 if i_percentage_change:
                     if i_percentage_change > 7:
                         i_score_buy += 1
-                    elif i_percentage_change < 3:
+                    elif i_percentage_change < 4:
                         i_score_sell += 1
                     else:
                         continue
@@ -149,7 +149,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(data)
 
         # Split the data into training and testing sets
-        training_data_len = math.ceil(len(scaled_data) * .8)
+        training_data_len = math.ceil(len(scaled_data) * .9)
         train_data = scaled_data[0:training_data_len, :]
         x_train = []
         y_train = []
@@ -220,7 +220,7 @@ class STOCK_PREDICTION:
         scaled_data = scaler.fit_transform(self.df['Close'].values.reshape(-1, 1))
 
         # Split the data into training and testing sets
-        training_data_len = int(len(scaled_data) * 0.8)
+        training_data_len = int(len(scaled_data) * 0.9)
         train_data = scaled_data[0:training_data_len, :]
         test_data = scaled_data[training_data_len:, :]
 
@@ -293,7 +293,7 @@ class STOCK_PREDICTION:
         # Split into training and testing sets
         X = df.drop('Close', axis=1); X = X.drop('Date', axis=1)
         y = df['Close']
-        test_size = math.ceil(len(df) * .8)
+        test_size = math.ceil(len(df) * .9)
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42)
 
         # Train Random Forest model
@@ -336,7 +336,7 @@ class STOCK_PREDICTION:
         dataset = scaler.fit_transform(dataset)
 
         # Split into training and testing sets
-        train_size = int(len(dataset) * 0.8)
+        train_size = int(len(dataset) * 0.9)
         train, test = dataset[0:train_size, :], dataset[train_size:len(dataset), :]
 
         trainX, trainY = create_dataset_LSTM(train, look_back)
@@ -402,7 +402,7 @@ class STOCK_PREDICTION:
         y = np.array(y)
 
         # Split data into training and testing sets
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=0)
 
         # Define CNN model
         model = Sequential()
