@@ -115,7 +115,7 @@ def main(argv):
     for i in range(len(i_stock_list)):
         # Load historial data for this particular company
         try:
-            data = yf.download(tickers=i_stock_list[i], period='36mo', interval='1d')
+            data = yf.download(tickers=i_stock_list[i], period='48mo', interval='1d')
             data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
         except Exception as e:
             print("Some error has occured. Continue!!!!!")
