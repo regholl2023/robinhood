@@ -63,7 +63,7 @@ class ALPACA:
                 # There are some stocks that don't trade fractional  shares.
                 # These are usually stocks that are below $1. Therefore round
                 # down the quantity
-                if i_current_price < 1:
+                if float(i_current_price) <= float(1):
                     i_qty = int(i_qty)
                     self.simlog.info("The quantity has been updated to " + str(i_qty))
 
