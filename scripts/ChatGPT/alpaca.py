@@ -58,6 +58,13 @@ class ALPACA:
         elif self.action == stock_constants.STOCK_BUY:
             if i_current_invested < 1000:
                 i_qty = float(100/float(i_current_price))
+
+                # There are some stocks that don't trade fractional  shares.
+                # These are usually stocks that are below $1. Therefore round
+                # down the quantity
+                if i_current_price < 1:
+                    i_qty = int(i_qty)
+
                 self.simlog.info("We are going to BUY " + str(self.stock_name))
                 l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
                                     side='buy', type='market', time_in_force='day')
