@@ -74,9 +74,20 @@ class ALPACA:
         # Sell all current quantity of this stock
         elif self.action == stock_constants.STOCK_SELL:
             if i_current_quantity > 0:
-                self.simlog.info("We are going to SELL " + str(self.stock_name))
-                l_result = self.api.submit_order(symbol=self.stock_name, qty=i_current_quantity,
-                                     side='sell', type='market', time_in_force='day')
+
+                # It is possible that we are looking at a loss on this trade.
+                # Thus hold onto the stock for a while and don't sell
+                for i in range(len(self.list_positions)):
+                    if self.list_positions[i].symbol == str(self.stock_name):
+                        if float(self.list_positions[i].unrealized_pl) >= 0:
+                            self.simlog.info("We are going to SELL " + str(self.stock_name))
+                            l_result = self.api.submit_order(symbol=self.stock_name, qty=i_current_quantity,
+                                                 side='sell', type='market', time_in_force='day')
+                            return
+                        else:
+                            self.simlog.warning("It was recommended to sell " + str(self.stock_name))
+                            self.simlog.warning("We are not selling because there is a loss of $" + str(self.list_positions[i].unrealized_pl))
+                            return
         else:
             print("The following action is undefined: " + str(self.action))
             raise Exception
