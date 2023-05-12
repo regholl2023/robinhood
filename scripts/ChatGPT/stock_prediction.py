@@ -21,9 +21,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from keras import backend as K
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten, GaussianNoise, Activation
+from keras.layers import Dense, Bidirectional, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten, GaussianNoise, Activation
+from keras.optimizers import Adam
 from tensorflow.keras import regularizers
-
+from tensorflow.keras.callbacks import EarlyStopping
 
 class STOCK:
     def __init__(self, i_AI_model_name, i_values_list):
@@ -64,6 +65,7 @@ class STOCK_PREDICTION:
 
         #Now check if the tickerName exists in that file or not
         if len(getTicker(log_master_filename, self.stock)) == 0:
+            self.master_list.insert(-1, STOCK('BiDirectional LSTM', self.BiDirectionalLSTM()))
             self.master_list.insert(-1, STOCK('LSTM', self.LSTM()))
             self.master_list.insert(-1, STOCK('RNN', self.RNN()))
             self.master_list.insert(-1, STOCK('ANN', self.ANN()))
@@ -285,6 +287,65 @@ class STOCK_PREDICTION:
         #plt.legend(['Actual', 'Predicted'])
         #plt.show()
         return [rmse, sharpe_ratio_predicted, next_day]
+
+    def BiDirectionalLSTM(self):
+
+        # `look_back` is the number of previous time steps to use as input to the LSTM network
+        # (e.g. 1 for using only the previous day's price)
+        look_back = 30
+
+        # Create a copy of df to prevent overwrite
+        dataset = self.df.copy(deep=True)
+
+        # Normalize the data
+        dataset = dataset.filter(['Close']).values
+        scaler = MinMaxScaler(feature_range=(0, 1))
+        dataset = scaler.fit_transform(dataset)
+
+        # Split into training and testing sets
+        train_size = int(len(dataset) * 0.9)
+        train, test = dataset[0:train_size, :], dataset[train_size:len(dataset), :]
+
+        trainX, trainY = create_dataset_LSTM(train, look_back)
+        testX, testY = create_dataset_LSTM(test, look_back)
+
+        # Reshape data for LSTM input (samples, time steps, features)
+        trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
+        testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
+
+        # Create the Deep Belief Network model
+        model = Sequential()
+        model.add(Bidirectional(LSTM(128), input_shape=(1, look_back)))
+        model.add(Dense(1))
+        model.compile(loss='mean_squared_error', optimizer='adam')
+
+        # Train the model
+        model.fit(trainX, trainY, epochs=100, batch_size=32, verbose=0)
+
+        # Make predictions on testing set
+        testPredict = model.predict(testX, verbose=0)
+        testPredict = scaler.inverse_transform(testPredict)
+        testY = scaler.inverse_transform([testY])
+
+        # Calculate root mean squared error
+        rmse = np.sqrt(mean_squared_error(testY[0], testPredict[:, 0]))
+
+        df_predicted = pd.DataFrame(testPredict)
+        mean_return = df_predicted.pct_change().mean()[0]
+        volatility = df_predicted.pct_change().std()[0]
+        sharpe_ratio_predicted = (mean_return / volatility)
+
+        # Predict the next days price
+        # Create a copy of df to prevent overwrite
+        df = self.df.copy(deep=True)
+        last_days = df.tail(look_back)
+        last_days = scaler.fit_transform(last_days.filter(['Close']).values)
+        last_days = np.reshape(last_days, (1, 1, last_days.shape[0]))
+        next_day = model.predict(last_days, verbose=0)
+        next_day = scaler.inverse_transform(next_day)[0][0]
+
+        return [rmse, sharpe_ratio_predicted, next_day]
+
 
     def RandomForest(self):
         # Create a copy of df to prevent overwrite
