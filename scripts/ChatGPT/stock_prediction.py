@@ -20,8 +20,9 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from keras import backend as K
-from keras.models import Sequential
-from keras.layers import Dense, Bidirectional, Dropout, LSTM, Conv1D, MaxPooling1D, Flatten, GaussianNoise, Activation
+from keras.models import Sequential, Model
+from keras.layers import Dot, Input, Dense, Bidirectional, Dropout, LSTM, Conv1D
+from keras.layers import MaxPooling1D, Flatten, GaussianNoise, Activation
 from keras.optimizers import Adam
 from tensorflow.keras import regularizers
 from tensorflow.keras.callbacks import EarlyStopping
@@ -65,6 +66,7 @@ class STOCK_PREDICTION:
 
         #Now check if the tickerName exists in that file or not
         if len(getTicker(log_master_filename, self.stock)) == 0:
+            self.master_list.insert(-1, STOCK('Attention-based LSTM', self.AttLSTM()))
             self.master_list.insert(-1, STOCK('BiDirectional LSTM', self.BiDirectionalLSTM()))
             self.master_list.insert(-1, STOCK('LSTM', self.LSTM()))
             self.master_list.insert(-1, STOCK('RNN', self.RNN()))
@@ -504,17 +506,79 @@ class STOCK_PREDICTION:
     # decision-making in dynamic environments. RL has been applied to stock price prediction
     # by training an agent to make decisions about buying and selling stocks based on historical
     # stock prices and other market indicators.
-    def RL(self):
-
-        seq_len = 30
-
-        # Create a copy of df to prevent overwrite
+    def AttLSTM(self):
         data = self.df.copy(deep=True)
+        prices = data['Close'].values.reshape(-1, 1)
+        scaler = MinMaxScaler(feature_range=(0, 1))
+        scaled_prices = scaler.fit_transform(prices)
 
-        x = 1
+        # Split data into training and testing sets
+        train_size = int(len(scaled_prices) * 0.8)
+        train_data = scaled_prices[:train_size]
+        test_data = scaled_prices[train_size:]
+
+        # Define constants
+        window_size = 30  # Number of previous days' prices to consider for prediction
+        hidden_units = 32
+        output_size = 1
+        learning_rate = 0.001
+        epochs = 50
+        batch_size = 32
+
+        x_train, y_train = create_sequences(train_data, window_size)
+        x_test, y_test = create_sequences(test_data, window_size)
+
+        # Build the Attention-based LSTM model
+        input_seq = Input(shape=(window_size, 1))
+        lstm_out = LSTM(hidden_units, return_sequences=True)(input_seq)
+        attention_weights = Dense(1, activation='tanh')(lstm_out)
+        attention_weights = Activation('softmax')(attention_weights)
+        context = Dot(axes=1)([attention_weights, lstm_out])
+        context = Flatten()(context)
+        output = Dense(output_size)(context)
+        model = Model(inputs=input_seq, outputs=output)
+
+        # Compile the model
+        model.compile(optimizer=Adam(learning_rate), loss='mean_squared_error')
+
+        # Train the model
+        model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, verbose=0)
+
+        # Make predictions on the test set
+        predictions = model.predict(x_test)
+        predictions = scaler.inverse_transform(predictions)
+        y_test = scaler.inverse_transform(y_test)
+
+        # Calculate RMSE
+        rmse = np.sqrt(mean_squared_error(y_test, predictions))
+
+        # Calculate Sharpe ratio (assuming daily returns)
+        daily_returns = (y_test[1:] - y_test[:-1]) / y_test[:-1]
+        sharpe_ratio = np.mean(daily_returns) / np.std(daily_returns)
+
+        # Predict the next days price
+        # Create a copy of df to prevent overwrite
+        df = self.df.copy(deep=True)
+        last_days = df.tail(window_size)
+        last_days = scaler.fit_transform(last_days.filter(['Close']).values.reshape(-1,1))
+
+        last_days = np.reshape(last_days, (1, last_days.shape[0], 1))
+        next_day = model.predict(last_days, verbose=0)
+        next_day = scaler.inverse_transform(next_day)[0][0]
+
+        return [rmse, sharpe_ratio, next_day]
 
 
 
+
+# Create input sequences and target values
+def create_sequences(data, window_size):
+    x = []
+    y = []
+    for i in range(len(data) - window_size - 1):
+        x.append(data[i : i + window_size])
+        y.append(data[i + window_size])
+    return np.array(x), np.array(y)
 
 # Reshape data for LSTM input
 def create_dataset_LSTM(dataset, look_back=1):
