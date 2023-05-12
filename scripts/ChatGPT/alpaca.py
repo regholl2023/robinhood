@@ -56,17 +56,19 @@ class ALPACA:
             return
 
         elif self.action == stock_constants.STOCK_BUY:
-            if i_current_invested < 1000:
-                i_qty = float(100/float(i_current_price))
+            if i_current_invested < 10:
+                i_qty = float(2/float(i_current_price))
 
                 # Round down stock quantity if > 1
                 if i_qty > 1:
                     i_qty = int(i_qty)
-                self.simlog.info("Quantity of shares to buy: " + str(i_qty))
-
-                self.simlog.info("We are going to BUY " + str(self.stock_name))
-                l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
-                                    side='buy', type='market', time_in_force='day')
+                    self.simlog.info("Quantity of shares to buy: " + str(i_qty))
+                    self.simlog.info("We are going to BUY " + str(self.stock_name))
+                    l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
+                                        side='buy', type='market', time_in_force='gtc')
+                else:
+                    l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
+                                        side='buy', type='market', time_in_force='day')
 
 
         # Sell all current quantity of this stock
