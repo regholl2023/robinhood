@@ -1,15 +1,18 @@
-INFO LOG: Processing FMBN.csv  
+INFO LOG: Processing SCOR.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing PWSC.csv  
+INFO LOG: Processing CEREW.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing CSSE.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
 INFO LOG: Processing QRVO.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing EFHT.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: Processing GNAC.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing SAIIW.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing MRTX.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
@@ -19,40 +22,31 @@ WARNING LOG: Skipping......
 INFO LOG: Processing INMB.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing ELLH.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing OSBK.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing SNWGF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: Processing HOLUW.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing EQBBF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
-INFO LOG: Processing RTOBF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
+INFO LOG: Processing CBMB.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing ASRV.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing SCXLB.csv  
+INFO LOG: Processing AGBA.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
 INFO LOG: Processing AEIS.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing SNNF.csv  
-WARNING LOG: HTTP Error 404: Not Found  
-WARNING LOG: Skipping......  
 INFO LOG: Processing FFIN.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing ASAAF.csv  
+INFO LOG: Processing PT.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
+INFO LOG: Processing ALYA.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Processing NMMCU.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing NWSA.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
@@ -60,299 +54,73 @@ INFO LOG: Processing ACHC.csv
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing PDER.csv  
+INFO LOG: Processing CDK.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing KROS.csv  
 WARNING LOG: HTTP Error 404: Not Found  
 WARNING LOG: Skipping......  
-INFO LOG: Processing SNCAF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GVFF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing NCBDF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing KROS.csv  
-INFO LOG: Processing SERA.csv  
 INFO LOG: Processing AIRT.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
 INFO LOG: Processing KVSA.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing COENF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing FNNTF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ADBMF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing FAF.csv  
-INFO LOG: Processing AWI.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Processing ALIM.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Processing CLLS.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Processing LVTX.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Processing GMBT.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing AVGO.csv  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
 INFO LOG: Processing CONX.csv  
-INFO LOG: Processing BZLFF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
+WARNING LOG: HTTP Error 404: Not Found  
+WARNING LOG: Skipping......  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing SHSP.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing BAND.csv  
-INFO LOG: Processing PTZIF.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing TGVC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing NRIX.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
 INFO LOG: Processing NCNO.csv  
-INFO LOG: Processing NSYC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BVHBB.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing HNRA.csv  
+INFO LOG: Processing TSCBP.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
 INFO LOG: Processing KRBP.csv  
-INFO LOG: Processing CDNTF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
 INFO LOG: Processing MTSI.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GRKZF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BAYZF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing MPHYF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
+INFO LOG: Processing FGFPP.csv  
+INFO LOG: Processing GLPG.csv  
+INFO LOG: Processing RILYM.csv  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing NCRBF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing ORAAF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing MYPS.csv  
 INFO LOG: Processing INTG.csv  
-INFO LOG: Processing SKHSF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing REVNF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing UNP.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing EVBN.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing SOUB.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TRCLF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing WCRS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing NGRRF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing RBOT.csv  
-INFO LOG: Processing SNMYF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing ICHMF.csv  
+INFO LOG: Processing ANDAU.csv  
 ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing PPBI.csv  
-INFO LOG: Processing CFB.csv  
-INFO LOG: Processing AUDGF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing QSR.csv  
-INFO LOG: Processing OM.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SOBR.csv  
-INFO LOG: Processing ASBRF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing VACBF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing HNSDF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing UCTT.csv  
-INFO LOG: Processing TMNSF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing VICR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing SFWL.csv  
-INFO LOG: Processing TPET.csv  
-INFO LOG: Processing BILL.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing TRNR.csv  
-INFO LOG: Processing CMSYF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing EYEN.csv  
-INFO LOG: Processing ERAS.csv  
-INFO LOG: Processing SUUIF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TGLS.csv  
-INFO LOG: Processing OPXS.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing KRKKF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing GEODF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TWNK.csv  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing CHEOF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CUE.csv  
-INFO LOG: Processing CMCA.csv  
-INFO LOG: Processing PNT.csv  
-INFO LOG: Processing PLSE.csv  
-INFO LOG: Processing NSFMF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing MONOF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing CTG.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TW.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CHNR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SZHIF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing EVC.csv  
-INFO LOG: Processing FMOO.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing DALN.csv  
-INFO LOG: Processing FTNT.csv  
-INFO LOG: Processing WSHP.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing COHU.csv  
-INFO LOG: Processing LASE.csv  
-INFO LOG: Processing PEGR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing LNTEF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing ASPA.csv  
-INFO LOG: Processing SGLJF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing ISRG.csv  
-INFO LOG: Processing EMBC.csv  
-INFO LOG: Processing SAMG.csv  
-INFO LOG: Processing ARGNF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing HLX.csv  
-INFO LOG: Processing SCSC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing TGVSF.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing CVLT.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing MIDD.csv  
-INFO LOG: Processing CDNAF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CEG.csv  
-INFO LOG: Processing LIOPF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing RYKKF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing FTFI.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing BSEFF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing RJF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BHPLF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing AGRO.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing AVMRD.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing POET.csv  
-INFO LOG: Processing BMEA.csv  
-INFO LOG: Processing CWT.csv  
-INFO LOG: Processing PFIN.csv  
-INFO LOG: Processing CLNXF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing OTGLS.csv  
-ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing ACN.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing SPSC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing SLFPF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing NWYF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
+INFO LOG: Processing COMSW.csv  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
-INFO LOG: We recommend buying the following share: NORTHWAY FINANCIAL INC(NWYF)  
-INFO LOG: Sector = Financial Services  
-INFO LOG: Industry = Banks—Regional  
-INFO LOG: Exchange= PNK  
-INFO LOG: ExchDisp= OTC Markets  
-INFO LOG: Historic High: $36.75  
-INFO LOG: Historic Low: $15.75  
-INFO LOG: Weighted Average: $28.449980153346136  
-INFO LOG: Current Price: $15.75  
-INFO LOG: Slope is equal to -16.020641386845767  
-INFO LOG: Percentage Difference from average = -44.63968018569051%  
-INFO LOG: Percentage Difference from highest = -57.14285714285714%  
+INFO LOG: We recommend buying the following share: ComSovereign Holding Corp.(COMSW)  
+INFO LOG: Sector = Communication Services  
+INFO LOG: Industry = Telecom Services  
+INFO LOG: Exchange= NCM  
+INFO LOG: ExchDisp= NASDAQ  
+INFO LOG: Historic High: $0.01510000042617321  
+INFO LOG: Historic Low: $0.01510000042617321  
+INFO LOG: Weighted Average: $0.4300000071525574  
+INFO LOG: Current Price: $0.01510000042617321  
+INFO LOG: Slope is equal to nan  
+INFO LOG: Percentage Difference from average = -96.4883720523251%  
+INFO LOG: Percentage Difference from highest = 0.0%  
 INFO LOG: Percentage Difference from lowest = 0.0%  
+INFO LOG: Price to Earnings (P/E) ratio = None; if < 15 stock is considered undervalued, while > 25 is considered overvalued  
+INFO LOG: Price/Earnings to Growth (PEG) ratio = None; 1 = fairly valued; < 1 undervalued; > 1 overvalued  
+INFO LOG: Price to Book (P/B) ratio = -; if < 1 stock is considered undervalued, while > 3 is considered overvalued  
+INFO LOG: Divident yeild = 0  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
 INFO LOG: ===================================================  
@@ -360,134 +128,66 @@ INFO LOG: ===================================================
 
 
   
-INFO LOG: Processing VEOEF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing ABANF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing STRL.csv  
-INFO LOG: Processing ITOS.csv  
-INFO LOG: Processing GAMC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CFRHF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GHM.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GRCGF.csv  
+INFO LOG: Processing SVC.csv  
+INFO LOG: Processing OEPWU.csv  
 WARNING LOG: list index out of range  
 WARNING LOG: Skipping.........  
-INFO LOG: Processing PPBB.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing SUSRF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing WPNTF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing DJCO.csv  
-INFO LOG: Processing OMER.csv  
-INFO LOG: Processing IRTC.csv  
-INFO LOG: Processing INGR.csv  
-INFO LOG: Processing AETUF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing HINKF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing APCA.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing NWFFF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing STIM.csv  
-INFO LOG: Processing TLS.csv  
-INFO LOG: Processing MCHIF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing FRFC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BY.csv  
-INFO LOG: Processing YZCHF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GDIFF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CHRD.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing GOOGL.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BALDF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing HUDI.csv  
-INFO LOG: Processing MCFT.csv  
-INFO LOG: Processing VSAT.csv  
-INFO LOG: Processing SMLR.csv  
-INFO LOG: Processing OXBDF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing CBLNF.csv  
-WARNING LOG: list index out of range  
-WARNING LOG: Skipping.........  
-INFO LOG: Processing CHTR.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing RPYTF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing MTNOF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing SF.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing KR.csv  
-INFO LOG: Processing MDWT.csv  
-INFO LOG: Processing FLO.csv  
-INFO LOG: Processing LQDA.csv  
-INFO LOG: Processing DHCA.csv  
-INFO LOG: Processing XPAX.csv  
-INFO LOG: Processing JMSFF.csv  
+INFO LOG: Processing FLACU.csv  
 ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
-INFO LOG: Processing IPWR.csv  
+INFO LOG: Processing PPBI.csv  
+INFO LOG: Processing CFB.csv  
+INFO LOG: Processing CTRM.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing GRC.csv  
-WARNING LOG: Failed to get misc data for stock  
-WARNING LOG: 'PERatio'  
-INFO LOG: Processing BPPPF.csv  
+INFO LOG: Processing BNR.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
 INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
-INFO LOG: Processing BUDFF.csv  
+INFO LOG: Processing SRAX.csv  
+INFO LOG: Processing OM.csv  
+INFO LOG: Processing KC.csv  
+INFO LOG: Processing UCTT.csv  
+INFO LOG: Processing MONCU.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing BYFC.csv  
+INFO LOG: Processing VICR.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing TRBK.csv  
+INFO LOG: Processing ITAC.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing GECCL.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing EYEN.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing CBAY.csv  
-INFO LOG: Processing BMAC.csv  
-INFO LOG: Processing SFFYF.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing MBTCR.csv  
+INFO LOG: Processing BLSA.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing TGLS.csv  
+INFO LOG: Processing HCII.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing LEGO.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing TWNK.csv  
+INFO LOG: Processing CUE.csv  
+INFO LOG: Processing ERESU.csv  
+INFO LOG: Processing IZEA.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing FDVA.csv  
+INFO LOG: Processing PLSE.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing EZKGF.csv  
+INFO LOG: Sleeping for 60 seconds to not exceed URL retires to host='finance.yahoo.com'  
+INFO LOG: Processing CTG.csv  
+INFO LOG: Processing TW.csv  
+INFO LOG: Processing CETXP.csv  
+INFO LOG: Processing CHNR.csv  
+INFO LOG: Processing LACQ.csv  
+ERROR LOG: Unable to get stock data from csv file. Skipping!!!  
+INFO LOG: Processing AMAOW.csv  
+INFO LOG: Processing ASND.csv  
 WARNING LOG: Failed to get misc data for stock  
 WARNING LOG: 'PERatio'  
-INFO LOG: Processing NTCYF.csv  
+INFO LOG: Processing FTNT.csv  
+'currentTradingPeriod'
