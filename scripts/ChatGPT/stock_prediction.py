@@ -128,7 +128,7 @@ class STOCK_PREDICTION:
                     else:
                         continue
 
-        if i_score_sell >= 5:
+        if i_score_sell >= 3:
             self.simlog.info("The current action is to SELL")
             return stock_constants.STOCK_SELL
         elif i_score_buy >= 5:
