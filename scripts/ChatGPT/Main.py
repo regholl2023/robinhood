@@ -35,29 +35,54 @@ import stock_constants
 from stock_prediction import STOCK_PREDICTION
 from alpaca import ALPACA
 
+class Key:
+    def __init__(self, i_key, i_secret_key, i_url):
+        self.key = i_key
+        self.secretKey = i_secret_key
+        self.url = i_url
+
 def usage():
-    print("Usage: Provide a path to the csv file. Default is to use all csv files within /logs folder")
-    print("Example: python scripts/ChatGPT/Main.py")
-    print("Example: python scripts/ChatGPT/Main.py -i /home/saqib/robinhood/logs/AAPL.csv")
+    print("Usage: Provide a path to the key file.")
+    print("Usage: Optionally you can provide a path to the csv file. Default is to use all csv files within /logs folder")
+    print("Example: python scripts/ChatGPT/Main.py -key /home/saqib/.ssh/alpaca_paper_keys")
+    print("Example: python scripts/ChatGPT/Main.py -i /home/saqib/robinhood/logs/AAPL.csv -key /home/saqib/.ssh/alpaca_paper_keys")
 
 def main(argv):
+    i_keys = None
     i_stock_list = []
 
     i_log_directory = "/tmp/"
     simlog = sim_logging.SIMLOG(log_dir=i_log_directory)
 
     # Step-0 Get the list of CSV files that needs to be processed
+
+    # Perhaps the user supplied a csv file. Check
+    for i in range(len(argv)):
+        # Perhaps the used supplied a csv file. Check
+        if argv[i] == '-i':
+            i_stock_list.append([argv[i+1]])
+        elif argv[i] == '-key':
+            i_alpaca_key_file = argv[i+1]
+            with open(i_alpaca_key_file, 'r') as file:
+                for line in file:
+                    if line.startswith('Key:'):
+                        i_key = line.split(':')
+                    elif line.startswith('Secret_Key:'):
+                        i_secretkey = line.split(':')
+                    elif line.startswith('URL:'):
+                        i_url = line.split(':', 1)
+            i_keys = Key(i_key, i_secretkey, i_url)
+
+    # It is required to provide key. Otherwise we can't buy/sell
+    if i_keys is None:
+        usage()
+        exit(-1)
+
     # No input provided. Look inside /logs folder
-    if len(sys.argv) == 1:
+    if len(i_stock_list) == 0:
         for i_file in os.listdir(full_path + '/logs'):
             if i_file.endswith(".csv"):
                 i_stock_list.append(full_path + '/logs/' + i_file)
-    # Perhaps the used supplied a csv file. Check
-    for i in range(len(argv)):
-        # Perhaps the used supplied a csv file. Check
-        if len(sys.argv) == 3:
-            if argv[i] == '-i':
-                i_stock_list.append([argv[i+1]])
 
     # Loop through each stock csv file
     for i in range(len(i_stock_list)):
@@ -75,7 +100,7 @@ def main(argv):
 
         # Based on the suggestion from AI models, either BUY/SELL/No Nothing
         if not i_stock_object.action == stock_constants.STOCK_LEAVE:
-            ALPACA(simlog, i_stock, i_stock_object.action)
+            ALPACA(i_keys, simlog, i_stock, i_stock_object.action)
 
         simlog.info("Pause for 1 second")
         time.sleep(1)

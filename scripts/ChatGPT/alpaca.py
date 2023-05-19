@@ -8,10 +8,11 @@ import yfinance as yf
 import stock_constants
 
 class ALPACA:
-    def __init__(self, i_simlog, i_stock, i_action):
+    def __init__(self, i_keys, i_simlog, i_stock, i_action):
         self.simlog = i_simlog
-        self.api = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
-                                  base_url='https://paper-api.alpaca.markets')
+        self.api = tradeapi.REST(i_keys.key[-1].strip(), i_keys.secretKey[-1].strip(), base_url=i_keys.url[-1].strip())
+        #self.api = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
+        #                          base_url='https://paper-api.alpaca.markets')
         self.account = self.api.get_account()
         self.stock_name = i_stock
         self.action = i_action
