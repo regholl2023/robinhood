@@ -19,6 +19,9 @@ import subprocess
 import os
 import csv
 
+import alpaca_trade_api as tradeapi
+from alpaca_trade_api.rest import REST, TimeFrame
+
 # Raw Package
 #import numpy as np
 #import pandas as pd
@@ -97,6 +100,27 @@ def main(argv):
 
         elif argv[i] == '--top_100':
             i_stock_list = stock_constants.i_interesting_stocks_by_symbol
+
+        elif argv[i] == '--alpaca':
+            l_approved_exchanges = ['NASDAQ', 'NYSE']
+            i_alpaca_object = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
+                                      base_url='https://paper-api.alpaca.markets')
+            i_master_list = i_alpaca_object.list_assets(asset_class='us_equity', status='active')
+            i_short_list = []
+            for i in range(len(i_master_list)):
+                if i_master_list[i].exchange in l_approved_exchanges:
+                    if i_master_list[i].fractionable:
+                        i_shortName = i_master_list[i].symbol
+                        try:
+                            i_price = (yf.Ticker(i_shortName)).history(period='1d')['Close'][0]
+                        except Exception as e:
+                            print("Stock: " + i_shortName + ". Warning: " + str(e) + ". Continuing......")
+                            continue
+                        # Only pick stocks that have a price point of >= $10 
+                        if i_price >= 10:
+                            i_short_list.append(i_master_list[i])
+                            i_stock_list.append(i_shortName)
+
         else:
             i_stock_list = stock_constants.i_short_list
 
