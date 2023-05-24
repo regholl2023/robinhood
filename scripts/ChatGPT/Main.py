@@ -60,7 +60,7 @@ def main(argv):
     for i in range(len(argv)):
         # Perhaps the used supplied a csv file. Check
         if argv[i] == '-i':
-            i_stock_list.append([argv[i+1]])
+            i_stock_list.append(argv[i+1])
         elif argv[i] == '-key':
             i_alpaca_key_file = argv[i+1]
             with open(i_alpaca_key_file, 'r') as file:
