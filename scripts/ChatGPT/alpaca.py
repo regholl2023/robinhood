@@ -19,9 +19,6 @@ class ALPACA:
         self.clear_unprocessed_orders()
         self.list_positions = self.api.list_positions()
         self.process_data()
-
-        self.simlog.info("Sleeping for 1 sec")
-        time.sleep(1)
         self.clear_unprocessed_orders()
 
     def clear_unprocessed_orders(self):

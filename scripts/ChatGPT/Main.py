@@ -101,9 +101,6 @@ def main(argv):
         # Based on the suggestion from AI models, either BUY/SELL/No Nothing
         if not i_stock_object.action == stock_constants.STOCK_LEAVE:
             ALPACA(i_keys, simlog, i_stock, i_stock_object.action)
-
-        simlog.info("Pause for 1 second")
-        time.sleep(1)
         simlog.info("==================================================================================")
     return 0
 
