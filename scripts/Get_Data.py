@@ -117,7 +117,7 @@ def main(argv):
                             print("Stock: " + i_shortName + ". Warning: " + str(e) + ". Continuing......")
                             continue
                         # Only pick stocks that have a price point of >= $10 
-                        if i_price >= 100:
+                        if i_price >= 300:
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
 
