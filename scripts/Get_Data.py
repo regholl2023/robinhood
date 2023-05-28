@@ -130,8 +130,8 @@ def main(argv):
                         except Exception as e:
                             print("Stock: " + i_shortName + ". Warning: " + str(e) + ". Continuing......")
                             continue
-                        # Only pick stocks that have a price point of >= $250
-                        if i_price >= 250:
+                        # Only pick stocks that have a price point of >= $220
+                        if i_price >= 220:
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
 
