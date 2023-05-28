@@ -99,7 +99,21 @@ def main(argv):
             i_stock_list = stock_constants.i_big_list_stocks
 
         elif argv[i] == '--top_100':
-            i_stock_list = stock_constants.i_interesting_stocks_by_symbol
+            i_stock_list = []
+            i_list = stock_constants.i_interesting_stocks_by_symbol
+
+            for i in range(len(i_list)):
+                try:
+                    i_price = (yf.Ticker(i_list[i])).history(period='1d')['Close'][0]
+                except Exception as e:
+                    print("Stock: " + i_list[i] + ". Warning: " + str(e) + ". Continuing......")
+                    continue
+
+                # Only get stocks that are greater than $10
+                if float(i_price) >= 10:
+                    i_stock_list.append(i_list[i])
+                else:
+                    print("Stock: " + i_list[i] + " is not going to be processed because it's price is $" + str(i_price))
 
         elif argv[i] == '--alpaca':
             l_approved_exchanges = ['NASDAQ', 'NYSE']
