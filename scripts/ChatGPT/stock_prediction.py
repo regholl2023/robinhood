@@ -119,7 +119,7 @@ class STOCK_PREDICTION:
             self.simlog.info("sharpeRatio= " + str(self.master_list[i]['sharpeRatio']))
             self.simlog.info("Next Day expectedValue = $" + str(self.master_list[i]['expectedValue']))
             self.simlog.info("Percentage Change = " + str(i_percentage_change))
-            if float(self.master_list[i]['RMSE']) < 5:
+            if float(self.master_list[i]['RMSE']) < 30:
                 if i_percentage_change:
                     if i_percentage_change > 8:
                         i_score_buy += 1
