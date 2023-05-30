@@ -134,6 +134,7 @@ def main(argv):
                         if i_price >= 170:
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
+                            time.sleep(1)
 
         else:
             i_stock_list = stock_constants.i_short_list
@@ -155,6 +156,7 @@ def main(argv):
         try:
             data = yf.download(tickers=i_stock_list[i], period='48mo', interval='1d')
             data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
+            time.sleep(1)
         except Exception as e:
             print("Some error has occured. Continue!!!!!")
             print(e)
