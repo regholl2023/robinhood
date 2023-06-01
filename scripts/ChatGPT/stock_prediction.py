@@ -119,7 +119,7 @@ class STOCK_PREDICTION:
             self.simlog.info("sharpeRatio= " + str(self.master_list[i]['sharpeRatio']))
             self.simlog.info("Next Day expectedValue = $" + str(self.master_list[i]['expectedValue']))
             self.simlog.info("Percentage Change = " + str(i_percentage_change))
-            if float(self.master_list[i]['RMSE']) < 30:
+            if float(self.master_list[i]['RMSE']) < 60:
                 if i_percentage_change:
                     if i_percentage_change > 10:
                         i_score_buy += 1
@@ -142,7 +142,7 @@ class STOCK_PREDICTION:
     def RNN(self):
 
         # THis is the number of days the prediction is based on
-        seq_len = 30
+        seq_len = 60
 
         # Create a copy of df to prevent overwrite
         df = self.df.copy(deep=True)
@@ -217,7 +217,7 @@ class STOCK_PREDICTION:
         df = self.df.copy(deep=True)
 
         # THis is the number of days the prediction is based on
-        seq_len = 30
+        seq_len = 60
 
         # Prepare the data
         scaler = MinMaxScaler(feature_range=(0, 1))
@@ -294,7 +294,7 @@ class STOCK_PREDICTION:
 
         # `look_back` is the number of previous time steps to use as input to the LSTM network
         # (e.g. 1 for using only the previous day's price)
-        look_back = 30
+        look_back = 60
 
         # Create a copy of df to prevent overwrite
         dataset = self.df.copy(deep=True)
@@ -388,7 +388,7 @@ class STOCK_PREDICTION:
 
         # `look_back` is the number of previous time steps to use as input to the LSTM network
         # (e.g. 1 for using only the previous day's price)
-        look_back = 30
+        look_back = 60
 
         # Create a copy of df to prevent overwrite
         dataset = self.df.copy(deep=True)
@@ -449,7 +449,7 @@ class STOCK_PREDICTION:
     # The CNN can then learn patterns and trends in the stock prices over time to make predictions.
     def CNN(self):
 
-        seq_len = 30
+        seq_len = 60
 
         # Create a copy of df to prevent overwrite
         data = self.df.copy(deep=True)
@@ -518,7 +518,7 @@ class STOCK_PREDICTION:
         test_data = scaled_prices[train_size:]
 
         # Define constants
-        window_size = 30  # Number of previous days' prices to consider for prediction
+        window_size = 60  # Number of previous days' prices to consider for prediction
         hidden_units = 32
         output_size = 1
         learning_rate = 0.001
