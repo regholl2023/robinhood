@@ -119,6 +119,7 @@ def main(argv):
             l_approved_exchanges = ['NASDAQ', 'NYSE']
             i_alpaca_object = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
                                       base_url='https://paper-api.alpaca.markets')
+
             i_master_list = i_alpaca_object.list_assets(asset_class='us_equity', status='active')
             i_short_list = []
             for i in range(len(i_master_list)):
@@ -135,6 +136,12 @@ def main(argv):
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
                             time.sleep(1)
+
+            i_current_investments = i_alpaca_object.list_positions()
+            for i in range(len(i_current_investments)):
+                if i_current_investments[i].symbol not in i_stock_list:
+                    i_stock_list.append(i_current_investments[i].symbol)
+
 
         else:
             i_stock_list = stock_constants.i_short_list
