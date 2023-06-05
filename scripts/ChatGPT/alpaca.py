@@ -77,7 +77,7 @@ class ALPACA:
                 # Thus hold onto the stock for a while and don't sell
                 for i in range(len(self.list_positions)):
                     if self.list_positions[i].symbol == str(self.stock_name):
-                        if float(self.list_positions[i].unrealized_pl) >= 5:
+                        if float(self.list_positions[i].unrealized_pl) >= 0:
                             self.simlog.info("We are going to SELL " + str(self.stock_name))
                             l_result = self.api.submit_order(symbol=self.stock_name, qty=i_current_quantity,
                                                  side='sell', type='market', time_in_force='day')
