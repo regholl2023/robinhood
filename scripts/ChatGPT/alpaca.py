@@ -77,14 +77,16 @@ class ALPACA:
                 # Thus hold onto the stock for a while and don't sell
                 for i in range(len(self.list_positions)):
                     if self.list_positions[i].symbol == str(self.stock_name):
-                        if float(self.list_positions[i].unrealized_pl) >= 0:
+                        if float(self.list_positions[i].unrealized_plpc) >= 2:
                             self.simlog.info("We are going to SELL " + str(self.stock_name))
                             l_result = self.api.submit_order(symbol=self.stock_name, qty=i_current_quantity,
                                                  side='sell', type='market', time_in_force='day')
+                            self.simlog.warning("realized_plpc = " + str(self.list_positions[i].unrealized_plpc))
                             return
                         else:
                             self.simlog.warning("It was recommended to sell " + str(self.stock_name))
                             self.simlog.warning("We are not selling because there is a loss of $" + str(self.list_positions[i].unrealized_pl))
+                            self.simlog.warning("unrealized_plpc = " + str(self.list_positions[i].unrealized_plpc))
                             return
         else:
             print("The following action is undefined: " + str(self.action))
