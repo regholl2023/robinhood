@@ -85,8 +85,8 @@ class ALPACA:
                             return
                         else:
                             self.simlog.warning("It was recommended to sell " + str(self.stock_name))
-                            self.simlog.warning("We are not selling because there is a loss of $" + str(self.list_positions[i].unrealized_pl))
-                            self.simlog.warning("unrealized_plpc = " + str(self.list_positions[i].unrealized_plpc))
+                            self.simlog.warning("We are not selling because there is a profit/loss of $" + str(self.list_positions[i].unrealized_pl))
+                            self.simlog.warning("unrealized_plpc = " + str(self.list_positions[i].unrealized_plpc * 100))
                             return
         else:
             print("The following action is undefined: " + str(self.action))
