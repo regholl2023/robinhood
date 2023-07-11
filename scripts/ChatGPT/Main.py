@@ -83,6 +83,7 @@ def main(argv):
         for i_file in os.listdir(full_path + '/logs'):
             if i_file.endswith(".csv"):
                 i_stock_list.append(full_path + '/logs/' + i_file)
+    i_stock_list.sort() #Sort the list in alphabetical order
 
     # Loop through each stock csv file
     for i in range(len(i_stock_list)):
