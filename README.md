@@ -36,3 +36,7 @@ There are several scripts that serves several different purposes
                          averages.
                          
                       Example: python3 scripts/stock_analysis.py
+
+# Lessons Learned
+1) When there is too much money in the system, useless stocks tends to go high up in value. Penny stock increases exponentially in value.
+2) When the money supply shrinks, people sell more risky stocks and invest in more stable stocks. Google and Amazon goes up, while penny stocks go down.
