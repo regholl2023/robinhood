@@ -18,7 +18,7 @@ import random
 import subprocess
 import os
 import csv
-
+from datetime import date
 import alpaca_trade_api as tradeapi
 from alpaca_trade_api.rest import REST, TimeFrame
 
@@ -54,8 +54,14 @@ def usage():
 
 def main(argv):
 
+    i_option = None
+
     # By Default get the short list of stock names
     i_stock_list = stock_constants.i_short_list
+
+    today = date.today()
+    i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
+    i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
     for i in range(len(argv)):
         if argv[i] == '--all':
@@ -116,6 +122,7 @@ def main(argv):
                     print("Stock: " + i_list[i] + " is not going to be processed because it's price is $" + str(i_price))
 
         elif argv[i] == '--alpaca':
+            i_option = "alpaca"
             l_approved_exchanges = ['NASDAQ', 'NYSE']
             i_alpaca_object = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
                                       base_url='https://paper-api.alpaca.markets')
@@ -132,22 +139,20 @@ def main(argv):
                             print("Stock: " + i_shortName + ". Warning: " + str(e) + ". Continuing......")
                             continue
                         # Only pick stocks that have a price point of >= $170
-                        if i_price >= 170:
+                        if i_price >= 200:
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
-                            time.sleep(1)
 
             i_current_investments = i_alpaca_object.list_positions()
             for i in range(len(i_current_investments)):
                 if i_current_investments[i].symbol not in i_stock_list:
                     i_stock_list.append(i_current_investments[i].symbol)
 
+            i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/" + str(today.strftime("%Y-%m-%d")) + "/"
+
 
         else:
             i_stock_list = stock_constants.i_short_list
-
-    i_base_directory = os.path.abspath(os.path.dirname(sys.argv[0])).split('robinhood')[0]
-    i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/"
 
     # Periods can be following
     # 1 week -> 1wk
@@ -159,13 +164,19 @@ def main(argv):
     raw_data = []
     print("Start pulling in stock prices")
     for i in range(len(i_stock_list)):
+
+        # There is no need to download the csv file again for i_option="alpaca"
+        if i_option == "alpaca":
+            if os.path.exists(i_log_directory + i_stock_list[i] + '.csv'):
+                continue
+
         # Load historial data for this particular company
         try:
             data = yf.download(tickers=i_stock_list[i], period='48mo', interval='1d')
             data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
             time.sleep(1)
         except Exception as e:
-            print("Some error has occured. Continue!!!!!")
+            print("Some error has occurred. Continue!!!!!")
             print(e)
 
     print("Finished get all the required stock logs")
