@@ -143,7 +143,7 @@ def main(argv):
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
 
-                if random.randint(0,10) == 0:
+                if random.randint(0,100) == 0:
                     print("Still processing........")
                     print("Please wait")
 
