@@ -122,6 +122,7 @@ def main(argv):
                     print("Stock: " + i_list[i] + " is not going to be processed because it's price is $" + str(i_price))
 
         elif argv[i] == '--alpaca':
+            i_min_price = argv[i+1]
             i_option = "alpaca"
             l_approved_exchanges = ['NASDAQ', 'NYSE']
             i_alpaca_object = tradeapi.REST('PKCSBUUOKJN32C5LN716', 'aR9GddDWEcfgRHXUPOUtP6X7YI46JNOJsDUaFUBl',
@@ -139,7 +140,7 @@ def main(argv):
                             print("Stock: " + i_shortName + ". Warning: " + str(e) + ". Continuing......")
                             continue
                         # Only pick stocks that have a price point of >= $170
-                        if i_price >= 1700:
+                        if i_price >= int(i_min_price):
                             i_short_list.append(i_master_list[i])
                             i_stock_list.append(i_shortName)
 
