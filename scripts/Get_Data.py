@@ -146,6 +146,7 @@ def main(argv):
                 if random.randint(0,100) == 0:
                     print("Still processing........")
                     print("Please wait")
+                    sys.stdout.flush()
 
             i_current_investments = i_alpaca_object.list_positions()
             for i in range(len(i_current_investments)):
@@ -179,6 +180,7 @@ def main(argv):
             data = yf.download(tickers=i_stock_list[i], period='48mo', interval='1d')
             data.to_csv(i_log_directory + i_stock_list[i] + '.csv')
             time.sleep(1)
+            sys.stdout.flush()
         except Exception as e:
             print("Some error has occurred. Continue!!!!!")
             print(e)
