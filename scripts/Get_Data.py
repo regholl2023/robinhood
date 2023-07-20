@@ -155,6 +155,12 @@ def main(argv):
                     i_stock_list.append(i_current_investments[i].symbol)
 
             i_log_directory = i_base_directory + "robinhood" + "/" + "logs" + "/" + str(today.strftime("%Y-%m-%d")) + "/"
+            # Create a folder if one doesn't exist already
+            try:
+                os.mkdir(i_log_directory )
+                print(f"Directory '{i_log_directory}' created successfully.")
+            except FileExistsError:
+                print(f"Directory '{i_log_directory}' already exists.")
 
 
         else:

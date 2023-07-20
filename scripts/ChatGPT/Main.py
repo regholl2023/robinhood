@@ -46,11 +46,14 @@ def usage():
     print("Usage: Optionally you can provide a path to the csv file. Default is to use all csv files within /logs folder")
     print("Example: python scripts/ChatGPT/Main.py -key /home/saqib/.ssh/alpaca_paper_keys")
     print("Example: python scripts/ChatGPT/Main.py -i /home/saqib/robinhood/logs/AAPL.csv -key /home/saqib/.ssh/alpaca_paper_keys")
+    print("Example: python scripts/ChatGPT/Main.py -f /home/saqib/robinhood/logs -key /home/saqib/.ssh/alpaca_paper_keys")
 
 def main(argv):
     i_keys = None
     i_stock_list = []
 
+
+    i_stocks_log_directory = full_path + "/logs"
     i_log_directory = "/tmp/"
     simlog = sim_logging.SIMLOG(log_dir=i_log_directory)
 
@@ -61,6 +64,8 @@ def main(argv):
         # Perhaps the used supplied a csv file. Check
         if argv[i] == '-i':
             i_stock_list.append(argv[i+1])
+        elif argv[i] == '-f':
+            i_stocks_log_directory = argv[i+1]
         elif argv[i] == '-key':
             i_alpaca_key_file = argv[i+1]
             with open(i_alpaca_key_file, 'r') as file:
