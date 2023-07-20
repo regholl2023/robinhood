@@ -85,9 +85,9 @@ def main(argv):
 
     # No input provided. Look inside /logs folder
     if len(i_stock_list) == 0:
-        for i_file in os.listdir(full_path + '/logs'):
+        for i_file in os.listdir(i_stocks_log_directory):
             if i_file.endswith(".csv"):
-                i_stock_list.append(full_path + '/logs/' + i_file)
+                i_stock_list.append(i_stocks_log_directory + i_file)
     i_stock_list.sort() #Sort the list in alphabetical order
 
     # Loop through each stock csv file
