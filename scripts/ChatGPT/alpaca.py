@@ -65,9 +65,12 @@ class ALPACA:
                     l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
                                         side='buy', type='market', time_in_force='gtc')
                 else:
-                    l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
-                                        side='buy', type='market', time_in_force='day')
-
+                    try:
+                        l_result = self.api.submit_order(symbol=self.stock_name, qty=i_qty,
+                                    side='buy', type='market', time_in_force='day')
+                    except Exception as e:
+                        print(e)
+                        return
 
         # Sell all current quantity of this stock
         elif self.action == stock_constants.STOCK_SELL:
