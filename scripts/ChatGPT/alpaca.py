@@ -54,7 +54,7 @@ class ALPACA:
             return
 
         elif self.action == stock_constants.STOCK_BUY:
-            if i_current_invested < 10:
+            if i_current_invested < 5:
                 i_qty = float(2/float(i_current_price))
 
                 # Round down stock quantity if > 1
